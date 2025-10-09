@@ -39,17 +39,18 @@ This could be really useful data and is something I think we should build our ar
 
 ### Figures
 In addition to the shared drive map, I also made a map from data and code Jim provided (thanks, Jim!) of the bathymetric data for Penn Cove and the location of the King County mooring.
-![Map of Penn Cove with isobaths and coordinating color variation with the King County mooring plotted in red.](/Users/maiaheffernan/Desktop/M2O2/Bathy_data_and_scripts/PennCoveandBay_withKCmooring.png "Penn Cove bathymetry with King County mooring")
+![Map of Penn Cove with isobaths and coordinating color variation with the King County mooring plotted in red.](https://github.com/maiaheffernan/maiaheffernan.github.io/blob/main/_posts/PennCoveandBay_withKCmooring.png "Penn Cove bathymetry with King County mooring")
 
 Here, the isobaths are plotted every 10 meters. As I introduced above, the SWIFT v4 moorings will have to be between the 10-20m isobaths.
 
 The other aspect that we need to consider is the cables that run through Penn Cove. 
 
-![Map of Penn Cove with the cables plotted as dashed lines](/Users/maiaheffernan/Desktop/M2O2/image.png "Penn Cove cables")
+![Map of Penn Cove with the cables plotted as dashed lines](https://github.com/maiaheffernan/maiaheffernan.github.io/blob/main/_posts/image.png "Penn Cove cables")
 
 Thank you NOAA, Christie, and Jim!
-I have found the data files for these cables and plotted them up in Python (they match the picture here!). 
-![Map of the cables in Penn Cove. They are shaded gray lines in a lat/lon coordinate grid](/Users/maiaheffernan/Desktop/M2O2/Bathy_data_and_scripts/Python_scripts/PennCove_cablesPlot.png "Penn Cove cables") 
+I have found the data files for these cables and plotted them up in Python (they match the picture here!).
+
+![Map of the cables in Penn Cove. They are shaded gray lines in a lat/lon coordinate grid](https://github.com/maiaheffernan/maiaheffernan.github.io/blob/main/_posts/PennCove_cablesPlot.png "Penn Cove cables") 
 
 #### Next steps for plotting
 My next plan is to overlay the two plots I made so that we can get the cable, bathymetry, and King County mooring data all from the same figure. I think this will be hlpeful when determining final lat/lon positions and will be hlpeful in future presentations.
