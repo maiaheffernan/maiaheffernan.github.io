@@ -39,7 +39,7 @@ This could be really useful data and is something I think we should build our ar
 
 ### Figures
 In addition to the shared drive map, I also made a map from data and code Jim provided (thanks, Jim!) of the bathymetric data for Penn Cove and the location of the King County mooring.
-![Map of Penn Cove with isobaths and coordinating color variation with the King County mooring plotted in red.](https://github.com/maiaheffernan/maiaheffernan.github.io/main/_posts/PennCoveandBay_withKCmooring.png "Penn Cove bathymetry with King County mooring")
+![Map of Penn Cove with isobaths and coordinating color variation with the King County mooring plotted in red.](https://github.com/maiaheffernan/maiaheffernan.github.io/blob/main/_posts/PennCoveandBay_withKCmooring.png "Penn Cove bathymetry with King County mooring")
 
 Here, the isobaths are plotted every 10 meters. As I introduced above, the SWIFT v4 moorings will have to be between the 10-20m isobaths.
 
