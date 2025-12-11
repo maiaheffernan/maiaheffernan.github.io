@@ -23,7 +23,7 @@ At this point in time the tide was still in its weak ebb.
 <img width="1500" height="475" alt="Dec042025_penncovetides" src="https://github.com/user-attachments/assets/5c94473c-b799-4d48-8fb0-0b71e28899f6" />
 
 
-As we were transecting, we were taking continuous pole-mounted ADCP and CT readings. These instruments were on all day. We were also taking continual CTD casts with the RBR Concerto that measured conductivity, temperature, depth, and DO. Throughout the entire day we took over 500 casts!
+As we were transecting, we were taking continuous pole-mounted ADCP and CT readings. These instruments were on all day. We were also taking continual CTD casts with the RBR Concerto that measured conductivity, temperature, depth, and DO. Throughout the entire day we took over 250 casts!
 
 At 10:20 we had finished the transect throuhout the bay. At this point, we had sampled through the end of the ebb, through the low at 10:00, and were in the slack tide. We drove out to the planned northern wire walker site and took two Niskin samples at 1 meter and two at 15 meters below the surface. We then fixed these water samples for DO titration (no bubbles!) We then started our second transect through Penn Cove at 11:45 heading south across the fence from Blower's Bluff. We finished this transect back at the northern wire walker site at 14:22 and took a CTD cast with the Concerto at the wire walker site. In second transect we had captured the flood tide and were in the slack tide at this point befor the high at 15:04. 
 
