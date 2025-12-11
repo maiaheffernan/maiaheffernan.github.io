@@ -55,7 +55,20 @@ Another similar figure is below where I plot the average surface u velocity (top
 
 ![SWIFT surface velocit phasing comparison.](../_figures/swift_phase_check.png?raw=true)
 
-It seems like the answer to the asymmetry question is the classic "sometimes, but not usually." They tend to follow the same velocity directions at the surface, but the times of opposing signals come around 01:00, 06:00, and 
+It seems like the answer to the asymmetry question is the classic "sometimes, but not usually." They tend to follow the same average velocity directions at the surface, but the times of opposing signals come around 00:00, 07:00. This kind of makes sense. These are both times of transition from a slack to the largest ebb or flood of the day, respectively. So it is plausible that these two sites might be experiencing slightly different trends in direction. I would love to hear your thoughts!
+
+
+Finally, the last plot I made in these past few days shows average DO concentrations in mg/L at the top 5 meters and at the bottom 5 meters of each Concerto cast. These average values are plotted below with the lat/lon data from the pole-mounted ADCP so we can get an idea of what this looks like in space. This directly ties in to what Dakota looked at in her model runs and answer the question about whether we can gain any initial insights about DO levels in Penn Cove (the answer is, hopefully, yes). Please keep in mind that the calibration on the instrument has not been verified through bottle samples and I have not done and scrubbing of outliers or things like that.
+I have the data plotted with both the cmocean oxygen color palette which shows the hypoxia limit, and in a different cmocean pallete (thermal if you're curious) so that we don't totally bias ourselves with the hypoxia cutoff.
+
+![Average DO per cast with oxygen color palette.](../_figures/AvgDOperCast_TopBottom_oxy.png?raw=true)
+
+![Average DO per cast with thermal color palette.](../_figures/AvgDOperCast_TopBottom_thermal.png?raw=true)
+
+This figure blew me away. It is crazy how little oxygen there is in the bottom 5 meters of the water column even in the winter! If we are going by the hypoxia values then not many critters are able to breathe down deep inside the bay right now. I would love to hear more thoughts about this! Just to compare with Dakota's findings of more hypoxia in the south end of the bay, I would say that it is super stark, perhaps more like her later run that showed low DO at the bottom in most of Penn Cove, but just visually there are a few more instances of the lowest DO values at depth in the southern end. Pretty crazy! My next step would be to look at this in terms of time/tidal stage.
+
+
+That is the long and short of this recon trip and some very initial data. Lots more to follow!
 
 
 
