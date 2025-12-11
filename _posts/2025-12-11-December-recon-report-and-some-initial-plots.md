@@ -63,6 +63,8 @@ I have the data plotted with both the cmocean oxygen color palette which shows t
 
 ![Average DO per cast with oxygen color palette.](../_figures/AvgDOperCast_TopBottom_oxy.png?raw=true)
 
+Now for the different color palette.
+
 ![Average DO per cast with thermal color palette.](../_figures/AvgDOperCast_TopBottom_thermal.png?raw=true)
 
 This figure blew me away. It is crazy how little oxygen there is in the bottom 5 meters of the water column even in the winter! If we are going by the hypoxia values then not many critters are able to breathe down deep inside the bay right now. I would love to hear more thoughts about this! Just to compare with Dakota's findings of more hypoxia in the south end of the bay, I would say that it is super stark, perhaps more like her later run that showed low DO at the bottom in most of Penn Cove, but just visually there are a few more instances of the lowest DO values at depth in the southern end. Pretty crazy! My next step would be to look at this in terms of time/tidal stage.
