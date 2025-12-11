@@ -63,7 +63,13 @@ I have the data plotted with both the cmocean oxygen color palette which shows t
 
 ![Average DO per cast with oxygen color palette.](../_figures/AvgDOperCast_TopBottom_oxy.png?raw=true)
 
+
+
+
 Now for the different color palette.
+
+
+
 
 ![Average DO per cast with thermal color palette.](../_figures/AvgDOperCast_TopBottom_thermal.png?raw=true)
 
