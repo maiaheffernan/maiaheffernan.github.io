@@ -15,12 +15,12 @@ We wanted to catch as many different tidal stages as we could in a reasonable wo
 
 By 07:55 we had started our first transect through around Penn Cove. We started at the north end of the fence at Blower's Bluff, transected south across the fence and then turned into Penn Cove at the south end of the fence at 08:10. Here is a map of our transect path: 
 
-<img width="1163" height="475" alt="PennCove_14Nov2025_draft_surveyconcept" src="https://github.com/user-attachments/assets/c3723525-43f4-48f7-8bb9-09aff843f85a" />
+<img width="1500" height="475" alt="PennCove_14Nov2025_draft_surveyconcept" src="https://github.com/user-attachments/assets/c3723525-43f4-48f7-8bb9-09aff843f85a" />
 
 
 At this point in time the tide was still in its weak ebb. 
 
-<img width="1039" height="369" alt="Dec042025_penncovetides" src="https://github.com/user-attachments/assets/5c94473c-b799-4d48-8fb0-0b71e28899f6" />
+<img width="1500" height="475" alt="Dec042025_penncovetides" src="https://github.com/user-attachments/assets/5c94473c-b799-4d48-8fb0-0b71e28899f6" />
 
 
 As we were transecting, we were taking continuous pole-mounted ADCP and CT readings. These instruments were on all day. We were also taking continual CTD casts with the RBR Concerto that measured conductivity, temperature, depth, and DO. Throughout the entire day we took over 500 casts!
@@ -44,7 +44,7 @@ First, I wanted to understand how water is entering Penn Cove at different tidal
   
 Below, we have a timeseries of the data from the Signatures that were mounted on both SWIFTS. The Signatures sampled every 12 minutes for ____ seconds. Please note that this data is still in the preliminary processing stage. Any thoughts that you all have would be awesome! I have not had much time to really get into this data yet.
 
-<img width="1162" height="756" alt="SWIFT_tides_timeseries" src="https://github.com/user-attachments/assets/ac8f2fe0-c519-412e-ac01-4f601dc68ac4" />
+<img width="1500" height="475" alt="SWIFT_tides_timeseries" src="https://github.com/user-attachments/assets/ac8f2fe0-c519-412e-ac01-4f601dc68ac4" />
 
 
 The sea surface height predictions are from NOAA's tide data, and I had to use the Everett gauge as it was the closest one with minute-by-minute harmoic data. The red colors are eastward velocities and the blue colors are westward velocities.
@@ -55,7 +55,7 @@ There is lots to dig into here, I am excited to hear your thoughts on this one.
 Another similar figure is below where I plot the average surface u velocity (top 5 meters of the water column, east/west) from each SWIFT over the deployment. Alex and I talked about this figure and thought it might be interesting to see if the lines are "in phase" or "out of phase." In other words, is there a north-south asymmetry in the flow across this fence? Or do the SWIFTS experience the same direction and magnitude of flow at the same time? 
 
 
-<img width="1225" height="776" alt="swift_phase_check" src="https://github.com/user-attachments/assets/662e37af-e0b4-4ebe-8f33-0eef5646d0c3" />
+<img width="1500" height="475" alt="swift_phase_check" src="https://github.com/user-attachments/assets/662e37af-e0b4-4ebe-8f33-0eef5646d0c3" />
 
 It seems like the answer to the asymmetry question is the classic "sometimes, but not usually." They tend to follow the same average velocity directions at the surface, but the times of opposing signals come around 00:00, 07:00. This kind of makes sense. These are both times of transition from a slack to the largest ebb or flood of the day, respectively. So it is plausible that these two sites might be experiencing slightly different trends in direction. I would love to hear your thoughts!
 
@@ -64,20 +64,18 @@ Finally, the last plot I made in these past few days shows average DO concentrat
 I have the data plotted with both the cmocean oxygen color palette which shows the hypoxia limit, and in a different cmocean pallete (thermal if you're curious) so that we don't totally bias ourselves with the hypoxia cutoff.
 
 
-<img width="1290" height="861" alt="AvgDOperCast_TopBottom_oxy" src="https://github.com/user-attachments/assets/55628b5f-9176-4bd1-97cd-09ef936b99c6" />
+<img width="1500" height="475" alt="AvgDOperCast_TopBottom_oxy" src="https://github.com/user-attachments/assets/55628b5f-9176-4bd1-97cd-09ef936b99c6" />
 
 
 Now for the different color palette.
 
-<img width="1290" height="861" alt="AvgDOperCast_TopBottom_thermal" src="https://github.com/user-attachments/assets/c84b13e3-3145-4dae-b3c0-ccbe2909d1d9" />
+<img width="1500" height="475" alt="AvgDOperCast_TopBottom_thermal" src="https://github.com/user-attachments/assets/c84b13e3-3145-4dae-b3c0-ccbe2909d1d9" />
 
 This figure blew me away. It is crazy how little oxygen there is in the bottom 5 meters of the water column even in the winter! If we are going by the hypoxia values then not many critters are able to breathe down deep inside the bay right now. I would love to hear more thoughts about this! Just to compare with Dakota's findings of more hypoxia in the south end of the bay, I would say that it is super stark, perhaps more like her later run that showed low DO at the bottom in most of Penn Cove, but just visually there are a few more instances of the lowest DO values at depth in the southern end. Pretty crazy! My next step would be to look at this in terms of time/tidal stage.
 
 
 That is the long and short of this recon trip and some very initial data. Lots more to follow!
 
-
-![SWIFT ADCP timeseries.](maiaheffernan/maiaheffernan.github.io/_figures/SWIFT_tides_timeseries.png?raw=true)
 
 
 
