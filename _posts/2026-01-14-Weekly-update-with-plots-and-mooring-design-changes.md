@@ -17,3 +17,8 @@ I have been getting great edits from everyone, and Sam and David from WWU have a
 
 I know I said that I would not make any more plots until I am done with QC, but I wanted to include this temperature/salinity plot I made that is colored by dissolved oxygen concentration.
 
+<p style="text-align:center;"><img src="/figures/TS_coloredbyoxygen.png" width="800"/><br>Fig 1. Temperature vs. salinity plot colored by DO concentrations. Generally, colder, fresher water is near the surface.</p><br>
+
+
+
+
