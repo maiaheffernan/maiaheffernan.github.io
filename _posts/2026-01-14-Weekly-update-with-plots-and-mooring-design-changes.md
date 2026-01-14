@@ -34,10 +34,6 @@ I know I said that I would not make any more plots until I am done with QC, but 
 <p style="text-align:center;"><img src="/_figures/TS_coloredbyoxygen.png" width="800"/><br>Fig 1. Temperature vs. salinity plot colored by DO concentrations. Generally, colder, fresher water is near the surface.</p><br>
 
 
-
-![Figure 1. Temperature vs. salinity plot colored by DO concetrations. Generally, colder, fresher water is near the surface](/_figures/TS_coloredbyoxygen.png)
-
-
 It is hard to tell if there is a trend here... I am also not finished with QC, but I figured I would send this along for posterity.
 
 #### Playing around with waterfall plots... a distraction
