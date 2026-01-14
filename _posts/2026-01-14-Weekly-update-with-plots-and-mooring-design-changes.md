@@ -31,14 +31,14 @@ Any thoughts would be appreciated on all these points!
 #### Temperature/salinity plot
 I know I said that I would not make any more plots until I am done with QC, but I wanted to include this temperature/salinity plot I made that is colored by dissolved oxygen concentration.
 
-<p style="text-align:center;"><img src="/_figures/TS_coloredbyoxygen.png" width="800"/><br>Fig 1. Temperature vs. salinity plot colored by DO concentrations. Generally, colder, fresher water is near the surface.</p><br>
+<p style="text-align:center;"><img src="../_figures/TS_coloredbyoxygen.png" width="800"/><br>Fig 1. Temperature vs. salinity plot colored by DO concentrations. Generally, colder, fresher water is near the surface.</p><br>
 
 
 It is hard to tell if there is a trend here... I am also not finished with QC, but I figured I would send this along for posterity.
 
 #### Playing around with waterfall plots... a distraction
 
-<p style="text-align:center;"><img src="/_figures/Temperature_salinity_velocity_waterfalls.png" width="800"/><br>Fig 2. temperature, salinity, and DO concentrations in each lap.</p><br>
+<p style="text-align:center;"><img src="../_figures/Temperature_salinity_velocity_waterfalls.png" width="800"/><br>Fig 2. temperature, salinity, and DO concentrations in each lap.</p><br>
 
 Here, I am trying to better visualize the profiles of temperature, salinity, and DO from each lap around Penn Cove we took in December. I am not sure this it helpful, but here it is anyway. I am also working on adding the velocity profiles from the pole-mounted ADCP in a similar way. I will basing my variation plots off these, so stay tuned for that (hopefully in this post but we shall see).
 
