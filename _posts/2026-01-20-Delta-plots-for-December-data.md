@@ -34,6 +34,31 @@ Now for the delta plots. Here I show the percent difference between the salinity
 
 First the profiles.
 
+![Figure 3. Temperature profiles in each lap and each section of the laps](_figures/Temperature_allLaps_allSections.png)
+
+
+
+Now for the delta plots.
+
+
+![Figure 4. Percent difference in temperature between sequential laps](_figures/Temperature_deltaPlots.png)
+
+
+
+
+
+#### DO concentration
+
+First the profiles.
+
+![Figure 5. DO concentration profiles in each lap and each section of the laps](_figures/DO_allLaps_allSections.png)
+
+
+
+Now the delta plots.
+
+![Figure 6. Percent difference in DO concentrations between sequential laps](_figures/DO_deltaPlots.png)
+
 
 
 
