@@ -21,10 +21,10 @@ Before I jump into the plots here, I want to note a few things that need to be c
 
 Not much new here from what we've seen in the 3D plots from last week and from the profiles I included in the cruise report. The columns show the lap number, the rows show the transect section in the cove. 
 
-Here are some major takeaways:
+Here are some **major takeaways:**
 - In the entrance to Lap 1 we were getting our casting feet under us. We got better by lap 3.
 - Generally, in all the profiles the fresh layer is primarily in the top 2-3 meters of water and the mixed layer begins at around 5 meters and continues on down to 10 meters below the surface.
-- The northern end of the bay is consistently
+- There is maybe some interesting high salinity values at depth in the third transect? This is suspect and is likely a QC issue.
 
 
 
@@ -34,7 +34,14 @@ Here are some major takeaways:
 ![Figure 2. Percent difference in salinity between sequential laps](../_figures/Salinity_deltaPlots.png)
 
 
+I want to note here that there were some really suspect values in this data after I interpolated. I understand that this is a difference plot, but we need to be cautious when interpreting this one. I will fix this up for next week.
 
+**Takeaways:**
+- The largest percent difference in salinity comes at around 5 meters in the water column. This is where the fresh layer seems to be.
+- The salinity increased by a large percent between the 1st and 2nd lap at this 5m mark. *remember: the first lap caught the weak flood and the slack/low and the second lap caught the flood*
+- The southern end upper water column salinity almost all increased between laps 1 and 2. Can we see this in the profiles above?
+- Between laps 2 and 3, however, the salinity decreased at this same 5m-ish mark. *the second lap caught the flood, the third lap caught the tail end of the flood, the high, and then the first part major ebb of the day*
+- At the entrance between laps 2 and 3 (we were here at salck tide), the salinity increases at the surface and decreases right below the surface. It would be interested to compare this to velocity data. NEXT WEEK!
 
 
 
@@ -45,6 +52,13 @@ Here are some major takeaways:
 ![Figure 3. Temperature profiles in each lap and each section of the laps](../_figures/Temperature_allLaps_allSections.png)
 
 
+**Takeaways:**
+- Water is colder at the surface than at depth. This makes sense for winter.
+- Similar to salintiy, the fresh, cold layer tends to be in the top 2-3ish meters, then the mixed layer extends down to *around* 10 meters.
+- The fresh, cold layer is a lot thinner in the second lap, during the flood. However the mixed layer stays relatively the same. Is there just more surface mixing at this time?
+
+  
+
 
 **Now for the delta plots.**
 
@@ -52,7 +66,15 @@ Here are some major takeaways:
 ![Figure 4. Percent difference in temperature between sequential laps](../_figures/Temperature_deltaPlots.png)
 
 
+**Takeaways:**
+- Lots of interesting patterns here. It almost looks like 2-layer flow of temperature in difference between lap 1 and lap 2 at the entrance, back bay, and towards the end of the northern length of the cove (towards the mouth of the cove). Is it possible these could be fronts coming in/going out on the top layer??
+- I am particularly intrigued by the mixed increasing and decreasing happeneing in the North End. Is this a real signal? HArd to say...
+- Again, like salinity, in the difference between lap 1 and lap 2 the major change in temperature is at the surface. Either at the 5m depth mark or the mixed layer.
+  
+- ***The start of the entrance is an interesting place. This is where the most change happens for both temperature and salinity. Could this be a region of interest/focus of sampling? looking at Dakota's animations from a few weeks ago the water does come through this area first. I have a funny gut feeling about this spot.***
 
+- Similar to salinity, the difference in temperature between the second and third laps is negative, meaning it decreases from the second lap to the third. Maybe the water is not mixed as much in the third lap?
+- The exception to this is that we get the increasing difference in temperature at the surface at the entrance and towards the end of the northern length (which is, esentially, the northern part entrance). There is also a little bit of this in the end of the back bay. 
 
 
 #### DO concentration
@@ -61,12 +83,28 @@ Here are some major takeaways:
 
 ![Figure 5. DO concentration profiles in each lap and each section of the laps](../_figures/DO_allLaps_allSections.png)
 
+**Takeaways:**
+
+- What pulls me the most from these plots is that it is clear there is a low-DO intrusion from 10-20m depth *in the bay*. Anything shallower than this has higher DO concentration and anything lower than this also has higher DO concentration. This is so odd!! Also this pattern is not found at the entrance in any of the laps.
+
+- Generally, there is a lot more DO at the surface! Even so, the rest of the water column all throughout the cove is pretty poorly oxygenated.
 
 
 **Now the delta plots.**
 
 ![Figure 6. Percent difference in DO concentrations between sequential laps](../_figures/DO_deltaPlots.png)
 
+**Takeaways:**
 
+- Most glaringly, the largest change in DO concentration is an increase from lap 1 to lap 2 at the end of the southern end of the cove at depth. Maybe the flood brought oxygenated water in at depth? Wouldn't we see this elsewhere in these plots, though?
+- There is a lot of overall change in DO concentration between the 2nd and 3rd laps. For instance in the southern length almost the whole water column is changed, either increasing or decreasing.
+- Interestingly, the decrease in DO concentration between laps 2 and 3 in the southern length occurs in the 10-20m band where we see the low DO intrusions.... The same this happens in the northern length. The increase and decrease in DO is strongest in the 10-20m below the surface.
+
+
+## Overall thoughts
+
+- Let's watch out for the northern end of the entrance to the cove! Things are happening there.
+- The back bay is also an important place to watch.
+- The 10-20m low DO thing is strange. Can we make sure to capture these depths with our future sampling?
 
 
