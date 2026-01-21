@@ -17,7 +17,7 @@ Before I jump into the plots here, I want to note a few things that need to be c
 **Let's first look at the profiles themselves.**
 
 
-<img width="2500" height="888" alt="Figure 1. Salinity profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/b5d51afb-4401-46c0-a9b7-dff191f900dd" />
+<img alt="Figure 1. Salinity profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/b5d51afb-4401-46c0-a9b7-dff191f900dd" />
 
 
 Not much new here from what we've seen in the 3D plots from last week and from the profiles I included in the cruise report. The columns show the lap number, the rows show the transect section in the cove. 
