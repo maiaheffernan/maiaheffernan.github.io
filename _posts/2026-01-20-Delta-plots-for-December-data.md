@@ -33,7 +33,7 @@ Here are some **major takeaways:**
 **Now for the delta plots.** Here I show the percent difference between the salinity values between laps. The columns show the difference between lap 1 and lap 2 and lap 2 and lap 3, and the rows show the different locations.
 
 
-<img width="2500" height="899" alt="Figure 2. Percent difference in salinity between sequential laps" src="https://github.com/user-attachments/assets/bba21beb-4de2-41bc-9736-f8dccec908a9" />
+<img alt="Figure 2. Percent difference in salinity between sequential laps" src="https://github.com/user-attachments/assets/bba21beb-4de2-41bc-9736-f8dccec908a9" />
 
 
 
@@ -52,7 +52,7 @@ I want to note here that there were some really suspect values in this data afte
 
 **First the profiles.**
 
-<img width="2500" height="888" alt="Figure 3. Temperature profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/0d230c38-2062-4f16-92fb-0d2a858c60bc" />
+<img alt="Figure 3. Temperature profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/0d230c38-2062-4f16-92fb-0d2a858c60bc" />
 
 
 **Takeaways:**
@@ -66,7 +66,7 @@ I want to note here that there were some really suspect values in this data afte
 **Now for the delta plots.**
 
 
-<img width="2500" height="897" alt="Figure 4. Percent difference in temperature between sequential laps" src="https://github.com/user-attachments/assets/c81a8caa-830f-4829-a719-b74e6a8f4d59" />
+<img alt="Figure 4. Percent difference in temperature between sequential laps" src="https://github.com/user-attachments/assets/c81a8caa-830f-4829-a719-b74e6a8f4d59" />
 
 
 
@@ -85,7 +85,7 @@ I want to note here that there were some really suspect values in this data afte
 
 **First the profiles.**
 
-<img width="2500" height="888" alt="Figure 5. DO concentration profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/5def6d2e-8c85-4b94-8c66-006c1dbdf47e" />
+<img alt="Figure 5. DO concentration profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/5def6d2e-8c85-4b94-8c66-006c1dbdf47e" />
 
 
 **Takeaways:**
@@ -97,7 +97,7 @@ I want to note here that there were some really suspect values in this data afte
 
 **Now the delta plots.**
 
-<img width="2500" height="897" alt="Figure 6. Percent difference in DO concentrations between sequential laps" src="https://github.com/user-attachments/assets/150a01e1-be57-42e9-9a1f-964bd1f1c082" />
+<img alt="Figure 6. Percent difference in DO concentrations between sequential laps" src="https://github.com/user-attachments/assets/150a01e1-be57-42e9-9a1f-964bd1f1c082" />
 
 
 
