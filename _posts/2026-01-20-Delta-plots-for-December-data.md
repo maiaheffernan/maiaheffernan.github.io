@@ -16,4 +16,13 @@ Before I jump into the plots here, I want to note a few things that need to be c
 
 Let's first look at the profiles themselves:
 
-![Figure 1. Salinity profiles in each lap and each section of the laps](path/to/your/image.png)
+![Figure 1. Salinity profiles in each lap and each section of the laps](_figures/Salinity_allLaps_allSections.png)
+
+
+
+
+Now for the delta plots. Here I show the percent difference between the salinity values between laps. The columns show the difference between lap 1 and lap 2 and lap 2 and lap 3, and the rows show the different locations.
+
+![Figure 2. Percent difference in salinity between sequential laps](_figures/Salinity_allLaps_allSections.png)
+
+
