@@ -16,7 +16,8 @@ Before I jump into the plots here, I want to note a few things that need to be c
 
 **Let's first look at the profiles themselves.**
 
-![Figure 1. Salinity profiles in each lap and each section of the laps](https://raw.githubusercontent.com/maiaheffernan/maiaheffernan.github.io/blob/main/_figures/Salinity_allLaps_allSections.png)
+
+<img width="1735" height="888" alt="Figure 1. Salinity profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/b5d51afb-4401-46c0-a9b7-dff191f900dd" />
 
 
 Not much new here from what we've seen in the 3D plots from last week and from the profiles I included in the cruise report. The columns show the lap number, the rows show the transect section in the cove. 
@@ -31,7 +32,9 @@ Here are some **major takeaways:**
 
 **Now for the delta plots.** Here I show the percent difference between the salinity values between laps. The columns show the difference between lap 1 and lap 2 and lap 2 and lap 3, and the rows show the different locations.
 
-![Figure 2. Percent difference in salinity between sequential laps](../_figures/Salinity_deltaPlots.png)
+
+<img width="1643" height="899" alt="Figure 2. Percent difference in salinity between sequential laps" src="https://github.com/user-attachments/assets/bba21beb-4de2-41bc-9736-f8dccec908a9" />
+
 
 
 I want to note here that there were some really suspect values in this data after I interpolated. I understand that this is a difference plot, but we need to be cautious when interpreting this one. I will fix this up for next week.
@@ -49,7 +52,7 @@ I want to note here that there were some really suspect values in this data afte
 
 **First the profiles.**
 
-![Figure 3. Temperature profiles in each lap and each section of the laps](../_figures/Temperature_allLaps_allSections.png)
+<img width="1749" height="888" alt="Figure 3. Temperature profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/0d230c38-2062-4f16-92fb-0d2a858c60bc" />
 
 
 **Takeaways:**
@@ -63,7 +66,8 @@ I want to note here that there were some really suspect values in this data afte
 **Now for the delta plots.**
 
 
-![Figure 4. Percent difference in temperature between sequential laps](../_figures/Temperature_deltaPlots.png)
+<img width="1635" height="897" alt="Figure 4. Percent difference in temperature between sequential laps" src="https://github.com/user-attachments/assets/c81a8caa-830f-4829-a719-b74e6a8f4d59" />
+
 
 
 **Takeaways:**
@@ -81,7 +85,8 @@ I want to note here that there were some really suspect values in this data afte
 
 **First the profiles.**
 
-![Figure 5. DO concentration profiles in each lap and each section of the laps](../_figures/DO_allLaps_allSections.png)
+<img width="1735" height="888" alt="Figure 5. DO concentration profiles in each lap and each section of the laps" src="https://github.com/user-attachments/assets/5def6d2e-8c85-4b94-8c66-006c1dbdf47e" />
+
 
 **Takeaways:**
 
@@ -92,7 +97,9 @@ I want to note here that there were some really suspect values in this data afte
 
 **Now the delta plots.**
 
-![Figure 6. Percent difference in DO concentrations between sequential laps](../_figures/DO_deltaPlots.png)
+<img width="1643" height="897" alt="Figure 6. Percent difference in DO concentrations between sequential laps" src="https://github.com/user-attachments/assets/150a01e1-be57-42e9-9a1f-964bd1f1c082" />
+
+
 
 **Takeaways:**
 
