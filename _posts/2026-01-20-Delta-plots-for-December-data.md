@@ -16,7 +16,7 @@ Before I jump into the plots here, I want to note a few things that need to be c
 
 **Let's first look at the profiles themselves.**
 
-![Figure 1. Salinity profiles in each lap and each section of the laps](../_figures/Salinity_allLaps_allSections.png)
+![Figure 1. Salinity profiles in each lap and each section of the laps](https://raw.githubusercontent.com/maiaheffernan/maiaheffernan.github.io/blob/main/_figures/Salinity_allLaps_allSections.png)
 
 
 Not much new here from what we've seen in the 3D plots from last week and from the profiles I included in the cruise report. The columns show the lap number, the rows show the transect section in the cove. 
