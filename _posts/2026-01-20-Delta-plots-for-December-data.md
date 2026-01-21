@@ -14,14 +14,22 @@ Before I jump into the plots here, I want to note a few things that need to be c
 
 #### Salinity
 
-Let's first look at the profiles themselves:
+**Let's first look at the profiles themselves.**
 
 ![Figure 1. Salinity profiles in each lap and each section of the laps](../_figures/Salinity_allLaps_allSections.png)
 
 
+Not much new here from what we've seen in the 3D plots from last week and from the profiles I included in the cruise report. The columns show the lap number, the rows show the transect section in the cove. 
+
+Here are some major takeaways:
+- In the entrance to Lap 1 we were getting our casting feet under us. We got better by lap 3.
+- Generally, in all the profiles the fresh layer is primarily in the top 2-3 meters of water and the mixed layer begins at around 5 meters and continues on down to 10 meters below the surface.
+- The northern end of the bay is consistently
 
 
-Now for the delta plots. Here I show the percent difference between the salinity values between laps. The columns show the difference between lap 1 and lap 2 and lap 2 and lap 3, and the rows show the different locations.
+
+
+**Now for the delta plots.** Here I show the percent difference between the salinity values between laps. The columns show the difference between lap 1 and lap 2 and lap 2 and lap 3, and the rows show the different locations.
 
 ![Figure 2. Percent difference in salinity between sequential laps](../_figures/Salinity_deltaPlots.png)
 
@@ -32,13 +40,13 @@ Now for the delta plots. Here I show the percent difference between the salinity
 
 #### Temperature
 
-First the profiles.
+**First the profiles.**
 
 ![Figure 3. Temperature profiles in each lap and each section of the laps](../_figures/Temperature_allLaps_allSections.png)
 
 
 
-Now for the delta plots.
+**Now for the delta plots.**
 
 
 ![Figure 4. Percent difference in temperature between sequential laps](../_figures/Temperature_deltaPlots.png)
@@ -49,13 +57,13 @@ Now for the delta plots.
 
 #### DO concentration
 
-First the profiles.
+**First the profiles.**
 
 ![Figure 5. DO concentration profiles in each lap and each section of the laps](../_figures/DO_allLaps_allSections.png)
 
 
 
-Now the delta plots.
+**Now the delta plots.**
 
 ![Figure 6. Percent difference in DO concentrations between sequential laps](../_figures/DO_deltaPlots.png)
 
