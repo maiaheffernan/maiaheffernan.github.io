@@ -18,7 +18,7 @@ Yay clean data!
 
 Here is the current plan for the mooring locations:
 
-<img width="1415" height="558" alt="PennCoveArray_21Jan2026_draft" src="https://github.com/user-attachments/assets/c5dc49c0-7e02-4199-9ccd-e241d3a2bcfd" />
+<img alt="PennCoveArray_21Jan2026_draft" src="https://github.com/user-attachments/assets/c5dc49c0-7e02-4199-9ccd-e241d3a2bcfd" />
 
 ### Average profiles
 
