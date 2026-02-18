@@ -26,7 +26,7 @@ Here is the current plan for the mooring locations:
 
 Before we even get into the different transect lengths or the mooring locations themselves, let's look at the average profiles for the entirety of Penn Cove.
 
-<img width="1446" height="1031" alt="Overall_averageProfiles" src="https://github.com/user-attachments/assets/a0f776bd-6702-42a2-ab6f-a634d2539bae" />
+<img alt="Figure 1. Overall_averageProfiles" src="https://github.com/user-attachments/assets/a0f776bd-6702-42a2-ab6f-a634d2539bae" />
 
 
 The red lines are the average values and the grey lines are all the different profiles that got averaged together. Not much to say here except that the dissolved oxygen is doing weird things like we thought!
@@ -36,14 +36,14 @@ The red lines are the average values and the grey lines are all the different pr
 
 I matched up the lat/lon coordinates with the ADCP data to section off the profiles for each lap section. So I have the all the profiles from the entrance, south end, back bay, and north end. I used the third lap to pull these locations as the third lap had the longest transect time so there were more lat/lon data points collected. Here is a map of hte transect line and the profile locations along its path that were used for these next few plots:
 
-<img width="1408" height="902" alt="ProfilesOnADCPTrack" src="https://github.com/user-attachments/assets/7f461639-0baa-461f-9d37-6b7a9835a1f8" />
+<img alt="Figure 2. ProfilesOnADCPTrack" src="https://github.com/user-attachments/assets/7f461639-0baa-461f-9d37-6b7a9835a1f8" />
 
 
 From this, I took the average profiles from the entrance line, the southern end line, the back bay line, and the north end line. Since we sampled in these locations many times, these are not necessarily time dependent *(though they likely are in fact time dependent, but I am not getting into that quite yet. Any thoughts about how to pull that apart would be helpful).*
 
 In the plot below the red bar is the average profile for that tansect line and the grey shading shows the standard deviation.
 
-<img width="1451" height="922" alt="AverageCasts_perTransectLocation_STD" src="https://github.com/user-attachments/assets/c0fb3769-84df-4605-8a33-4653d861f78b" />
+<img alt="Figure 3. AverageCasts_perTransectLocation_STD" src="https://github.com/user-attachments/assets/c0fb3769-84df-4605-8a33-4653d861f78b" />
 
 
 There are a few things here:
@@ -62,7 +62,7 @@ First, let's look at the singular profiles at each charted mooring location. We 
 **First salinity:**
 
 
-<img width="1341" height="595" alt="SalProfiles_singluarMooringLocs" src="https://github.com/user-attachments/assets/54c895f6-4bce-43d9-b9c9-cd187b971edf" />
+<img alt="Figure 4. SalProfiles_singluarMooringLocs" src="https://github.com/user-attachments/assets/54c895f6-4bce-43d9-b9c9-cd187b971edf" />
 
 Some takeaways:
 1) The mixed layer seems to extend slightly deeper in the back bay north and the LoveJoy north sites. I am still trying to convince myself of this, bu there might be an interesting pattern here!
@@ -71,7 +71,7 @@ Some takeaways:
 
 **Now temperature:**
 
-<img width="1346" height="595" alt="TempProfiles_singularMooringLocs" src="https://github.com/user-attachments/assets/64059a35-f428-4b48-9f2a-8abfe0523d3a" />
+<img alt="Figure 5. TempProfiles_singularMooringLocs" src="https://github.com/user-attachments/assets/64059a35-f428-4b48-9f2a-8abfe0523d3a" />
 
 
 Some takeaways:
@@ -80,7 +80,7 @@ Some takeaways:
 
 **DO profiles:**
 
-<img width="1350" height="595" alt="DOProfiles_singularMooringLocs" src="https://github.com/user-attachments/assets/ddb77d5c-b0b4-4a0d-a2f9-c4a4fb842f5e" />
+<img alt="Figure 6. DOProfiles_singularMooringLocs" src="https://github.com/user-attachments/assets/ddb77d5c-b0b4-4a0d-a2f9-c4a4fb842f5e" />
 
 Takeaways:
 1) That 15m intrusion really comes through in all the profiles. The back bay sites are just too shallow to show the trend I think, but they look like they might be tendig in a similar pattern as the rest of the bay.
@@ -92,12 +92,12 @@ Takeaways:
 
 For this next plot I am comparing the above profiles to each other at leach location. 
 
-<img width="1358" height="896" alt="SalTempDO_allProfiles_noavg" src="https://github.com/user-attachments/assets/7eee6953-7ed2-4164-aa15-f6732e0c518d" />
+<img alt="Figure 7. SalTempDO_allProfiles_noavg" src="https://github.com/user-attachments/assets/7eee6953-7ed2-4164-aa15-f6732e0c518d" />
 
 
 Here, I do the same comparison as above but I averaged the 5 nearest values to the profile, so there is a bit more consideration of the water column around each mooring. I am currently working on getting the corect standard deviation bars on there, so that will be in the next installment. But for now please enjoy the comparison:
 
-<img width="1358" height="896" alt="MooringAverageCast_noSTD" src="https://github.com/user-attachments/assets/1bd75a76-029a-48cf-9be0-6c971035ecde" />
+<img alt="Figure 8. MooringAverageCast_noSTD" src="https://github.com/user-attachments/assets/1bd75a76-029a-48cf-9be0-6c971035ecde" />
 
 
 Some takeaways:
