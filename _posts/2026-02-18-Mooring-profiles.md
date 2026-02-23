@@ -36,7 +36,7 @@ The red lines are the average values and the grey lines are all the different pr
 
 I matched up the lat/lon coordinates with the ADCP data to section off the profiles for each lap section. So I have the all the profiles from the entrance, south end, back bay, and north end. I used the third lap to pull these locations as the third lap had the longest transect time so there were more lat/lon data points collected. Here is a map of hte transect line and the profile locations along its path that were used for these next few plots:
 
-<img alt="Figure 2. ProfilesOnADCPTrack" src="https://github.com/user-attachments/assets/7f461639-0baa-461f-9d37-6b7a9835a1f8" />
+<img alt="AverageCasts_perTransectLocationSTD_fixed" src="https://github.com/user-attachments/assets/c2022e51-0ed6-4e55-878d-7a39cfe44665" />
 
 
 From this, I took the average profiles from the entrance line, the southern end line, the back bay line, and the north end line. Since we sampled in these locations many times, these are not necessarily time dependent *(though they likely are in fact time dependent, but I am not getting into that quite yet. Any thoughts about how to pull that apart would be helpful).*
