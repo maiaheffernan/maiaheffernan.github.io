@@ -72,12 +72,12 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
 #### Wire walker south
 
 <figure>
-  <img src="/figures/WWS_lap1_TSplot.png" alt="Description of image">
+  <img src="/_figures/WWS_lap1_TSplot.png" alt="Description of image">
   <figcaption>Figure 6. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
-  <img src="/figures/WWS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <img src="/_figures/WWS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
   <figcaption>Figure 7. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
