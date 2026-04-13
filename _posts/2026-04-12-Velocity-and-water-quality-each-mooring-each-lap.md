@@ -32,6 +32,19 @@ First, I want to bring up the plot of the lap sampling intervals on the tide cha
 A quick note on the velocities. I did some initial cleaning of the individual profiles by removing values that were outside one stadnard deviation from the mean velocity value for each ensemble. There was a lot of scatter in the bottom velocities that were most definitely from bed interference, so removing anamolously high values seemed like the logical thing to do. I started with removing points that were only two standard deviations away from the mean, but that made no change to the profiles so I then applied the stricter tolerance of one standard deviaiton after that. 
 
 
+
+
+For the velocity plots below for the first lap, here are the tidal stages each measurement was taken at. Note that WWS, the bottom right corner panel, was measured first in the sampling track we took.
+
+- Wire walker south: Ebb
+- LoveJoy south: Ebb
+- Back bay south: Ebb
+- Back bay north: Slack (assuming slack occurs about 30 minutes before the high or low)
+- LoveJoy north: Low
+- Wire walker north: Slack, entering the flood
+
+
+
 <img width="1488" height="951" alt="lap1_EastWest_allmooringSubplots_LINKED" src="https://github.com/user-attachments/assets/4b1c1aff-0119-463a-97f8-9b6e065c733a" /><br>Fig 4. East/west velocities at each mooring location for the frist lap. Positive is east, negative is west. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
 
 
