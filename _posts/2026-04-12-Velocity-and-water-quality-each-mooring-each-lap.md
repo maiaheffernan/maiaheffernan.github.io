@@ -7,7 +7,7 @@ The main reason for doing this analysis has been to determine what might be caus
 
 **First the north length:**
 
-<img width="1240" height="860" alt="TempSalDO_marchingProfiles_northlength" src="https://github.com/user-attachments/assets/62dc1679-78be-4f26-8b8b-52dee09550c4" />
+<img width="1240" height="860" alt="TempSalDO_marchingProfiles_northlength" src="https://github.com/user-attachments/assets/62dc1679-78be-4f26-8b8b-52dee09550c4" /><br>Fig 1. Dissolved oxygen, temperature, salinity profiles along northern length of Penn Cove.
 
 
 
