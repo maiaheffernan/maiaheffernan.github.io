@@ -7,7 +7,7 @@ The main reason for doing this analysis has been to determine what might be caus
 
 **First the north length:**
 
-<img width="1240" height="860" alt="TempSalDO_marchingProfiles_northlength" src="https://github.com/user-attachments/assets/62dc1679-78be-4f26-8b8b-52dee09550c4" /><br>Fig 1. Dissolved oxygen, temperature, salinity profiles along northern length of Penn Cove.<br>
+<img width="3000" height="860" alt="TempSalDO_marchingProfiles_northlength" src="https://github.com/user-attachments/assets/62dc1679-78be-4f26-8b8b-52dee09550c4" /><br>Fig 1. Dissolved oxygen, temperature, salinity profiles along northern length of Penn Cove.<br>
 
 
 
@@ -15,7 +15,7 @@ The main reason for doing this analysis has been to determine what might be caus
 
 **South length:**
 
-<img width="1527" height="919" alt="TempSalDO_marchingprofilesSouthLength" src="https://github.com/user-attachments/assets/dee76cc8-e8b6-42d4-9d0b-ff53a33642d6" /><br>Fig 2. Dissolved oxygen, temperature, salinity profiles along south length of Penn Cove.<br>
+<img width="3000" height="919" alt="TempSalDO_marchingprofilesSouthLength" src="https://github.com/user-attachments/assets/dee76cc8-e8b6-42d4-9d0b-ff53a33642d6" /><br>Fig 2. Dissolved oxygen, temperature, salinity profiles along south length of Penn Cove.<br>
 
 
 ## New plots
@@ -24,7 +24,7 @@ I have pulled together the profiles of temperature, dissolved oxygen, salinity, 
 
 First, I want to bring up the plot of the lap sampling intervals on the tide chart.
 
-<img width="1443" height="574" alt="Screenshot 2026-04-12 at 11 57 05 PM" src="https://github.com/user-attachments/assets/f073affe-555f-4902-a22d-5f47daba349e" /><br>Fig 3. Tidal stage predictions from the NOAA Penn Cove station for December 4, 2025. The high of 3.73m occurred at 05:12, the low of 2.40m occurred at 10:06, the second high of 3.76m occurred at 15:04, and the second low of -1.18m occurred at 22:20. Time stamps are in PST. Tide window 1, detailed below, is outlined in red, tide window 2 is outlined in gold, and tide window 3 is outlined in purple.<br>
+<img width="3000" height="574" alt="Screenshot 2026-04-12 at 11 57 05 PM" src="https://github.com/user-attachments/assets/f073affe-555f-4902-a22d-5f47daba349e" /><br>Fig 3. Tidal stage predictions from the NOAA Penn Cove station for December 4, 2025. The high of 3.73m occurred at 05:12, the low of 2.40m occurred at 10:06, the second high of 3.76m occurred at 15:04, and the second low of -1.18m occurred at 22:20. Time stamps are in PST. Tide window 1, detailed below, is outlined in red, tide window 2 is outlined in gold, and tide window 3 is outlined in purple.<br>
 
 
 ### Lap 1 
@@ -45,7 +45,7 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 
 
-<img width="1488" height="951" alt="lap1_EastWest_allmooringSubplots_LINKED" src="https://github.com/user-attachments/assets/4b1c1aff-0119-463a-97f8-9b6e065c733a" /><br>Fig 4. East/west velocities at each mooring location for the frist lap. Positive is east, negative is west. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
+<img width="3000" height="951" alt="lap1_EastWest_allmooringSubplots_LINKED" src="https://github.com/user-attachments/assets/4b1c1aff-0119-463a-97f8-9b6e065c733a" /><br>Fig 4. East/west velocities at each mooring location for the frist lap. Positive is east, negative is west. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
 
 
 
@@ -55,7 +55,7 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 
 
-<img width="1488" height="951" alt="lap1_NorthSouth_allmooringsSubplots_LINKED" src="https://github.com/user-attachments/assets/54b7fc1e-e1d7-4d24-893f-ebd5f71d09a9" /><br>Fig 5. North/south velocities at each mooring location for the frist lap. Positive is north, negative is south. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
+<img width="3000" height="951" alt="lap1_NorthSouth_allmooringsSubplots_LINKED" src="https://github.com/user-attachments/assets/54b7fc1e-e1d7-4d24-893f-ebd5f71d09a9" /><br>Fig 5. North/south velocities at each mooring location for the frist lap. Positive is north, negative is south. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
 
 
 
