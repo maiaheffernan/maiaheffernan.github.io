@@ -24,10 +24,37 @@ I have pulled together the profiles of temperature, dissolved oxygen, salinity, 
 
 First, I want to bring up the plot of the lap sampling intervals on the tide chart.
 
-<img width="1443" height="574" alt="Screenshot 2026-04-12 at 11 57 05 PM" src="https://github.com/user-attachments/assets/f073affe-555f-4902-a22d-5f47daba349e" /><br>Fig 3. Tides and lap intervals on the December sampling day. The red bars represent lap 1, the gold bars represent lap 2, and the purple bars represent lap 3. Times are PST (local time).<br>
+<img width="1443" height="574" alt="Screenshot 2026-04-12 at 11 57 05 PM" src="https://github.com/user-attachments/assets/f073affe-555f-4902-a22d-5f47daba349e" /><br>Fig 3. Tidal stage predictions from the NOAA Penn Cove station for December 4, 2025. The high of 3.73m occurred at 05:12, the low of 2.40m occurred at 10:06, the second high of 3.76m occurred at 15:04, and the second low of -1.18m occurred at 22:20. Time stamps are in PST. Tide window 1, detailed below, is outlined in red, tide window 2 is outlined in gold, and tide window 3 is outlined in purple.<br>
 
 
 ### Lap 1 
+
+A quick note on the velocities. I did some initial cleaning of the individual profiles by removing values that were outside one stadnard deviation from the mean velocity value for each ensemble. There was a lot of scatter in the bottom velocities that were most definitely from bed interference, so removing anamolously high values seemed like the logical thing to do. I started with removing points that were only two standard deviations away from the mean, but that made no change to the profiles so I then applied the stricter tolerance of one standard deviaiton after that. 
+
+
+<img width="1488" height="951" alt="lap1_EastWest_allmooringSubplots_LINKED" src="https://github.com/user-attachments/assets/4b1c1aff-0119-463a-97f8-9b6e065c733a" /><br>Fig 4. East/west velocities at each mooring location for the frist lap. Positive is east, negative is west. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
+
+
+
+
+**Here are the north/south velocities at the same times.**
+
+
+
+
+<img width="1488" height="951" alt="lap1_NorthSouth_allmooringsSubplots_LINKED" src="https://github.com/user-attachments/assets/54b7fc1e-e1d7-4d24-893f-ebd5f71d09a9" /><br>Fig 5. North/south velocities at each mooring location for the frist lap. Positive is north, negative is south. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
+
+
+
+/
+
+I am going to break down the velocity, CTD, and TS plots for each mooring in lap 1 now.
+
+
+
+
+
+
 
 #### Wire walker south
 
