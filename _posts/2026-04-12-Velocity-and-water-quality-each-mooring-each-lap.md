@@ -68,12 +68,29 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
 
 <figure>
   <img src="/_figures/DO_lap1_subplots.png" alt="Description of image">
-  <figcaption>Figure 6. Dissolved oxygen values at each mooring location in lap 1. For the bottom three panels the dies was ebbing, for the top left panel the tide was slack, for the top middle panel the tide was at its low. In the top right panel the tide was slack.</figcaption>
+  <figcaption>Figure 6. Dissolved oxygen values at each mooring location in lap 1.</figcaption>
 </figure>
 
 
+**Salinty in lap 1**
 
 
+<figure>
+  <img src="/_figures/salinity_lap1_subplots.png" alt="Description of image">
+  <figcaption>Figure 7. Salinity values at each mooring location in lap 1.</figcaption>
+</figure>
+
+
+**Temperature in lap 1**
+
+
+<figure>
+  <img src="/_figures/temperature_lap1_subplots.png" alt="Description of image">
+  <figcaption>Figure 8. Dissolved oxygen values at each mooring location in lap 1.</figcaption>
+</figure>
+
+
+The TS plots are broken up for each location.
 
 
 
@@ -81,40 +98,107 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
 
 <figure>
   <img src="/_figures/WWS_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 6. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 9. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/WWS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 7. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 10. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
-
-
 
 
 
 
 #### LoveJoy south
 
+<figure>
+  <img src="/_figures/LoveJoyS_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 11. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 12. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
 
 
 
 #### Inner bay south
+
+<figure>
+  <img src="/_figures/InnerS_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 13. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 14. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
 
 
 
 #### Inner bay north
 
 
+<figure>
+  <img src="/_figures/InnerN_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 15. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 16. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
 
 #### LoveJoy north
 
 
+<figure>
+  <img src="/_figures/LoveJoyN_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 17. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 18. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
 #### Wire walker north
+
+<figure>
+  <img src="/_figures/WWN_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 19. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/WWN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 20. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
 
 
 
 ### Lap 2
+
+The tidal stages for this lap were
+- Wire walker south: Flood
+- LoveJoy south: Flood
+- Back bay south: Flood
+- Back bay north: Flood becoming slack
+- LoveJoy north: Flood
+- Wire walker north: Flood
+
+First, the velocities.
+
+
+
+
+
 
 
 #### Wire walker south
