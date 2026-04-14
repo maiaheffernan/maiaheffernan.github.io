@@ -93,7 +93,9 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
 **Dissolved oxygen in lap 1**
 
 <figure>
-  <img src="/_figures/DO_lap1_subplots.png" alt="Description of image">
+  <img src="/_figures/DO_lap1_subplots.png" alt="Description of image"
+    width="2000"
+    height="1000">
   <figcaption>Figure 6. Dissolved oxygen values at each mooring location in lap 1.</figcaption>
 </figure>
 
@@ -102,7 +104,9 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
 
 
 <figure>
-  <img src="/_figures/salinity_lap1_subplots.png" alt="Description of image">
+  <img src="/_figures/salinity_lap1_subplots.png" alt="Description of image"
+    width="2000"
+    height="1000">
   <figcaption>Figure 7. Salinity values at each mooring location in lap 1.</figcaption>
 </figure>
 
@@ -111,7 +115,9 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
 
 
 <figure>
-  <img src="/_figures/temperature_lap1_subplots.png" alt="Description of image">
+  <img src="/_figures/temperature_lap1_subplots.png" alt="Description of image"
+    width="2000"
+    height="1000">
   <figcaption>Figure 8. Dissolved oxygen values at each mooring location in lap 1.</figcaption>
 </figure>
 
