@@ -11,18 +11,24 @@ The main reason for doing this analysis has been to determine what might be caus
 
 
 
-**First the north length:**
-
-<img width="3000" height="860" alt="TempSalDO_marchingProfiles_northlength" src="https://github.com/user-attachments/assets/62dc1679-78be-4f26-8b8b-52dee09550c4" /><br>Fig 1. Dissolved oxygen, temperature, salinity profiles along northern length of Penn Cove.<br>
+**First the north length**
 
 
+<figure>
+  <img src="/_figures/TempSalDO_marchingProfiles_northlength.png" alt="Description of image">
+  <figcaption>Figure 1. Dissolved oxygen, temperature, salinity profiles along northern length of Penn Cove.</figcaption>
+</figure>
 
 
 
-**South length:**
 
-<img width="3000" height="919" alt="TempSalDO_marchingprofilesSouthLength" src="https://github.com/user-attachments/assets/dee76cc8-e8b6-42d4-9d0b-ff53a33642d6" /><br>Fig 2. Dissolved oxygen, temperature, salinity profiles along south length of Penn Cove.<br>
+**South length**
 
+
+<figure>
+  <img src="/_figures/TempSalDO_marchingProfilesSouthLength.png" alt="Description of image">
+  <figcaption>Figure 2. Dissolved oxygen, temperature, salinity profiles along southern length of Penn Cove.</figcaption>
+</figure>
 
 ## New plots
 
@@ -30,7 +36,11 @@ I have pulled together the profiles of temperature, dissolved oxygen, salinity, 
 
 First, I want to bring up the plot of the lap sampling intervals on the tide chart.
 
-<img width="3000" height="574" alt="Screenshot 2026-04-12 at 11 57 05 PM" src="https://github.com/user-attachments/assets/f073affe-555f-4902-a22d-5f47daba349e" /><br>Fig 3. Tidal stage predictions from the NOAA Penn Cove station for December 4, 2025. The high of 3.73m occurred at 05:12, the low of 2.40m occurred at 10:06, the second high of 3.76m occurred at 15:04, and the second low of -1.18m occurred at 22:20. Time stamps are in PST. Tide window 1, detailed below, is outlined in red, tide window 2 is outlined in gold, and tide window 3 is outlined in purple.<br>
+<figure>
+  <img src="/_figures/DecemberCruise2025_tideLaps.png" alt="Description of image">
+  <figcaption>Figure 3. Tidal stage predictions from the NOAA Penn Cove station for December 4, 2025. The high of 3.73m occurred at 05:12, the low of 2.40m occurred at 10:06, the second high of 3.76m occurred at 15:04, and the second low of -1.18m occurred at 22:20. Time stamps are in PST. Tide window 1, detailed below, is outlined in red, tide window 2 is outlined in gold, and tide window 3 is outlined in purple.</figcaption>
+</figure>
+
 
 
 ### Lap 1 
@@ -125,7 +135,7 @@ The tidal stages for this lap were
 
 <figure>
   <img src="/_figures/lap2_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 21. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+  <figcaption>Figure 9. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
 **North/South**
@@ -133,7 +143,7 @@ The tidal stages for this lap were
 
 <figure>
   <img src="/_figures/lap2_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 22. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+  <figcaption>Figure 10. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
 
@@ -144,7 +154,7 @@ The tidal stages for this lap were
 
 <figure>
   <img src="/_figures/DO_lap2_subplots.png" alt="Description of image">
-  <figcaption>Figure 23. Dissolved oxygen values at each mooring location in lap 2.</figcaption>
+  <figcaption>Figure 11. Dissolved oxygen values at each mooring location in lap 2.</figcaption>
 </figure>
 
 
@@ -153,7 +163,7 @@ The tidal stages for this lap were
 
 <figure>
   <img src="/_figures/salinity_lap2_subplots.png" alt="Description of image">
-  <figcaption>Figure 24. Salinity values at each mooring location in lap 2.</figcaption>
+  <figcaption>Figure 12. Salinity values at each mooring location in lap 2.</figcaption>
 </figure>
 
 
@@ -162,7 +172,7 @@ The tidal stages for this lap were
 
 <figure>
   <img src="/_figures/temperature_lap2_subplots.png" alt="Description of image">
-  <figcaption>Figure 25. Dissolved oxygen values at each mooring location in lap 2.</figcaption>
+  <figcaption>Figure 13. Dissolved oxygen values at each mooring location in lap 2.</figcaption>
 </figure>
 
 
@@ -184,7 +194,7 @@ The tidal stages for this lap were :
 
 <figure>
   <img src="/_figures/lap3_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 38. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+  <figcaption>Figure 14. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
 **North/South**
@@ -192,7 +202,7 @@ The tidal stages for this lap were :
 
 <figure>
   <img src="/_figures/lap3_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 39. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+  <figcaption>Figure 15. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
 
@@ -204,7 +214,7 @@ The tidal stages for this lap were :
 
 <figure>
   <img src="/_figures/DO_lap3_subplots.png" alt="Description of image">
-  <figcaption>Figure 40. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
+  <figcaption>Figure 16. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
 </figure>
 
 
@@ -213,7 +223,7 @@ The tidal stages for this lap were :
 
 <figure>
   <img src="/_figures/salinity_lap3_subplots.png" alt="Description of image">
-  <figcaption>Figure 40. Salinity values at each mooring location in lap 3.</figcaption>
+  <figcaption>Figure 17. Salinity values at each mooring location in lap 3.</figcaption>
 </figure>
 
 
@@ -222,7 +232,7 @@ The tidal stages for this lap were :
 
 <figure>
   <img src="/_figures/temperature_lap3_subplots.png" alt="Description of image">
-  <figcaption>Figure 41. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
+  <figcaption>Figure 18. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
 </figure>
 
 
@@ -244,12 +254,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/WWS_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 9. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 19. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/WWS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 10. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 20. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -259,12 +269,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/LoveJoyS_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 11. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 21. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/LoveJoyS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 12. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 22. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -275,12 +285,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/InnerS_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 13. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 23. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/InnerS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 14. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 24. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -291,12 +301,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/InnerN_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 15. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 25. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/InnerN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 16. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 26. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -307,12 +317,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/LoveJoyN_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 17. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 27. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/LoveJoyN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 18. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 28. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -322,12 +332,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/WWN_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 19. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 29. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/WWN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 20. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 30. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -341,12 +351,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/WWS_lap2_TSplot.png" alt="Description of image">
-  <figcaption>Figure 26. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 31. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/WWS_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 27. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 32. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -356,12 +366,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/LoveJoyS_lap2_TSplot.png" alt="Description of image">
-  <figcaption>Figure 28. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 33. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/LoveJoyS_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 29. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 34. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -371,12 +381,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/InnerS_lap2_TSplot.png" alt="Description of image">
-  <figcaption>Figure 30. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 35. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/InnerS_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 31. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 36. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -386,12 +396,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/InnerN_lap2_TSplot.png" alt="Description of image">
-  <figcaption>Figure 32. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 37. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/InnerN_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 33. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 38. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -402,12 +412,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/LoveJoyN_lap2_TSplot.png" alt="Description of image">
-  <figcaption>Figure 34. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 39. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/LoveJoyN_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 35. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 40. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -418,12 +428,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/WWN_lap2_TSplot.png" alt="Description of image">
-  <figcaption>Figure 36. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 41. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/WWN_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 37. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 42. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -438,12 +448,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/WWS_lap3_TSplot.png" alt="Description of image">
-  <figcaption>Figure 42. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 43. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/WWS_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 43. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 44. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -453,12 +463,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/LoveJoyS_lap3_TSplot.png" alt="Description of image">
-  <figcaption>Figure 44. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 45. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/LoveJoyS_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 45. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 46. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -468,12 +478,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/InnerS_lap3_TSplot.png" alt="Description of image">
-  <figcaption>Figure 46. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 47. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/InnerS_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 47. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 48. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -483,12 +493,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/InnerN_lap3_TSplot.png" alt="Description of image">
-  <figcaption>Figure 48. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 49. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/InnerN_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 49. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 50. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -499,12 +509,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/LoveJoyN_lap3_TSplot.png" alt="Description of image">
-  <figcaption>Figure 50. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 51. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/LoveJoyN_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 51. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 52. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
@@ -515,12 +525,12 @@ The TS plots are broken up for each location. They are plotted with both the "th
 
 <figure>
   <img src="/_figures/WWN_lap3_TSplot.png" alt="Description of image">
-  <figcaption>Figure 52. TS plot colored by dissolved oxygen.</figcaption>
+  <figcaption>Figure 53. TS plot colored by dissolved oxygen.</figcaption>
 </figure>
 
 <figure>
   <img src="/_figures/WWN_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 53. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+  <figcaption>Figure 54. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
 
 
