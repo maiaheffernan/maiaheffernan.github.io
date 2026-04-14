@@ -1,4 +1,4 @@
-# Initial plots and analysis of velocity, salinity, temperature, and DO at each lap and mooring location
+# Plots and analysis of velocity, salinity, temperature, and DO at each lap and mooring location
 
 I pulled the velocity, temperature, salinity, and dissolved oxygen profiles that were nearest to each planning mooring location. To do this, I found the closest lat/lon position to each mooring location from the ADCP track. I found the closest CTD cast time to each ADCP ensemble time and assigned the corresponding ADCP lat/lon value to that CTD cast.
 
