@@ -45,7 +45,7 @@ First, I want to bring up the plot of the lap sampling intervals on the tide cha
 
 ### Lap 1 
 
-A quick note on the velocities. I did some initial cleaning of the individual profiles by removing values that were outside one stadnard deviation from the mean velocity value for each ensemble. There was a lot of scatter in the bottom velocities that were most definitely from bed interference, so removing anamolously high values seemed like the logical thing to do. I started with removing points that were only two standard deviations away from the mean, but that made no change to the profiles so I then applied the stricter tolerance of one standard deviaiton after that. 
+A quick note on the velocities. I did some initial cleaning of the individual profiles by removing values that were outside one standard deviation from the mean velocity value for each ensemble. There was a lot of scatter in the bottom velocities that were most definitely from bed interference, so removing anamolously high values seemed like the logical thing to do. I started with removing points that were only two standard deviations away from the mean, but that made no change to the profiles so I then applied the stricter tolerance of one standard deviaiton after that. 
 
 
 
@@ -65,7 +65,7 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 <figure>
   <img src="/_figures/lap1_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 4. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Times are in UTC.</figcaption>
+  <figcaption>Figure 4. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Positive values are east, negative values are west. Times are in UTC.</figcaption>
 </figure>
 
 
@@ -79,10 +79,17 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 <figure>
   <img src="/_figures/lap1_NorthSouth_allmooringsSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 5. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Times are in UTC.</figcaption>
+  <figcaption>Figure 5. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Positive it north, negative is south. Times are in UTC.</figcaption>
 </figure>
 
 
+
+
+Some initial takeaways:
+
+During the ebb, which encompasses the bottom three panels, the east/west velocities in the southern part of Penn Cove are strong and show water leaving the cove at the surface and an opposite inflow into the cove at depth. This is interesting because this is the traditional estuarine exchange pattern but there is no river at the head of the bay forcing this mechanism. During the ebb, the north/south velocities are pretty stagnant. Thinking back to Dakota's plot of the velocity arrows overlayed on the DO heatmap in Penn Cove, I recall that the est/west component of velocity is particularly strong. I realize those are tidally-averaged velocities, but maybe we really see that pattern when the water is ebbing in the cove. 
+
+Conversely, during the slack and low tides, the top three panels, the east/west velocities are very small and the north/south velocities are larger; water primarily flows north at the surface and south at depth. This does not make as much sense to me based on Dakota's plots and the general consensus of counter-clockwise flow in Penn Cove. There is strong southward flow, but it just occurs deeper in the water column. I am a bit confused here. 
 
 
 
@@ -97,6 +104,15 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
     style="width: 80%;">
   <figcaption>Figure 6. Dissolved oxygen values at each mooring location in lap 1.</figcaption>
 </figure>
+
+
+
+
+One of the theories I have about the dissolved oxygen minimum is that the low DO from around 15-20 meters in the back bay gets advected out through the rest of the bay at the same depth, which causes this minimum. There is nothing in the east/west velocity signal that implies this process. In fact at that depth the east/west velocities are stagnant around zero or are heading west. Given that this lap encompassed the ebb and slack/low tide, I would think that this is when the eastward velocity signal would be strongest.
+
+What is interesting to me though, is that the velocity at this depth generally heads south from the northern sites. This is particularly strong in the inner bay north site. Maybe that southward velocity brings low DO with it that then gets circulated aroung the south end of the cove. This is another process we have talked about as a plausible explanation for the hypoxic conditions present in the south part of the bay, so maybe this is a trace of that here.
+
+Another thought related to the DO minimum related to the east/west velocities. During the ebb in lap 1 the velocities in the southrn length of the bay head west. If you look at the TS plot for WWS you can see that just around the 20ish isopycnal there is hypoxia at depth in the water column. In fact, there is hypoxia at depth for all the TS plots. Either this hypoxia has been persistent, which we would have no way of knowing, or the hypoxic mass gets moved around and does not necessarily stem from the back bay.
 
 
 **Salinty in lap 1**
