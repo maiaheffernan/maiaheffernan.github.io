@@ -2,7 +2,13 @@
 
 I pulled the velocity, temperature, salinity, and dissolved oxygen profiles that were nearest to each planning mooring location. To do this, I found the closest lat/lon position to each mooring location from the ADCP track. I found the closest CTD cast time to each ADCP ensemble time and assigned the corresponding ADCP lat/lon value to that CTD cast.
 
+The main plots of velocity and the CTD profiles are given for each lap below. At the bottom of the document are the TS plots colored by dissolved oxygen. They have color maps from both the "thermal" pallette in cmocean as well as the hypoxia colormap so that we can see when they are hypoxic. 
+
 The main reason for doing this analysis has been to determine what might be causing the dissolved oxygen minimum at 15-20 meters throughout the water column. The main plot that has inspired this was the one with the profiles that "walked" west ot east throughout Penn Cove.
+
+
+
+
 
 
 **First the north length:**
@@ -45,7 +51,12 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 
 
-<img width="3000" height="951" alt="lap1_EastWest_allmooringSubplots_LINKED" src="https://github.com/user-attachments/assets/4b1c1aff-0119-463a-97f8-9b6e065c733a" /><br>Fig 4. East/west velocities at each mooring location for the frist lap. Positive is east, negative is west. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
+**East/West**
+
+<figure>
+  <img src="/_figures/lap1_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 4. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Times are in UTC.</figcaption>
+</figure>
 
 
 
@@ -55,7 +66,12 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 
 
-<img width="3000" height="951" alt="lap1_NorthSouth_allmooringsSubplots_LINKED" src="https://github.com/user-attachments/assets/54b7fc1e-e1d7-4d24-893f-ebd5f71d09a9" /><br>Fig 5. North/south velocities at each mooring location for the frist lap. Positive is north, negative is south. Profiles show the average of the 5 closest ADCP readings to each mooring location. Shading shows standard deviation. Time is in UTC.<br>
+
+<figure>
+  <img src="/_figures/lap1_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 5. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Times are in UTC.</figcaption>
+</figure>
+
 
 
 
@@ -89,96 +105,6 @@ I am going to break down the velocity, CTD, and TS plots for each mooring in lap
   <figcaption>Figure 8. Dissolved oxygen values at each mooring location in lap 1.</figcaption>
 </figure>
 
-
-The TS plots are broken up for each location.
-
-
-
-#### Wire walker south
-
-<figure>
-  <img src="/_figures/WWS_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 9. TS plot colored by dissolved oxygen.</figcaption>
-</figure>
-
-<figure>
-  <img src="/_figures/WWS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 10. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
-</figure>
-
-
-
-
-#### LoveJoy south
-
-<figure>
-  <img src="/_figures/LoveJoyS_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 11. TS plot colored by dissolved oxygen.</figcaption>
-</figure>
-
-<figure>
-  <img src="/_figures/LoveJoyS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 12. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
-</figure>
-
-
-
-
-#### Inner bay south
-
-<figure>
-  <img src="/_figures/InnerS_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 13. TS plot colored by dissolved oxygen.</figcaption>
-</figure>
-
-<figure>
-  <img src="/_figures/InnerS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 14. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
-</figure>
-
-
-
-#### Inner bay north
-
-
-<figure>
-  <img src="/_figures/InnerN_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 15. TS plot colored by dissolved oxygen.</figcaption>
-</figure>
-
-<figure>
-  <img src="/_figures/InnerN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 16. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
-</figure>
-
-
-
-
-#### LoveJoy north
-
-
-<figure>
-  <img src="/_figures/LoveJoyN_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 17. TS plot colored by dissolved oxygen.</figcaption>
-</figure>
-
-<figure>
-  <img src="/_figures/LoveJoyN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 18. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
-</figure>
-
-
-#### Wire walker north
-
-<figure>
-  <img src="/_figures/WWN_lap1_TSplot.png" alt="Description of image">
-  <figcaption>Figure 19. TS plot colored by dissolved oxygen.</figcaption>
-</figure>
-
-<figure>
-  <img src="/_figures/WWN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
-  <figcaption>Figure 20. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
-</figure>
 
 
 
@@ -240,7 +166,174 @@ The tidal stages for this lap were
 </figure>
 
 
-#### And the TS plots
+
+
+### Lap 3
+
+The tidal stages for this lap were :  
+- Wire walker south: Ebb
+- LoveJoy south: Low/slack
+- Back bay south: Slack
+- Back bay north: Ebb
+- LoveJoy north: Ebb
+- Wire walker north: Ebb
+
+#### First the velocities
+
+**East/West**
+
+<figure>
+  <img src="/_figures/lap3_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 38. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+</figure>
+
+**North/South**
+
+
+<figure>
+  <img src="/_figures/lap3_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 39. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+</figure>
+
+
+
+
+#### Now the CTD profiles
+
+**Dissolved oxygen in lap 3**
+
+<figure>
+  <img src="/_figures/DO_lap3_subplots.png" alt="Description of image">
+  <figcaption>Figure 40. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
+</figure>
+
+
+**Salinty in lap 3**
+
+
+<figure>
+  <img src="/_figures/salinity_lap3_subplots.png" alt="Description of image">
+  <figcaption>Figure 40. Salinity values at each mooring location in lap 3.</figcaption>
+</figure>
+
+
+**Temperature in lap 3**
+
+
+<figure>
+  <img src="/_figures/temperature_lap3_subplots.png" alt="Description of image">
+  <figcaption>Figure 41. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+## The TS plots for each lap
+
+The TS plots are broken up for each location. They are plotted with both the "thermal" color pallette from cmocean and the hypoxia color pallette from cmocean.
+
+
+### Lap 1
+
+#### Wire walker south
+
+<figure>
+  <img src="/_figures/WWS_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 9. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/WWS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 10. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
+#### LoveJoy south
+
+<figure>
+  <img src="/_figures/LoveJoyS_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 11. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 12. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
+
+#### Inner bay south
+
+<figure>
+  <img src="/_figures/InnerS_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 13. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerS_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 14. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
+#### Inner bay north
+
+
+<figure>
+  <img src="/_figures/InnerN_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 15. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 16. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
+#### LoveJoy north
+
+
+<figure>
+  <img src="/_figures/LoveJoyN_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 17. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 18. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
+#### Wire walker north
+
+<figure>
+  <img src="/_figures/WWN_lap1_TSplot.png" alt="Description of image">
+  <figcaption>Figure 19. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/WWN_lap1_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 20. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
+### Lap 2
 
 
 
@@ -339,65 +432,6 @@ The tidal stages for this lap were
 
 ### Lap 3
 
-The tidal stages for this lap were :  
-- Wire walker south: Ebb
-- LoveJoy south: Low/slack
-- Back bay south: Slack
-- Back bay north: Ebb
-- LoveJoy north: Ebb
-- Wire walker north: Ebb
-
-#### First the velocities
-
-**East/West**
-
-<figure>
-  <img src="/_figures/lap3_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 38. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
-</figure>
-
-**North/South**
-
-
-<figure>
-  <img src="/_figures/lap3_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 39. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
-</figure>
-
-
-
-
-#### Now the CTD profiles
-
-**Dissolved oxygen in lap 3**
-
-<figure>
-  <img src="/_figures/DO_lap3_subplots.png" alt="Description of image">
-  <figcaption>Figure 40. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
-</figure>
-
-
-**Salinty in lap 3**
-
-
-<figure>
-  <img src="/_figures/salinity_lap3_subplots.png" alt="Description of image">
-  <figcaption>Figure 40. Salinity values at each mooring location in lap 3.</figcaption>
-</figure>
-
-
-**Temperature in lap 3**
-
-
-<figure>
-  <img src="/_figures/temperature_lap3_subplots.png" alt="Description of image">
-  <figcaption>Figure 41. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
-</figure>
-
-
-
-#### And the TS plots
-
 
 
 #### Wire walker south
@@ -488,6 +522,9 @@ The tidal stages for this lap were :
   <img src="/_figures/WWN_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
   <figcaption>Figure 53. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
 </figure>
+
+
+
 
 
 
