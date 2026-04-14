@@ -78,7 +78,7 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 
 <figure>
-  <img src="/_figures/lap1_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
+  <img src="/_figures/lap1_NorthSouth_allmooringsSubplots_LINKED.png" alt="Description of image">
   <figcaption>Figure 5. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Times are in UTC.</figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ The tidal stages for this lap were
 **East/West**
 
 <figure>
-  <img src="/_figures/lap2_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
+  <img src="/_figures/lap2_EastWest_allmooringsSubplots_LINKED.png" alt="Description of image">
   <figcaption>Figure 9. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ The tidal stages for this lap were
 
 
 <figure>
-  <img src="/_figures/lap2_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
+  <img src="/_figures/lap2_NorthSouth_allmooringsSubplots_LINKED.png" alt="Description of image">
   <figcaption>Figure 10. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
@@ -193,7 +193,7 @@ The tidal stages for this lap were :
 **East/West**
 
 <figure>
-  <img src="/_figures/lap3_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
+  <img src="/_figures/lap3_EastWest_allmooringsSubplots_LINKED.png" alt="Description of image">
   <figcaption>Figure 14. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
@@ -201,7 +201,7 @@ The tidal stages for this lap were :
 
 
 <figure>
-  <img src="/_figures/lap3_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
+  <img src="/_figures/lap3_NorthSouth_allmooringsSubplots_LINKED.png" alt="Description of image">
   <figcaption>Figure 15. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
 </figure>
 
