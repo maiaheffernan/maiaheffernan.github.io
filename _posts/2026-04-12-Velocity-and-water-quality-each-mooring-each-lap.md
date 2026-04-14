@@ -250,7 +250,7 @@ This lap contains the high tide, the biggest ebb of the day, and the biggest tid
 
 Contrary to what we have seen above, the LoveJoy south and Inner bay south moorings show more dynamic profiles even though this occur during the low and slack/initially ebbing tides, respectively. The north/south velocity profiles are pretty stagnant at this time, as I have come to expect when the east/west velocities are large.
 
-What seems counterintuitive is that during the ebb portion of the lap-- which occured when we were in the northern length of the cove, so the top three panels of the plots and the WWS plot-- the east/west velocities in the inner bay and at LoveJoy are small and the north/south velocities are really large and heading primarily north throughout the entire water column.
+What seems counterintuitive is that during the ebb portion of the lap-- which occured when we were in the northern length of the cove, so the top three panels of the plots and the WWS plot-- the east/west velocities in the inner bay and at LoveJoy are small and the north/south velocities are really large and heading primarily north throughout the entire water column. If the going hypothesis is that water enters the cove in the north and leaves in the south it is interesting that at the northern sites the velocity is heading primarily to the north and only a bit to the east. Not sure what is going on here.
 
 
 #### Now the CTD profiles
@@ -263,6 +263,10 @@ What seems counterintuitive is that during the ebb portion of the lap-- which oc
 </figure>
 
 
+The profiles all look similar to what they were before. Note that what looks like a reduction inhypoxia at the WWS site in comparison to previous laps is actually a false pattern because this is the same DO profile as the WWN site which shows a consistent trend through the different laps.
+
+
+
 **Salinty in lap 3**
 
 
@@ -270,6 +274,9 @@ What seems counterintuitive is that during the ebb portion of the lap-- which oc
   <img src="/_figures/salinity_lap3_subplots.png" alt="Description of image">
   <figcaption>Figure 17. Salinity values at each mooring location in lap 3.</figcaption>
 </figure>
+
+We can see that the increased fresh layer (supposedly) from the Skagit River that was present during the flood is no longer there on the ebb. This makes sense but is cool to see!
+
 
 
 **Temperature in lap 3**
@@ -281,6 +288,14 @@ What seems counterintuitive is that during the ebb portion of the lap-- which oc
 </figure>
 
 
+
+
+
+## Takeaways 
+
+- I really did not find much in the velocities that help tell a story about the DO minimum.
+- Maybe I am conflating this minimum. If you look at the profiles at the DO "minimum" finger at depth of 15-20m, there is really only a change of about 1 mg/L of DO from the surrounding depths. The maximum DO concentration is about 9 mg/L, so this change is only 1/9th of the total range. Maybe these plots make it look much more drastic than it is and there is actually no meaningful DO minimum at depth. Hypoxia/near hypoxia really has the same biological implications everywhere. The more I look at the patterns, the more I think that I am barking up a non-existent tree.
+- The tradeoff of north/south and east/west velocity magnitudes at different tidal stages is interesting. I will be curious to see how circulation changes on larger time scales from the mooring deployment. I think the larger story is here!
 
 
 
