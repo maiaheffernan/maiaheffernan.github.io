@@ -144,9 +144,9 @@ The tidal stages for this lap were
 - Wire walker south: Flood
 - LoveJoy south: Flood
 - Back bay south: Flood
-- Back bay north: Flood becoming slack
+- Back bay north: Flood 
 - LoveJoy north: Flood
-- Wire walker north: Flood
+- Wire walker north: Flood becoming slack
 
 #### First the velocities
 
@@ -167,6 +167,12 @@ The tidal stages for this lap were
 
 
 
+All data collection in lap 2 occured during the flood. The final reading at the wire walker north site almost borders the slack tide if we take the convenetion that slack tide is about 30 minutes on either end of the high and low tide. Interestingly, there are not very strong velocities in either the east/west or the north/south profiles. There is a lot of noise in the bottom few bins from the ADCP that even the one standard deviation cutoff did not exclude. Despite this I still don't fully trust these values so I am going to assume they are noise even though they are a few meters above the bed. 
+
+Similar to what we saw during the ebb, the velocity on the south length of the cove leaves at the surface and comes in at depth. The fact that this occurs at both the ebb and the flood makes me confident in the circulation pattern that Dakota's plots show (I was already confident, but I am even more so now). This pattern does not make me think that the low DO water is being brought out at depth from the inner bay, though. The velocities at 15-20 meters are heading west, not east, and we do not see a DO minimum at the surface that might be advected from the eastward velocities (obviously, for both density and surface mixing reasons).
+
+The north/south velocities are also very stagnant during this flood period. This is similar to the north/south velocity profiles during the peak ebb. It seems like the east/west velocitiy signals dominate during the transition tides.
+
 #### Now the CTD profiles
 
 **Dissolved oxygen in lap 2**
@@ -175,6 +181,13 @@ The tidal stages for this lap were
   <img src="/_figures/DO_lap2_subplots.png" alt="Description of image">
   <figcaption>Figure 11. Dissolved oxygen values at each mooring location in lap 2.</figcaption>
 </figure>
+
+
+
+Honestly the DO profiles did not change much between this lap and the last lap. They have the same general shapes and there is still hypoxia. I am not too surprised, honestly, because drastic changes in DO levels on a tidal stage basis in the same day would be a little ridiculous.
+There is not much to say about how the velocities might impact the DO levels because they are so small for this flood period.
+
+
 
 
 **Salinty in lap 2**
@@ -186,6 +199,10 @@ The tidal stages for this lap were
 </figure>
 
 
+We can kind of see the intrusion of what I assume to be the Skagit River water in the wire walker north site as that fresh layer sits at about 5 meters depth. It is hard to compare this to the previous lap because a lot of the data at the surface was removed in the CTD cleaning process.
+
+
+
 **Temperature in lap 2**
 
 
@@ -195,6 +212,7 @@ The tidal stages for this lap were
 </figure>
 
 
+The temperature profiles here look similar to those in lap 1. There is no meaningful change here except for maybe the obvious Skagit surface layer at the wire walker north site.
 
 
 ### Lap 3
@@ -202,7 +220,7 @@ The tidal stages for this lap were
 The tidal stages for this lap were :  
 - Wire walker south: Ebb
 - LoveJoy south: Low/slack
-- Back bay south: Slack
+- Back bay south: Slack/ebb
 - Back bay north: Ebb
 - LoveJoy north: Ebb
 - Wire walker north: Ebb
@@ -213,7 +231,7 @@ The tidal stages for this lap were :
 
 <figure>
   <img src="/_figures/lap3_EastWest_allmooringsSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 14. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+  <figcaption>Figure 14. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Note that the timestamp for WWN and WWS is the same because this was the closest reading to both of these locations.</figcaption>
 </figure>
 
 **North/South**
@@ -221,10 +239,18 @@ The tidal stages for this lap were :
 
 <figure>
   <img src="/_figures/lap3_NorthSouth_allmooringsSubplots_LINKED.png" alt="Description of image">
-  <figcaption>Figure 15. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+  <figcaption>Figure 15. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean. Note that the timestamp for WWN and WWS is the same because this was the closest reading to both of these locations.</figcaption>
 </figure>
 
 
+
+It feels like this is where things get a bit interesting. Note that the timestamp for WWN and WWS profiles is the same. It is likely that the closest value to both of these sites is the same, but I will go back and double check the code to make sure it is doing the correct thing.
+
+This lap contains the high tide, the biggest ebb of the day, and the biggest tidal change of the day overall. It makes sense that we see some more dynamic velocity profiles. 
+
+Contrary to what we have seen above, the LoveJoy south and Inner bay south moorings show more dynamic profiles even though this occur during the low and slack/initially ebbing tides, respectively. The north/south velocity profiles are pretty stagnant at this time, as I have come to expect when the east/west velocities are large.
+
+What seems counterintuitive is that during the ebb portion of the lap-- which occured when we were in the northern length of the cove, so the top three panels of the plots and the WWS plot-- the east/west velocities in the inner bay and at LoveJoy are small and the north/south velocities are really large and heading primarily north throughout the entire water column.
 
 
 #### Now the CTD profiles
