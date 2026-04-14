@@ -26,7 +26,7 @@ The main reason for doing this analysis has been to determine what might be caus
 
 
 <figure>
-  <img src="/_figures/TempSalDO_marchingProfilesSouthLength.png" alt="Description of image">
+  <img src="/_figures/TempSalDO_marchingprofilesSouthLength.png" alt="Description of image">
   <figcaption>Figure 2. Dissolved oxygen, temperature, salinity profiles along southern length of Penn Cove.</figcaption>
 </figure>
 
