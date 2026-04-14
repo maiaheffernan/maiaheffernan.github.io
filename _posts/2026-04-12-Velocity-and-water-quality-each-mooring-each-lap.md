@@ -193,62 +193,304 @@ The tidal stages for this lap were
 - LoveJoy north: Flood
 - Wire walker north: Flood
 
-First, the velocities.
+#### First the velocities
+
+**East/West**
+
+<figure>
+  <img src="/_figures/lap2_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 21. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+</figure>
+
+**North/South**
+
+
+<figure>
+  <img src="/_figures/lap2_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 22. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+</figure>
 
 
 
+#### Now the CTD profiles
 
+**Dissolved oxygen in lap 2**
+
+<figure>
+  <img src="/_figures/DO_lap2_subplots.png" alt="Description of image">
+  <figcaption>Figure 23. Dissolved oxygen values at each mooring location in lap 2.</figcaption>
+</figure>
+
+
+**Salinty in lap 2**
+
+
+<figure>
+  <img src="/_figures/salinity_lap2_subplots.png" alt="Description of image">
+  <figcaption>Figure 24. Salinity values at each mooring location in lap 2.</figcaption>
+</figure>
+
+
+**Temperature in lap 2**
+
+
+<figure>
+  <img src="/_figures/temperature_lap2_subplots.png" alt="Description of image">
+  <figcaption>Figure 25. Dissolved oxygen values at each mooring location in lap 2.</figcaption>
+</figure>
+
+
+#### And the TS plots
 
 
 
 #### Wire walker south
 
+<figure>
+  <img src="/_figures/WWS_lap2_TSplot.png" alt="Description of image">
+  <figcaption>Figure 26. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/WWS_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 27. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
 
 
 #### LoveJoy south
+
+<figure>
+  <img src="/_figures/LoveJoyS_lap2_TSplot.png" alt="Description of image">
+  <figcaption>Figure 28. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyS_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 29. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
 
 
 
 
 #### Inner bay south
 
+<figure>
+  <img src="/_figures/InnerS_lap2_TSplot.png" alt="Description of image">
+  <figcaption>Figure 30. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerS_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 31. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
 
 
 #### Inner bay north
+
+
+<figure>
+  <img src="/_figures/InnerN_lap2_TSplot.png" alt="Description of image">
+  <figcaption>Figure 32. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerN_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 33. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
 
 
 
 #### LoveJoy north
 
 
+<figure>
+  <img src="/_figures/LoveJoyN_lap2_TSplot.png" alt="Description of image">
+  <figcaption>Figure 34. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyN_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 35. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
 #### Wire walker north
+
+
+<figure>
+  <img src="/_figures/WWN_lap2_TSplot.png" alt="Description of image">
+  <figcaption>Figure 36. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/WWN_lap2_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 37. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
 
 
 
 ### Lap 3
 
+The tidal stages for this lap were :  
+- Wire walker south: Ebb
+- LoveJoy south: Low/slack
+- Back bay south: Slack
+- Back bay north: Ebb
+- LoveJoy north: Ebb
+- Wire walker north: Ebb
+
+#### First the velocities
+
+**East/West**
+
+<figure>
+  <img src="/_figures/lap3_EastWest_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 38. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+</figure>
+
+**North/South**
+
+
+<figure>
+  <img src="/_figures/lap3_NorthSouth_allmooringSubplots_LINKED.png" alt="Description of image">
+  <figcaption>Figure 39. Average velocity profiles from 5 nearest readings for each mooring location. Shaded region shows standard deviation around the mean.</figcaption>
+</figure>
+
+
+
+
+#### Now the CTD profiles
+
+**Dissolved oxygen in lap 3**
+
+<figure>
+  <img src="/_figures/DO_lap3_subplots.png" alt="Description of image">
+  <figcaption>Figure 40. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
+</figure>
+
+
+**Salinty in lap 3**
+
+
+<figure>
+  <img src="/_figures/salinity_lap3_subplots.png" alt="Description of image">
+  <figcaption>Figure 40. Salinity values at each mooring location in lap 3.</figcaption>
+</figure>
+
+
+**Temperature in lap 3**
+
+
+<figure>
+  <img src="/_figures/temperature_lap3_subplots.png" alt="Description of image">
+  <figcaption>Figure 41. Dissolved oxygen values at each mooring location in lap 3.</figcaption>
+</figure>
+
+
+
+#### And the TS plots
+
+
 
 #### Wire walker south
+
+<figure>
+  <img src="/_figures/WWS_lap3_TSplot.png" alt="Description of image">
+  <figcaption>Figure 42. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/WWS_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 43. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
 
 
 
 #### LoveJoy south
+
+<figure>
+  <img src="/_figures/LoveJoyS_lap3_TSplot.png" alt="Description of image">
+  <figcaption>Figure 44. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyS_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 45. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
 
 
 
 
 #### Inner bay south
 
+<figure>
+  <img src="/_figures/InnerS_lap3_TSplot.png" alt="Description of image">
+  <figcaption>Figure 46. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerS_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 47. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
 
 
 #### Inner bay north
+
+
+<figure>
+  <img src="/_figures/InnerN_lap3_TSplot.png" alt="Description of image">
+  <figcaption>Figure 48. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/InnerN_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 49. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
 
 
 
 #### LoveJoy north
 
 
+<figure>
+  <img src="/_figures/LoveJoyN_lap3_TSplot.png" alt="Description of image">
+  <figcaption>Figure 50. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/LoveJoyN_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 51. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
+
 #### Wire walker north
+
+
+<figure>
+  <img src="/_figures/WWN_lap3_TSplot.png" alt="Description of image">
+  <figcaption>Figure 52. TS plot colored by dissolved oxygen.</figcaption>
+</figure>
+
+<figure>
+  <img src="/_figures/WWN_lap3_TSplot_hypoxiaColors.png" alt="Description of image">
+  <figcaption>Figure 53. TS plot colored by dissolved oxygen with the hypoxia colormap.</figcaption>
+</figure>
+
+
+
 
 
 
