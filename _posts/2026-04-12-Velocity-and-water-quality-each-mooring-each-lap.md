@@ -59,9 +59,17 @@ For the velocity plots below for the first lap, here are the tidal stages each m
 
 
 
-/
 
-I am going to break down the velocity, CTD, and TS plots for each mooring in lap 1 now.
+
+I am going to break down the velocity, CTD, and TS plots for each mooring in lap 1 and provide the TS plot for each mooring location in lap 1.
+
+
+**Dissolved oxygen in lap 1**
+
+<figure>
+  <img src="/_figures/DO_lap1_subplots.png" alt="Description of image">
+  <figcaption>Figure 6. Dissolved oxygen values at each mooring location in lap 1. For the bottom three panels the dies was ebbing, for the top left panel the tide was slack, for the top middle panel the tide was at its low. In the top right panel the tide was slack.</figcaption>
+</figure>
 
 
 
