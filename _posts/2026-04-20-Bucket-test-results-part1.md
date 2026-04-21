@@ -32,6 +32,8 @@ These sensors measure dissolved oxygen (optical) and temperature (thermistor). I
 </figure>
 
 
+
+
 I am a little concerned with the DO readings between the sensors. Some of the differences between the values are within a few tenths of a mg/L, but there are a couple sensors, SN 241789 and SN 241790 (second panels in the plots) that are almost 1 mg/L different from each other. This could be pretty significant in our system. The initial accuracy of the dissolved oxygen values for these sensors should be a maximum of +/- 2µmol/L which is 0.064 mg/L. The differences in the vlaues we see here are larger than that. 
 
 
@@ -62,6 +64,8 @@ I sampled these on April 15. I put 14 of these these sensors in one bucket and t
 </figure>
 
 
+
+
 This plot is a bit confusing because my end time filtering came after I pulled all the sensors out. However, the start time in this plot is correct as I started the timer after all the sensors were in the water for a couple minutes.
 
 Given this, these look pretty good and are consistent with the temperatures that the RBR T.ODOs. I feel pretty good about these but I am still going to re-test them on Thursday.
@@ -89,6 +93,9 @@ I sampled these on April 15. I put these sensors together in a single bucket wit
   <figcaption>Figure 6. Pressure readings from the Duo sensors.</figcaption>
 </figure>
 
+
+
+
 These both look pretty good to me! Yay for new sensors.
 
 ### Sampling intervals
@@ -109,12 +116,14 @@ I did this bucket test yesterday, April 20. I put the miniDOTS in the same bucke
 
 
 
+
 Well, the trends in dissolved oxygen are the same which is heartening. The range between the sensors is not super large and they match the RBR well. For our purposes, these values seem decent. Also, the oxygen accuracy is about +/- 0.3 mg/L (or +/- 5% of the measurement, depending on whichever is larger) which explains the differences in the values almost perfectly. In case you're curious, the oxygen response time is about 30 seconds.
 
 <figure>
   <img src="/_figures/DOComp_miniDOTsRBR.png" alt="Description of image">
   <figcaption>Figure 8. Temperature readings from the miniDOT sensors compared to the RBR T.ODO.</figcaption>
 </figure>
+
 
 
 
