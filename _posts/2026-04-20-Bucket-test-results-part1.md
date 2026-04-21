@@ -130,6 +130,7 @@ The miniDOTS can sample at an interval of 5 seconds to 24 hours. I have yet to c
 - Re-test the solo Ts
 - Test the RBR concerto with the upcast only sampling
 - Test the other two Concertos that will go on the v4 SWIFT moorings
+- Determine the sampling intervals for all these sensors
 
-This will conclude the external sensors assumin
+This will conclude the external sensors assuming there is no need to test the SWIFT sensors.
 
