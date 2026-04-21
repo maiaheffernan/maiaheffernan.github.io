@@ -30,4 +30,4 @@ These sensors measure dissolved oxygen (optical) and temperature (thermistor). I
 </figure>
 
 
-I am a little concerned with the DO readings between the sensors. The values are in µmol/L, but 
+I am a little concerned with the DO readings between the sensors. Some of the differences between the values are within a few tenths of a mg/L, but there are a couple sensors, SN 241789 and SN 241790 (second panels in the plots) that are almost 1 mg/L different from each other. This could be pretty significant in our system. 
