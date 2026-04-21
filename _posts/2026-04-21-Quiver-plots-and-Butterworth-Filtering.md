@@ -50,7 +50,9 @@ Tidal stages for the second lap:
 
 - The flood is a totally different story here! The southern sites' bottom velocities are stronger than the surface velocities and we see the continuation of the consistent circulation cell that leaves at the surface and enters at depth. This change in magnitude is really interesting, though.
 - The northern sites: Still primarily trending north at the surface but definiely exiting the cove at the surface. It is interesting that the bottom velocities are similar to what they were during the ebb and slack and heading towards the middle of the cove-- maybe this points to the circulation pattern Dakota plotted up a while ago?
-- WWN north has no surface velocity and water is entering the cove at depth? Not sure I believe this arrow, but if it is true that would be a strange process.
+- WWN north has no surface velocity and water is entering the cove at depth? The arrow is there, it is just really small!
+  <img width="1078" height="643" alt="Screenshot 2026-04-21 at 1 59 02 PM" src="https://github.com/user-attachments/assets/39cc6281-9ed1-4128-ae19-be540a95b165" />
+
 
 
 
