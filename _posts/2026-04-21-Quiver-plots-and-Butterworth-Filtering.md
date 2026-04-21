@@ -29,9 +29,30 @@ Tidal stages for the first lap:
 
 Tidal stages for the second lap:
 
+- Wire walker south: Flood
+- LoveJoy south: Flood
+- Back bay south: Flood
+- Back bay north: Flood 
+- LoveJoy north: Flood
+- Wire walker north: Flood becoming slack
 
 
 <figure>
-  <img src="/_figures/lap1_quiverPlots.png" alt="Description of image">
+  <img src="/_figures/lap2_quiverPlots.png" alt="Description of image">
   <figcaption>Figure 2. Quiver plot of velocity in the first lap from the RDI Workhorse ADCP pole-mounted on the R/V Echo in December.</figcaption>
+</figure>
+
+
+
+#### Lap 3
+
+Tidal stages for the third lap:
+
+
+
+
+
+<figure>
+  <img src="/_figures/lap3_quiverPlots.png" alt="Description of image">
+  <figcaption>Figure 3. Quiver plot of velocity in the first lap from the RDI Workhorse ADCP pole-mounted on the R/V Echo in December.</figcaption>
 </figure>
