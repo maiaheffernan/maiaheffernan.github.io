@@ -5,9 +5,33 @@
 We talked about these plots last meeting. Plotted are the average velocities from the top 0-10m and bottom 10-20 meters in the water column at each mooring location. Note these are rough plots and definitely need more fine tuning (note the large 0.5 m/s reference arrow at the bottom). 
 
 
-Tidal stages:
+#### Lap 1
+
+Tidal stages for the first lap:
+
+- Wire walker south: Ebb
+- LoveJoy south: Ebb
+- Back bay south: Ebb
+- Back bay north: Slack (assuming slack occurs about 30 minutes before the high or low)
+- LoveJoy north: Low
+- Wire walker north: Slack, entering the flood
+
+
 
 <figure>
   <img src="/_figures/lap1_quiverPlots.png" alt="Description of image">
   <figcaption>Figure 1. Quiver plot of velocity in the first lap from the RDI Workhorse ADCP pole-mounted on the R/V Echo in December.</figcaption>
+</figure>
+
+
+
+#### Lap 2
+
+Tidal stages for the second lap:
+
+
+
+<figure>
+  <img src="/_figures/lap1_quiverPlots.png" alt="Description of image">
+  <figcaption>Figure 2. Quiver plot of velocity in the first lap from the RDI Workhorse ADCP pole-mounted on the R/V Echo in December.</figcaption>
 </figure>
