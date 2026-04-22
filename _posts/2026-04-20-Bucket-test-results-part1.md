@@ -120,7 +120,7 @@ I did this bucket test yesterday, April 20. I put the miniDOTS in the same bucke
 Well, the trends in dissolved oxygen are the same which is heartening. The range between the sensors is not super large and they match the RBR well. For our purposes, these values seem decent. Also, the oxygen accuracy is about +/- 0.3 mg/L (or +/- 5% of the measurement, depending on whichever is larger) which explains the differences in the values almost perfectly. In case you're curious, the oxygen response time is about 30 seconds.
 
 <figure>
-  <img src="/_figures/DOComp_miniDOTsRBR.png" alt="Description of image">
+  <img src="/_figures/TempComp_miniDOTsRBR.png" alt="Description of image">
   <figcaption>Figure 8. Temperature readings from the miniDOT sensors compared to the RBR T.ODO.</figcaption>
 </figure>
 
