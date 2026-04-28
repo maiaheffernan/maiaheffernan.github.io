@@ -9,9 +9,57 @@ After doing some inventory in the lab it turns out we do not have a bubbler and 
 All in all the sensors were in the bucket for 2.5 hours with a lid on top, but not locked down onto the rim of the bucket so oxygen could still get through. I also put my rain jacket over the bucket to minimize any light interference with the optodes just in case this is important. Below is a photo of the setup.
 
 
+<figure>
+  <img src="/_figures/ice_sensorSetup.png" alt="Description of image">
+  <figcaption>Figure 1. MiniDOT and RBR T.ODO setup with ice added about an hour after the test was started.</figcaption>
+</figure>
 
+
+
+
+
+<figure>
+  <img src="/_figures/jacket.png" alt="Description of image">
+  <figcaption>Figure 2. Keeping the ligh tout of the bucket.</figcaption>
+</figure>
 
 
 
 #### Results
 
+**Dissolved Oxygen**
+
+
+<figure>
+  <img src="/_figures/miniDOT_DOcomp_23Apr2026.png" alt="Description of image">
+  <figcaption>Figure 3. Dissolved oxygen comparison between the miniDOTs and the RBR T.ODO sensor.</figcaption>
+</figure>
+
+
+Okay so some good and bad here. First, when we stirred the bucket the DO concentration increased across all sensors. The initial DO values spread about 0.2-0.3 mg/L which is within the spec range of the DO values. The DO values from the miniDOTs are generally higher than the T.ODO values in this first part of the test before we stirred the bucket but then the values are a bit over the map but generally smaller than the T.ODO oxygen concentrations after we stirred everything. 
+
+What really concerns me, though, is that when we put the ice in the T.ODO concentrations increased whereas the miniDOT values all decreased, some by 1 mg/L. Eventually all the measurement values evened out to a more realistic level between the T.ODO and the miniDOTs, but the initial opposite trends are a bit concerning. I do not think that the dissolved oxygen concentrations will drastically change within a 5-10 minute period but the discrepancy is disconcerting. 
+
+
+**Temperature**
+
+<figure>
+  <img src="/_figures/miniDOT_Tempcomp_23Apr2026.png" alt="Description of image">
+  <figcaption>Figure 4. Temperature comparison between the miniDOTs and the RBR T.ODO sensor.</figcaption>
+</figure>
+
+
+This pattern looks a lot more realistic and I am really happy to see that all the values line up nicely together. The lag in the temperature drop makes sense because it takes time for the ice to melt and the thermistors have a 5 minute response time.
+
+
+### Takeaways
+
+Well we knew the miniDOTs were not great. The dip in DO concentration when it should really be an increase is concerning, though I don't think there is much we can do about this. The temperature looks good, though!
+
+### Plan for this week
+
+I've got a few lofty goals for this week!
+
+- retest the T.ODOs again now that the optodes have been rehydrated
+- serial program the RBR Concerto
+- finish the sampling plan document
