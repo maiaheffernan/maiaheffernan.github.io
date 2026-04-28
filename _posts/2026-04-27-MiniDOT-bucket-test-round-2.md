@@ -20,7 +20,7 @@ All in all the sensors were in the bucket for 2.5 hours with a lid on top, but n
 
 <figure>
   <img src="/_figures/jacket.png" alt="Description of image">
-  <figcaption>Figure 2. Keeping the ligh tout of the bucket.</figcaption>
+  <figcaption>Figure 2. Keeping the light out of the bucket.</figcaption>
 </figure>
 
 
@@ -36,9 +36,9 @@ All in all the sensors were in the bucket for 2.5 hours with a lid on top, but n
 </figure>
 
 
-Okay so some good and bad here. First, when we stirred the bucket the DO concentration increased across all sensors. The initial DO values spread about 0.2-0.3 mg/L which is within the spec range of the DO values. The DO values from the miniDOTs are generally higher than the T.ODO values in this first part of the test before we stirred the bucket but then the values are a bit over the map but generally smaller than the T.ODO oxygen concentrations after we stirred everything. 
+Okay so some good and bad here. First, when we stirred the bucket the DO concentration increased across all sensors. This is what we expected to happen so this is good. The initial DO values before we stirred the bucket spread about 0.2-0.3 mg/L which is within the spec range of the DO values. The DO values from the miniDOTs are generally higher than the T.ODO values in this first part of the test before we stirred the bucket but then the values are a bit over the map but generally smaller than the T.ODO oxygen concentrations after we stirred everything. This spread isn't great, but it is not totally unexpected given that we know these aren't the most accurate sensors.
 
-What really concerns me, though, is that when we put the ice in the T.ODO concentrations increased whereas the miniDOT values all decreased, some by 1 mg/L. Eventually all the measurement values evened out to a more realistic level between the T.ODO and the miniDOTs, but the initial opposite trends are a bit concerning. I do not think that the dissolved oxygen concentrations will drastically change within a 5-10 minute period but the discrepancy is disconcerting. 
+What concerns  me, though, is that when we put the ice in the bucket the T.ODO concentrations increased whereas the miniDOT values all decreased, some by 1 mg/L. Eventually all the measurement values evened out to a more realistic level between the T.ODO and the miniDOTs, but the initial opposite trends are a bit concerning. I do not think that the dissolved oxygen concentrations will drastically change within a 5-10 minute period but the discrepancy and the fact that the miniDOTs showed the exact opposite trend from what we expect both scientifically and in terms of matching with the RBR are disconcerting.
 
 
 **Temperature**
