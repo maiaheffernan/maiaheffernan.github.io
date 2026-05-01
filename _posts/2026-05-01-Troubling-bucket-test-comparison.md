@@ -8,8 +8,8 @@ The RBR Duets have been giving me some issues as we all know by now. In this wri
 You might recall that I performed this test in a bucket of seawater 2 sensors at a time and did three different rounds of testing. I helpd the two sensors in the bucket for 2 minutes in each round. The range in dissolved oxygen values were concerning, so I reached out to RBR with a report and they suspected the optodes were not hydrated and suggested I hydrate them for at least 5 days and re-try the test and then perform a two-point calibration if things looked a little funky after that second test. Below are the plots from round 1.
 
 **Note: Spec sheet accuracy ranges**
-**- Temperature: +/- 0.002 deg C**
-**- Optical DO: +/- 8µmol/L (0.2560 mg/L assuming a molar mass of 32 g/mol for O_2) or +/- 5%**
+-   **Temperature: +/- 0.002 deg C**
+-   **Optical DO: +/- 8µmol/L (0.2560 mg/L assuming a molar mass of 32 g/mol for O_2) or +/- 5%**
   
 
 
