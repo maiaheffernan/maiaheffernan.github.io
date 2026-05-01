@@ -1,16 +1,27 @@
 # Comparing three different bucket tests of the RBR T.ODO duets 
 
-The RBR Duets have been giving me some issues as we all know by now. In this writeup I compare the results from three separate bucket tests. I think it is time to move forward with the two-point user calibration that is detailed in the RBR manual that was recommended to me by the folks up here in an email last week. I will walk through my reasoning below.
+As we all know by now, the RBR T.ODO Duets have been giving some unreliable data from the bucket tests. The DO concentration ranges have been especially concerning as sometimes the sensors differ by almost 1 mg/L in the same bucket. This has been surprising given that these are fresh out of the box from RBR. In this writeup I compare the results from three separate bucket tests. I think it is time to move forward with the two-point user calibration that is detailed in the RBR manual that was recommended to me by the folks up here in an email last week. I will walk through my reasoning below.
 
 
 ## Test 1, April 8
 
-You might recall that I performed this test in a bucket of seawater 2 sensors at a time and did three different rounds of testing. I helpd the two sensors in the bucket for 2 minutes in each round. The range in dissolved oxygen values were concerning, so I reached out to RBR with a report and they suspected the optodes were not hydrated and suggested I hydrate them for at least 5 days and re-try the test and then perform a two-point calibration if things looked a little funky after that second test. Below are the plots from round 1.
+You might recall that I performed this test in a bucket of seawater by comparing 2 sensors at a time in three different rounds of testing. I held the two sensors in the bucket for 2 minutes in each round. The range in dissolved oxygen values were concerning, so I reached out to RBR with a report and they suspected the optodes were not hydrated. They suggested I rehydrate them for at least 5 days and redo the bucket test and then perform a two-point calibration if the values still seemed unreliable after that second test. Below are the experimental setup and plots from this first bucket testing.
+
+
+
+<img width="842" height="722" alt="Screenshot 2026-05-01 at 4 32 11 PM" src="https://github.com/user-attachments/assets/8ac2f818-9e83-41bf-a63f-203a5386e397" />
+
+
+
+
+
 
 **Note: Spec sheet accuracy ranges**
 -   **Temperature: +/- 0.002 deg C**
 -   **Optical DO: +/- 8µmol/L (0.2560 mg/L assuming a molar mass of 32 g/mol for O_2) or +/- 5%**
   
+
+
 
 
 #### Round 1
@@ -40,18 +51,21 @@ You might recall that I performed this test in a bucket of seawater 2 sensors at
 
 
 
+
+
+
 *Here is what I said about this in a previous blog post:*
 
-I am a little concerned with the DO readings between the sensors. Some of the differences between the values are within a few tenths of a mg/L, but there are a couple sensors, SN 241789 and SN 241790 (second panels in the plots) that are almost 1 mg/L different from each other. This could be pretty significant in our system. The initial accuracy of the dissolved oxygen values for these sensors should be a maximum of +/- 2µmol/L which is 0.064 mg/L. The differences in the vlaues we see here are larger than that. 
+I am a little concerned with the DO readings between the sensors. Some of the differences between the values are within a few tenths of a mg/L, but there are a couple sensors, SN 241789 and SN 241790 (second panels in the plots) that are almost 1 mg/L different from each other. This could be pretty significant in our system. The initial accuracy of the dissolved oxygen values for these sensors should be a maximum of +/- 8µmol/L (0.2560 mg/L). The differences in the vlaues we see here are larger than that. 
 
 
 ## Test 2, April 29
 
-Okay so I think this test is a bit of a fluke. Instead of seawater, I put the sensors in a bucket of fresh water this time. I also used the pressurized air from the shop as a makeshift bubbler. After letting the bubbler aerate the bucket of fresh water for about 10 monites, I put all the sensors in the bucket and let them go for a couple hours with the bubbler still running. I covered the bucket with jackets to keep the light out as these are optical sensors and I did not want any interference. 
+This was supposed to be my post-rehydration test, but I think is is a bit of a fluke due to my bucket test setup. Instead of seawater, I put the sensors in a bucket of tap water in order to ensure that nothing is living or decomposing in it which would draw down oxygen levels. I also used the pressurized air from the shop as a makeshift bubbler to give a constant supply of oxygen. After letting the bubbler aerate the bucket for about 10 minutes, I put all the sensors in the bucket and let them saample at 1 Hz for a couple hours with the bubbler still running. I covered the bucket with jackets to keep the light out as these are optical sensors and I did not want any interference. 
 
-A rookie mistake, I did not take a photo of the sensors in the bucket. However, they were all resting in the bucket at an angle with the sensor heads on the bottom of the bucket and all the optical sensors pointing up. As you can see in the figure the values are all over the place and I think this is because some of the sensors were closer to the bubbler than others, so they were reading higher oxygen saturation and concentration values (duh... but I obviously did not think about this in the moment). 
+Unfortunately, I did not take a photo of the sensors in the bucket (a rookie mistake). However, they were all submerged in the bucket resting at an angle with the sensor heads on the bottom of the bucket with the optical sensors pointing up (resting diagonally in the bucket like a piece of spaghetti would in a pot before it softens if that helps to visualize). As you can see in the figure the values are all over the place and I think this is because some of the sensors were closer to the bubbler than others, so they were reading higher oxygen saturation and concentration values (duh... but I obviously did not think about this in the moment). 
 
-Given this, I did/do not trust the resulting plot, but I figured I would include it anyway.
+Given this, I did/do not trust the resulting plot from this test, but I figured I would include it anyway.
 
 <figure>
   <img src="/_figures/bucketTest2_duets_flukeTest.png" alt="Description of image">
@@ -61,12 +75,12 @@ Given this, I did/do not trust the resulting plot, but I figured I would include
 
 
 
-Obviously, the large range in values is concerning. But is this lack of precision real given the setup? This brings us to the third bucket test. Note that between tests the sensors were stored with enough distilled water in their protective caps to ensure the optodes did not dry out.
+Obviously, the large range in values is concerning. But is this lack of precision real given the poor experimental setup? This brings us to the third bucket test. Note that between tests the sensors were stored with enough distilled water in their protective caps to ensure the optodes did not dry out.
 
 
 ## Test 3, May 1 
 
-Given my failures from the past two tests I tried to make this setup ideal. I got a bigger bucket: a trash can, to be specific. I also made sure all of the sensor heads were on the opposite side of the trash can from the makeshift bubbler and all the optodes were pointed up. I also staggered the sensors so the heads weren't directly next to each other. See the image below for the setup.
+Given my failures from the past two tests I tried to make this setup ideal. I got a bigger bucket: a trash can, to be specific. The sensors were all lying flat on the bottom of the bucket. I made sure all of the sensor heads were on the opposite side of the trash can from the makeshift bubbler and all the optodes were pointed up. I also staggered the sensors so the heads weren't directly next to each other. See the image below for the setup. The green lights are the flashes from the optodes.
 
 <img width="1170" height="2532" alt="IMG_990B6891D2D9-1" src="https://github.com/user-attachments/assets/c8951caa-eb0c-4704-aca6-13767d19dc60" />
 
@@ -86,6 +100,6 @@ Despite my best attempts, the data from this bucket test still do not look good.
 
 
 
-The range of DO concentration is especially concerning. Also, I am not sure why oxygen would be decreasing if there is continual bubbling. What it interesting to note is that the sensor that reads really low values in this plot, SN241790, is the same one that read low values in the previous two tests as well. 
+The range of DO concentration is especially concerning. Also, I am not sure why oxygen would be decreasing if there is continual bubbling and the water is from the tap. Interestingly, the sensor that reads really low values in this plot, SN241790, is the same one that read low values in the previous two tests as well. My guess is that there is something up with this one.
 
-I think it is time to do this two-point calibration that RBR suggested. Happy to elaborate more and talk through things next week. 
+I think it is time to do this two-point calibration that RBR suggested. Happy to elaborate more and talk through things next week but I do want to get on this because performing this calibration requires ordering some sodium sulphate and I want to get this done ASAP.
