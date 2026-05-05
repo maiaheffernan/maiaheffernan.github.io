@@ -27,6 +27,6 @@ These are the main thoughts and questions I would like to discuss tomorrow. I am
 
 Also, here are the updated mooring color schematics you asked for, **Alex**! Note that the CT at the surface in the wire walker v3 moorings might not happen, at least in May. 
 
-
+Updated_mooringColors (1).png
 
 
