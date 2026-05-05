@@ -30,7 +30,7 @@ Also, here are the updated mooring color schematics you asked for, **Alex**! ***
 
 
 <figure>
-  <img src="/_figures/Updated_mooringColors (1).png" alt="Description of image">
+  <img src="/_figures/Updated_mooringColors.png" alt="Description of image">
 </figure>
 
 
