@@ -4,6 +4,12 @@ Everything has been deployed in Penn Cove! There are a few small maitenance thin
 
 This is a look at some initial plots from that deployment. Note that this data has only been **LIGHTLY QC'd**, so this is just to get an idea at general trends. The SWIFT data is from telemetry pulls form the beginning of the deployment until now. I also have some plots from the ADCP transecting and CTD tow-yo casting at the bottom of this document.
 
+I have also not had much time to really dig into these yet, so I am including them here just to have one spot where everything is so I can reference it later.
+
+The main points here are that there is a pretty clear signal in the SWIFT data when fronts come through Penn Cove-- there is a drop in salinity, a jump in temperature, and a chang ein disolved oxygen at the surface. Often the dissolved oxygen increases with these fronts. Looking at the wind speed with Alex, the initial hypothesis is that the frontal water that is coming in has more surface oxygen because the greater fetch in Saratoga Passage creates waves which drasticaly increases the amount of DO in the surface layer of the water. Note that the CT and oxygen optodes sit at around 0.2m in the water column. 
+
+
+
 
 ## Telemetry findings
 
@@ -30,7 +36,7 @@ This is a look at some initial plots from that deployment. Note that this data h
 
 
 
-- We can see some frontal interactions!! River water coming in == more oxygen? Is this from the river itself or is there enough mixing at the frontal boundary to mix more oxygen into the water column? This is something I am going to be looking into more.
+- We can see some frontal interactions here! 
 
 ### Inner north, SWIFT 26
 
@@ -97,6 +103,140 @@ This is a look at some initial plots from that deployment. Note that this data h
 
 We ended up doing 16 laps across the LoveJoy line over the course of the flood. We started a slack right before the flood got going and then sampled all the way through peak flood. There are a lot of plots to look at here, I am working on making this more digestable!
 
+
+I will start form the first transect at slack and then progress through the flood.
+
+
+### Lap 1, slack 
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap1_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 11. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 1 of 16.</figcaption>
+</figure>
+
+
+### Lap 2, slack/flood beginning
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap2_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 12. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 1 of 16.</figcaption>
+</figure>
+
+
+### Laps 3 (end) and 4 (full), early flood
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap3end_lap4all_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 13. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Laps 3 and 4 of 16.</figcaption>
+</figure>
+
+
+### Lap 5, early flood
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap5_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 14. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 5 of 16.</figcaption>
+</figure>
+
+
+### Lap 6, flood
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap6_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 15. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 6 of 16.</figcaption>
+</figure>
+
+
+
+### Lap 7, flood
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap7_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 16. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 7 of 16.</figcaption>
+</figure>
+
+
+### Lap 8, peak flood
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap8_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 17. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 8 of 16.</figcaption>
+</figure>
+
+
+### Lap 9, peak flood
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap9_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 18. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 9 of 16.</figcaption>
+</figure>
+
+
+### Lap 10, peak flood
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap10_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 19. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 10 of 16.</figcaption>
+</figure>
+
+
+### Lap 11, peak flood
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap11_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 20. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 11 of 16.</figcaption>
+</figure>
+
+
+### Lap 12, peak flood
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap12_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 21. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 12 of 16.</figcaption>
+</figure>
+
+
+
+### Lap 13, backing off peak flood, entering slower flood
+
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap13_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 22. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 13 of 16.</figcaption>
+</figure>
+
+
+### Lap 14, slower flood
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap14_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 23. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 14 of 16.</figcaption>
+</figure>
+
+
+
+### Lap 15, flood tending towards slack
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap15_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 24. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 15 of 16.</figcaption>
+</figure>
+
+
+### Lap 16, flood tending towards slack
+
+
+<figure>
+  <img src="/_figures/Robertson_ADCP_27May2026_lap16_ENUquicklook.png" alt="Description of image">
+  <figcaption>Figure 25. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 16 of 16.</figcaption>
+</figure>
 
 
 
