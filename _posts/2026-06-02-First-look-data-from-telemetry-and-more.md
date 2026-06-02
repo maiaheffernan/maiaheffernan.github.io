@@ -95,5 +95,12 @@ This is a look at some initial plots from that deployment. Note that this data h
 
 ## ADCP transecting
 
+We ended up doing 16 laps across the LoveJoy line over the course of the flood. We started a slack right before the flood got going and then sampled all the way through peak flood. There are a lot of plots to look at here, I am working on making this more digestable!
+
+
+
+
+
+
 
 
