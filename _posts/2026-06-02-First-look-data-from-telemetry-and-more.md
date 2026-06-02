@@ -115,6 +115,9 @@ I will start form the first transect at slack and then progress through the floo
 </figure>
 
 
+Here the velocity is pretty uniform and relatively slow from north to south across the LoveJoy line. This carries on through the first part of the slack in the next few plots.
+
+
 ### Lap 2, slack/flood beginning
 
 <figure>
@@ -162,6 +165,9 @@ I will start form the first transect at slack and then progress through the floo
   <img src="/_figures/Robertson_ADCP_27May2026_lap8_ENUquicklook.png" alt="Description of image">
   <figcaption>Figure 17. Teledyne RDI workhorse 1200kHz ADCP short-term average (30 second ensembles) transect. Note that there has been minimal QC applied to this ADCP data. Lap 8 of 16.</figcaption>
 </figure>
+
+
+Here at peak flood we can really start to see the two-layer flow pick up! 
 
 
 ### Lap 9, peak flood
