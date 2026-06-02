@@ -253,6 +253,15 @@ Here at peak flood we can really start to see the two-layer flow pick up! We see
 
 
 
+Here at the end we start to see flow getting weaker and the two-layer system looks like it is beginning ot dissipate. Very exciting and more to follow here with SWIFT velocity data.
+
+
+
+
+
+
+
+
 
 
 
