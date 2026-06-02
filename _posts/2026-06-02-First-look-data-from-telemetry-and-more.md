@@ -115,7 +115,10 @@ I will start form the first transect at slack and then progress through the floo
 </figure>
 
 
-Here the velocity is pretty uniform and relatively slow from north to south across the LoveJoy line. This carries on through the first part of the slack in the next few plots.
+
+
+
+Here the velocity is pretty uniform and relatively slow from north to south across the LoveJoy line. This carries on through the first part of the slack in the next few plots. Note that flow is going into Penn Cove (west) at the ends (north and south points) and out of Penn Cove in the middle (area between the transect ends).
 
 
 ### Lap 2, slack/flood beginning
@@ -167,7 +170,10 @@ Here the velocity is pretty uniform and relatively slow from north to south acro
 </figure>
 
 
-Here at peak flood we can really start to see the two-layer flow pick up! 
+
+
+
+Here at peak flood we can really start to see the two-layer flow pick up! We see that flow is uniformly going west at the surface (into Penn Cove) and east at depth (out of Penn Cove)-- reverse estuarine circulation!
 
 
 ### Lap 9, peak flood
