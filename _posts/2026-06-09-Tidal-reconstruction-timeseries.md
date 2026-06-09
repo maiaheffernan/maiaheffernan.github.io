@@ -43,24 +43,42 @@ Despite that, there are some interesting general signals here. The salinity tend
   <img src="/_figures/PennCove_Wire_walker_south_TidetempSalDO.png" alt="Description of image">
   <figcaption>Figure 2. Tides, salinty, ane temperature at wire walker south. Note this data has only been lightly QC'd. </figcaption>
 </figure>
-
+<br><br>
 
 ### LoveJoy north
 
+<figure>
+  <img src="/_figures/PennCove_LoveJoy_north_TidetempSalDO.png" alt="Description of image">
+  <figcaption>Figure 3. Tides, salinty, ane temperature at LoveJoy north. Note this data has only been lightly QC'd. </figcaption>
+</figure>
+<br><br>
 
 
 
 ### LoveJoy south
 
-
+<figure>
+  <img src="/_figures/PennCove_LoveJoy_south_TidetempSalDO.png" alt="Description of image">
+  <figcaption>Figure 4. Tides, salinty, ane temperature at LoveJoy south. Note this data has only been lightly QC'd. </figcaption>
+</figure>
+<br><br>
 
 
 
 
 ### Inner north
 
-
+<figure>
+  <img src="/_figures/PennCove_inner_north_TidetempSalDO.png" alt="Description of image">
+  <figcaption>Figure 5. Tides, salinty, ane temperature at inner north. Note this data has only been lightly QC'd. </figcaption>
+</figure>
+<br><br>
 
 ### Inner south
 
+<figure>
+  <img src="/_figures/PennCove_inner_south_TidetempSalDO.png" alt="Description of image">
+  <figcaption>Figure 6. Tides, salinty, ane temperature at inner south. Note this data has only been lightly QC'd. </figcaption>
+</figure>
+<br><br>
 
