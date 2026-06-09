@@ -69,7 +69,7 @@ Despite that, there are some interesting general signals here. The salinity tend
 ### Inner north
 
 <figure>
-  <img src="/_figures/PennCove_inner_north_TidetempSalDO.png" alt="Description of image">
+  <img src="/_figures/PennCove_Inner_north_TidetempSalDO.png" alt="Description of image">
   <figcaption>Figure 5. Tides, salinty, ane temperature at inner north. Note this data has only been lightly QC'd. </figcaption>
 </figure>
 <br><br>
@@ -77,7 +77,7 @@ Despite that, there are some interesting general signals here. The salinity tend
 ### Inner south
 
 <figure>
-  <img src="/_figures/PennCove_inner_south_TidetempSalDO.png" alt="Description of image">
+  <img src="/_figures/PennCove_Inner_south_TidetempSalDO.png" alt="Description of image">
   <figcaption>Figure 6. Tides, salinty, ane temperature at inner south. Note this data has only been lightly QC'd. </figcaption>
 </figure>
 <br><br>
