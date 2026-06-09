@@ -45,6 +45,8 @@ Despite that, there are some interesting general signals here. The salinity tend
 </figure>
 <br><br>
 
+It looks like we are seeing a similar trend here to what we see at the northern wire walker site. The more I look at these plots, though, the more I am seeing that the fresher water comes right at the slack tide (when the velocity is zero). It could just be that since the sensor is at the surface and there is no tidal velocity at slack tide the fresh water is able to just site there instead of getting mixed around. 
+
 ### LoveJoy north
 
 <figure>
