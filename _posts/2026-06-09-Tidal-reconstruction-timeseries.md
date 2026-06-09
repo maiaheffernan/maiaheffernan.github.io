@@ -12,3 +12,54 @@ Given all that, the reconstruction is definitely not perfect. The UTide function
 
 
 
+
+
+I am not sure if this was the best decision but it is what I have at the moment. Moving on to how this turned out.
+
+## Tides, salinity, temperature, and DO timseries
+
+I reconstructed the tides mainly so that I could look at tidal timeseries, so that is what I have below. This data is from the daily telemetry values that get sent from all the SWIFTs. Note that SWIFTS 09 and 18 (WWS and WWN) do not have DO sensors at the surface. Also, a few of the SWIFTs were collecting and sending only sparse data so the timeseries below do not match up with each other, unfortunately. Alex dK and I visited Penn Cove last Friday to fix some of these SWIFT issues, so hopefully future telemetry installments will be more complete. Note all the tidal reconstruction is from SWIFT 09 (WWS) and this data spans from May 25th to June 3rd.
+
+
+### Wire walker north
+
+
+<figure>
+  <img src="/_figures/PennCove_Wire_walker_north_TidetempSalDO.png" alt="Description of image">
+  <figcaption>Figure 2. Tides, salinty, ane temperature at wire walker north. Note this data has only been lightly QC'd. </figcaption>
+</figure>
+
+
+Looking at the tidal velocities, it appears that at low tides there is a jump in tidal velocity. This seems incorrect since the UTide function is ostensibly only pulling out tidal velocities, but maybe there is a non-tidal velocity artifact here that is causing the function to think that there is something happenening to the tidal velocities at this time? I am not sure. Whatever it is, we can see that the tidal reconstruction is a bit rough. This makes some sense given I am using velocities and not sea surface elevations, but supposedly the function is agnostic to this. Hard to say, I think I might have to go back to the drawing board with UTide. 
+
+Despite that, there are some interesting general signals here. The salinity tends to drop and the temperature tends to peak at the onset of the largest flood of the day. This makes sense given our hypothesis that the Skagit River water gets pushed into the cove from the north side. I would expect this to occur more vivedly on the flood as water rushes into Penn Cove. Before these drops the salinity is usually at its highest, which makes sense given that the water is pulled out of Penn Cove which hypothetically advects the Skagit River water out with it. 
+
+
+### Wire walker south
+
+
+<figure>
+  <img src="/_figures/PennCove_Wire_walker_south_TidetempSalDO.png" alt="Description of image">
+  <figcaption>Figure 2. Tides, salinty, ane temperature at wire walker south. Note this data has only been lightly QC'd. </figcaption>
+</figure>
+
+
+### LoveJoy north
+
+
+
+
+### LoveJoy south
+
+
+
+
+
+
+### Inner north
+
+
+
+### Inner south
+
+
