@@ -10,8 +10,7 @@ Given all that, the reconstruction is definitely not perfect. The UTide function
   <figcaption>Figure 1. Diagnostic plot from SWIFT 09 showing the velocities in time and depth from the Signature 1000. The y-axis shows the depth from the surface. Note that the cell sizes for the ADCP are 0.5m starting at 0.35m below the surface. The black box indicates the depth bins I chose to average for the UTide reconstruction. This data has not been QC'd. </figcaption>
 </figure>
 
-
-
+<br><br>
 
 
 I am not sure if this was the best decision but it is what I have at the moment. Moving on to how this turned out.
@@ -28,6 +27,8 @@ I reconstructed the tides mainly so that I could look at tidal timeseries, so th
   <img src="/_figures/PennCove_Wire_walker_north_TidetempSalDO.png" alt="Description of image">
   <figcaption>Figure 2. Tides, salinty, ane temperature at wire walker north. Note this data has only been lightly QC'd. </figcaption>
 </figure>
+
+<br><br>
 
 
 Looking at the tidal velocities, it appears that at low tides there is a jump in tidal velocity. This seems incorrect since the UTide function is ostensibly only pulling out tidal velocities, but maybe there is a non-tidal velocity artifact here that is causing the function to think that there is something happenening to the tidal velocities at this time? I am not sure. Whatever it is, we can see that the tidal reconstruction is a bit rough. This makes some sense given I am using velocities and not sea surface elevations, but supposedly the function is agnostic to this. Hard to say, I think I might have to go back to the drawing board with UTide. 
