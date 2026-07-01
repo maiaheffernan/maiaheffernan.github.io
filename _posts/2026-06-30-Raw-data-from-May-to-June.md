@@ -12,3 +12,8 @@ A HUGE note here is that the heading is incorrect in these ADCP files so the vel
 
 
 
+<figure>
+  <img src="/_figures/EverettVsPenncove_tides.png" alt="Description of image">
+  <figcaption>Figure 1. Comparison of the tides from the NOAA Everett tide gauge (station # 9447659) and Penn Cove (station # 9447929) tide gauge. These datasets are for the entire month of May, 2026 and are reported in MLLW. </figcaption>
+</figure>
+<br><br>
