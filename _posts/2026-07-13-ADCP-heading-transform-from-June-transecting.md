@@ -50,7 +50,7 @@ Below are three figures from the **ebb tide** that show the an example of the de
 
 
 <figure>
-  <img src="/_figures/Example_COGcheck_ebbLap3.png" alt="Description of image">
+  <img src="/_figures/Example_checkCOGplot_ebbLap3.png" alt="Description of image">
   <figcaption>Figure 3. COG for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. </figcaption>
 </figure>
 <br><br>
