@@ -1,13 +1,13 @@
-## Correcting the heading from the ADCP we used for transecting in June transecting
+# Correcting the heading from the ADCP we used for transecting in June transecting
 
 The original data from the Teledyne RDI Workhorse Sentinel II 1200kHz ADCP we used for continual transecting during the flood and the ebb in June of 2026 has incorrect heading values. To fix this, I separated out the individual transect lines for both the flood and ebb surveys, used the lat/lon values to determine the course over ground (COG), found the heading of the ADCP and the difference between the COG and listed heading, and then corrected the velocities for each transect line using the average heading bias for each line. I will go into more detail about each step below.
 
 
-### Separating out the transect lines
+## Separating out the transect lines
 
 I did this visually using the transect line plots below colored by time. I was able to follow the different colors and pick out the beginning and ending time stamp for each line. I made sure to be conservative in my choices for what constituted the beginning and end of a line and made sure not to include turns or the beginning/ending of any turn action.
 
-#### First the ebb tide 
+### First the ebb tide 
 
 <figure>
   <img src="/_figures/TransectPath_throughTime_ebb.png" alt="Description of image">
@@ -32,7 +32,7 @@ Here is the breakdown of the line directions for the ebb tide:
 
 
 
-### Finding the course over ground (COG)
+## Finding the course over ground (COG)
 
 Once I determined the different lines and separated them out in the data, I used the lat and lon values from each line to determine the COG and the heading in degrees clockwise from North. **Note here that these are lat/lon values from the ADCP, not the boat. We don not actually know the boat's true heading because we do not have that data. When fighting the wind or current (such as a major flood or ebb of the day), the boat drives at a crab angle which affects the true heading. So the *true* heading of the boat is not reflected correctly here.**
 
@@ -91,12 +91,12 @@ Below are similar figures for the **flood tide**.
 
 
 
-### Comparing the COG to the ADCP headings
+## Comparing the COG to the ADCP headings
 
 I pulled out the average ADCP heading for each line and then calculated the bias between the COG and the ADCP heading for each transect line. I decided to use the average heading and COG for each transect line instead of for each data point because it reduces any noise that might be introduced from point-to-point due to jumps in the boat's velocity. Applying an average means that the resulting east and west velocities are not EXACT, but then again they were not going to be exact anyway because of unknown confounding variables from the boat's crab angle. Applying an average correction for each line also standardizes the data in each line so they points can be compared together in a line instead of having to account for the small differences in the headings adjustment from data point to data point in a line. 
 
 
-#### Ebb tide COG and ADCP heading summary
+### Ebb tide COG and ADCP heading summary
 
 
 
@@ -116,15 +116,15 @@ Here, a positive bias means the GPS COG is clockwise of the ADCP heading. In oth
 A negative bias means the GPS COG is counterclockwise of the ADCP heading. In other words the ADCP is over-reading, so we need to rotate the other way.
 
 
-#### Flood tide COG and ADCP heading summary
+### Flood tide COG and ADCP heading summary
 
 
 
-### Corrected velocity timeseries
+## Corrected velocity timeseries
 
 If enerything above is correct, the following time series are the corrected east and north velocity time series. 
 
-#### Ebb tide
+### Ebb tide
 
 First the **original, incorrect** time series:
 
@@ -153,12 +153,12 @@ A major difference here is that the majority of the east/west velocity is actual
 
 
 
-### Comparing to a pcolor plot of velocity from the LoveJoy SWIFTs during the major ebb and flood tide to check the patterns in the corrected data are correct
+## Comparing to a pcolor plot of velocity from the LoveJoy SWIFTs during the major ebb and flood tide to check the patterns in the corrected data are correct
 
-#### Ebb
+### Ebb
 
 
-#### Flood
+### Flood
 
 
 
