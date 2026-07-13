@@ -47,16 +47,20 @@ Below are three figures from the **ebb tide** that show the an example of the de
   <figcaption>Figure 2. COG for each data point in the 8th line of the ebb transect. This was the final line and went from east to west across the bay. </figcaption>
 </figure>
 <br><br>
+<br><br>
 
+See how between these two plots, line 3 has a larger circular standard deviation around the COG heading mean than line 8. 
 
+<br><br>
 <figure>
   <img src="/_figures/Example_checkCOGplot_ebbLap3.png" alt="Description of image">
   <figcaption>Figure 3. COG for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. </figcaption>
 </figure>
 <br><br>
+<br><br>
 
-See how between these two plots, line 3 has a larger circular standard deviation around the COG heading mean than line 8. 
-
+Looking at the boat's path and the corresponding COG.
+<br><br>
 
 <figure>
   <img src="/_figures/TransectLineWanderingExample_ebbLap5.png" alt="Description of image">
