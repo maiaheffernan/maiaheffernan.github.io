@@ -7,3 +7,6 @@ The original data from the Teledyne RDI Workhorse Sentinel II 1200kHz ADCP we us
 
 I did this visually using the transect line plots below colored by time. I was able to follow the different colors and pick out the beginning and ending time stamp for each line. I made sure to be conservative in my choices for what constituted the beginning and end of a line and made sure not to include turns or the beginning/ending of any turn action.
 
+
+
+TransectPath_throughTime_ebb.png
