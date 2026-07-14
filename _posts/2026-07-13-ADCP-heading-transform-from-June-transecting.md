@@ -72,22 +72,22 @@ $$
 where **R** is the mean resultant vector length. When we impart the unit circle onto a plane, each heading observation becomes a point in space on that plane represented by a unit vector with components $\cos\theta_i$ and $\sin\theta_i$. The sum of those observations as unit vectors gives a resultant vector with length **R** = |r|. 
 
 
-Now comes the cool part: $\bar{R}$ is actually a representation of the concentration of the observations. If we imagine all the observations pointing out from the origin at their respective angles, to find the resultant we have to add up all the arrows head-to-tail then measure the length of the final arrow (simple vector addition). If the arrows all point in roughly the same direction they stack on top of each other in this head-to-tail addition and the resultant arrow ends up being long. If all the arrows point in many different directions, however, the resultant arrow will be short or even cancel out.
+Now comes the cool part: $\overline{R}$ is actually a representation of the concentration of the observations. If we imagine all the observations pointing out from the origin at their respective angles, to find the resultant we have to add up all the arrows head-to-tail then measure the length of the final arrow (simple vector addition). If the arrows all point in roughly the same direction they stack on top of each other in this head-to-tail addition and the resultant arrow ends up being long. If all the arrows point in many different directions, however, the resultant arrow will be short or even cancel out.
 
-Because I am averaging the vector components rather than summing them the quantity I get directly is the mean resultant length, $\bar{R} = R/n$, which is already bounded in [0,1]. So an $\bar{R}$ value at or close to 1 means that there is a tight cluster of angles represented in the observations (aka a *high concentration* of angles in a given direction), so the standard deviation will be low. An $\bar{R}$ value at or close to 0 means that there is a large spread in the observed angles (aka a *low concentration* of angles in a given direction), so the standard deviation will be high.
+Because I am averaging the vector components rather than summing them the quantity I get directly is the mean resultant length, $\overline{R} = R/n$, which is already bounded in [0,1]. So an $\overline{R}$ value at or close to 1 means that there is a tight cluster of angles represented in the observations (aka a *high concentration* of angles in a given direction), so the standard deviation will be low. An $\overline{R}$ value at or close to 0 means that there is a large spread in the observed angles (aka a *low concentration* of angles in a given direction), so the standard deviation will be high.
 
 
 It is calculated from the averaged sine and cosine components of the angles:
 
 $$
-\bar{R} = \sqrt{\left(\frac{1}{n}\sum_{i=1}^{n} \cos\theta_i\right)^2 + \left(\frac{1}{n}\sum_{i=1}^{n} \sin\theta_i\right)^2}
+\overline{R} = \sqrt{\left(\frac{1}{n}\sum_{i=1}^{n} \cos\theta_i\right)^2 + \left(\frac{1}{n}\sum_{i=1}^{n} \sin\theta_i\right)^2}
 $$
 
 
 *Also note* that when I refer to the mean COG I am referring to the circular mean calculated as the arctangent of the average sines and cosines of each degree:
 
 $$
-\bar{\theta} = \text{atan2}\left(\frac{1}{n}\sum_{i=1}^{n} \sin\theta_i, \; \frac{1}{n}\sum_{i=1}^{n} \cos\theta_i\right) \bmod 360°
+\overline{\theta} = \text{atan2}\left(\frac{1}{n}\sum_{i=1}^{n} \sin\theta_i, \; \frac{1}{n}\sum_{i=1}^{n} \cos\theta_i\right) \bmod 360°
 $$
 
 I use the atan2 function in matlab to include the full 360 degree range by using the individual signs of the sine and cosine components to determine the correct quadrant in the compass. Also the mod(360) ensures the result is expressed as a standard compass bearing between 0 and 360 degrees from north.  
