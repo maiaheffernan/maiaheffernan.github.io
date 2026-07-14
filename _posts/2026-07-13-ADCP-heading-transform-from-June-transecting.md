@@ -30,6 +30,11 @@ Here is the breakdown of the line directions for the ebb tide:
 
 ### Flood tide
 
+The transect path for the flood was a little more wobbly, but that's okay.
+
+Here is the breakdown of the line directions for the flood tide:
+
+
 
 
 ## Finding the course over ground (COG)
@@ -38,7 +43,7 @@ Once I determined the different lines and separated them out in the data, I used
 
 I pulled out the average COG for each transect line and looked at the *circular standard deviation* of each COG to detemine how much the data deviated from the average COG in the line. If the standard deviation was much more that about 6 degrees or so, I went back and looked at the transect line I defined and removed any loops from the physical turning of the boat when transitioning between transect lines. The north/south transect lines had higher standard deviations than the east/west lines because the boat was clearly fighting the current and possibly the wind so the boat's physical path was a little more wobbly than the east/west lines. 
 
-Below are three figures from the **ebb tide** that show the an example of the deviation around the mean COG in line 8 (east/west), an example from line 3 (north/south), and a visualization the the slightly wobbly boat path for line 5 (north/south) and the COG heading direction that corresponds to each value of that transect.
+Below are three figures from the **EBB TIDE** that show the an example of the deviation around the mean COG in line 8 (east/west), an example from line 3 (north/south), and a visualization the the slightly wobbly boat path for line 5 (north/south) and the COG heading direction that corresponds to each value of that transect.
 
 
 
@@ -87,8 +92,14 @@ Reciprocal lines:
 - 1, 3, and 6 are reciprocals of 5 (north to south vs. south to north)
 - 2, 4, and 7 are reciprocals of 8 (west to east vs. east to west)
 
-Below are similar figures for the **flood tide**.
 
+<br><br>
+
+
+Below are similar figures for the **FLOOD TIDE**.
+
+
+First we have an example of a could transect lines that have a large standard deviation
 
 
 ## Comparing the COG to the ADCP headings
