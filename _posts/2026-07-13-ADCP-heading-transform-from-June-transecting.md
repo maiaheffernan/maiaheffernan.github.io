@@ -297,6 +297,8 @@ There is not a huge difference here, but the main thing I see is that the north/
 
 ## Comparing to a pcolor plot of velocity from the LoveJoy SWIFTs during the major ebb and flood tide to check the patterns in the corrected data are correct
 
+Ostensibly, if the tide propogates in and out of Penn Cove in a similar manner evert ti
+
 ### Ebb
 
 
