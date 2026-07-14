@@ -132,7 +132,7 @@ Looking at the boat's path and the corresponding COG.
 <br><br>
 
 <figure>
-  <img src="/_figures/Line2_flood_path.png" alt="Description of image">
+  <img src="/_figures/Line2_flood_track.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 7. Left panel shows the course of the boat across the LoveJoy line from north to south. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
