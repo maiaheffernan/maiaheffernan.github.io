@@ -14,7 +14,7 @@ I did this visually using the transect line plots below colored by time. I was a
 
 <figure>
   <img src="/_figures/TransectPath_throughTime_ebb.png" alt="Description of image">
-  <figcaption>Figure 1. Ship-mounted ADCP path from the major ebb of the day in Penn Cove. Colors indicate time. The timestamps for hte colobar are in MATLAB datenum format. </figcaption>
+  <figcaption class="fig-caption">Figure 1. Ship-mounted ADCP path from the major ebb of the day in Penn Cove. Colors indicate time. The timestamps for hte colobar are in MATLAB datenum format. </figcaption>
 </figure>
 <br><br>
 
@@ -38,7 +38,7 @@ The transect path for the flood was a little more wobbly, but that's okay.
 
 <figure>
   <img src="/_figures/TransectPath_throughTime_flood.png" alt="Description of image">
-  <figcaption>Figure 2. Ship-mounted ADCP path from the major flood of the day in Penn Cove. Colors indicate time. The timestamps for hte colobar are in MATLAB datenum format. </figcaption>
+  <figcaption class="fig-caption">Figure 2. Ship-mounted ADCP path from the major flood of the day in Penn Cove. Colors indicate time. The timestamps for hte colobar are in MATLAB datenum format. </figcaption>
 </figure>
 <br><br>
 
@@ -66,7 +66,7 @@ Below are three figures from the **EBB TIDE** that show the an example of the de
 
 <figure>
   <img src="/_figures/Example_checkCOGplot_ebbLap8.png" alt="Description of image">
-  <figcaption>Figure 2. COG for each data point in the 8th line of the ebb transect. This was the final line and went from east to west across the bay. </figcaption>
+  <figcaption class="fig-caption">Figure 2. COG for each data point in the 8th line of the ebb transect. This was the final line and went from east to west across the bay. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -76,7 +76,7 @@ See how between these two plots, line 3 has a larger circular standard deviation
 <br><br>
 <figure>
   <img src="/_figures/Example_checkCOGplot_ebbLap3.png" alt="Description of image">
-  <figcaption>Figure 3. COG heading for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers.  </figcaption>
+  <figcaption class="fig-caption">Figure 3. COG heading for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers.  </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -86,7 +86,7 @@ Looking at the boat's path and the corresponding COG.
 
 <figure>
   <img src="/_figures/TransectLineWanderingExample_ebbLap5.png" alt="Description of image">
-  <figcaption>Figure 4. Left panel shows the course of the boat across the LoveJoy line from south to north. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the LoveJoy line from south to north. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
 
@@ -122,8 +122,8 @@ First we have an example of a transect lines 2 and 5 that have a large circular 
 
 
 <figure>
-  <img src="/_figures/Line2_flood_track.png" alt="Description of image">
-  <figcaption>Figure 4. COG heading for each data point in the 2nd line of the flood transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
+  <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 4. COG heading for each data point in the 2nd line of the flood transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -133,7 +133,7 @@ Looking at the boat's path and the corresponding COG.
 
 <figure>
   <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
-  <figcaption>Figure 4. Left panel shows the course of the boat across the LoveJoy line from north to south. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the LoveJoy line from north to south. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -147,7 +147,7 @@ The same thing can be seen in Line 5, the transect line from east to west, below
 
 <figure>
   <img src="/_figures/Line5_flood_path.png" alt="Description of image">
-  <figcaption>Figure 4. COG heading for each data point in the 5th line of the flood transect. This line went from east to west across the cove. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
+  <figcaption class="fig-caption">Figure 4. COG heading for each data point in the 5th line of the flood transect. This line went from east to west across the cove. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -157,13 +157,44 @@ Looking at the boat's path and the corresponding COG.
 
 <figure>
   <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
-  <figcaption>Figure 4. Left panel shows the course of the boat across the cove from east (the mouth) to west (the end). The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the cove from east (the mouth) to west (the end). The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+</figure>
+<br><br>
+<br><br>
+
+
+Finally, a really good example of how the wiggles affect the heading is in line 8 from the flood transect. You can see that from the start of the transect there are a few bends in one direction and then the other as an over-correction. You can see the heading jump up and down in the right-hand panel in concert with this.
+
+
+
+<figure>
+  <img src="/_figures/Line8_flood_path.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the cove from south to north across the LoveJoy line. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
 <br><br>
 
 
 
+My main point here is that the boat paths are, understandably, not perfectly straight. There is inherent noise in the COG heading in each line. However, to be able to make comparison for headings and ultimately velocities in each line and between lines I am just going to be applying the mean heading from each line to the data. 
+
+<br><br>
+
+For the **flood tide** here are the breakdown of the COG means and their circular standard deviations:
+- Line 1: circular std of cogDir = 3.61 deg (mean COG = 263.39 deg)
+- Line 2: circular std of cogDir = 10.29 deg (mean COG = 168.39 deg)
+- Line 3: circular std of cogDir = 2.81 deg (mean COG = 84.07 deg)
+- Line 4: circular std of cogDir = 4.36 deg (mean COG = 353.23 deg)
+- Line 5: circular std of cogDir = 9.11 deg (mean COG = 264.52 deg)
+- Line 6: circular std of cogDir = 3.23 deg (mean COG = 169.19 deg)
+- Line 7: circular std of cogDir = 2.51 deg (mean COG = 83.44 deg)
+- Line 8: circular std of cogDir = 3.56 deg (mean COG = 351.40 deg)
+
+One check here is that reciprocal lines have opposite mean COG headings and similar circular standard deviations, which is a sign that everything makes sense so far. 
+
+Reciprocal lines: 
+- 1 and 5 are reciprocals of 3 and 7 (east to west vs. west to east)
+- 2 and 6 are reciprocals of 4 and 8 (north to south vs. south to north)
 
 
 
@@ -194,6 +225,19 @@ A negative bias means the GPS COG is counterclockwise of the ADCP heading. In ot
 
 ### Flood tide COG and ADCP heading summary
 
+| Line number | COG (degrees CW form north) | ADCP reported heading (degrees CW form north) | Mean bias (degrees CW from north)  |
+| --- | --- | --- |  ---  |
+| 1 | 263.39 | 251.22 |  12.17  |
+| 2 | 168.39 | 153.83 |  14.57  |
+| 3 | 84.07 | 51.99 |  32.08  |
+| 4 | 353.23 | 341.09 |  12.14  |
+| 5 | 264.52 | 253.79 |  10.79  |
+| 6 | 169.19 | 165.03 |  4.16  |
+| 7 | 83.44 | 50.19 |  33.25  |
+| 8 | 351.40 | 328.64 |  22.76  |
+
+
+Interesting that the bias is always positive for the flood. I don't know if that means anything, but just a curious pattern. 
 
 
 ## Corrected velocity timeseries
@@ -206,7 +250,7 @@ First the **original, incorrect** time series:
 
 <figure>
   <img src="/_figures/Echo_ADCP_24Jun2026_ebb_ENUquicklook.png" alt="Description of image">
-  <figcaption>Figure 5. Original, incorrect east/west and north/south velocity profiles for the major ebb tide. </figcaption>
+  <figcaption class="fig-caption">Figure 5. Original, incorrect east/west and north/south velocity profiles for the major ebb tide. </figcaption>
 </figure>
 <br><br>
 
@@ -218,7 +262,7 @@ Next the **corrected** time series:
 
 <figure>
   <img src="/_figures/Corrected_velocity_timeseries_ebb.png" alt="Description of image">
-  <figcaption>Figure 6. Corrrected east/west and north/south velocity profiles for the major ebb tide. </figcaption>
+  <figcaption class="fig-caption">Figure 6. Corrrected east/west and north/south velocity profiles for the major ebb tide. </figcaption>
 </figure>
 <br><br>
 
@@ -227,7 +271,29 @@ A major difference here is that the majority of the east/west velocity is actual
 
 
 
+### Flood
 
+First the **original, incorrect** time series:
+
+<figure>
+  <img src="/_figures/Echo_ADCP_24Jun2026_flood_ENUquicklook.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 5. Original, incorrect east/west and north/south velocity profiles for the major flood tide. </figcaption>
+</figure>
+<br><br>
+
+
+
+Next the **corrected** time series:
+
+
+<figure>
+  <img src="/_figures/Corrected_eastNorth_timeseries.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 6. Corrrected east/west and north/south velocity profiles for the major flood tide. </figcaption>
+</figure>
+<br><br>
+
+
+There is not a hugh difference here, but the main thing I see is that the north/south velocity magnitudes are dimished which makes sense given that we think the tidal excursion is primarily east/west. 
 
 ## Comparing to a pcolor plot of velocity from the LoveJoy SWIFTs during the major ebb and flood tide to check the patterns in the corrected data are correct
 
