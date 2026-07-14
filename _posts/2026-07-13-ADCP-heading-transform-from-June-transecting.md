@@ -3,7 +3,7 @@
 The original data from the Teledyne RDI Workhorse Sentinel II 1200kHz ADCP we used for continual transecting during the flood and the ebb in June of 2026 has incorrect heading values. To fix this, I separated out the individual transect lines for both the flood and ebb surveys, used the lat/lon values to determine the course over ground (COG), found the heading of the ADCP and the difference between the COG and listed heading, and then corrected the velocities for each transect line using the average heading bias for each line. I will go into more detail about each step below.
 
 
-If you are curious about my code, you can find it [here in the PennCove_codes repo I have created for this project](https://github.com/maiaheffernan/PennCove_codes/blob/main/Processing/transectADCP_headingCorrection.m)
+If you are curious about my code, you can find it here in the [PennCove_codes repo I have created for this project.](https://github.com/maiaheffernan/PennCove_codes/blob/main/Processing/transectADCP_headingCorrection.m) The script is a little messy and full of my comments, so strength to anyone who ventures in there.
 
 
 ## Separating out the transect lines
