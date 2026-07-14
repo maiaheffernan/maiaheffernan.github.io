@@ -3,6 +3,9 @@
 The original data from the Teledyne RDI Workhorse Sentinel II 1200kHz ADCP we used for continual transecting during the flood and the ebb in June of 2026 has incorrect heading values. To fix this, I separated out the individual transect lines for both the flood and ebb surveys, used the lat/lon values to determine the course over ground (COG), found the heading of the ADCP and the difference between the COG and listed heading, and then corrected the velocities for each transect line using the average heading bias for each line. I will go into more detail about each step below.
 
 
+If you are curious about my code, you can find it [here in the PennCove_codes repo I have created for this project](https://github.com/maiaheffernan/PennCove_codes/blob/main/Processing/transectADCP_headingCorrection.m)
+
+
 ## Separating out the transect lines
 
 I did this visually using the transect line plots below colored by time. I was able to follow the different colors and pick out the beginning and ending time stamp for each line. I made sure to be conservative in my choices for what constituted the beginning and end of a line and made sure not to include turns or the beginning/ending of any turn action.
@@ -32,9 +35,23 @@ Here is the breakdown of the line directions for the ebb tide:
 
 The transect path for the flood was a little more wobbly, but that's okay.
 
+
+<figure>
+  <img src="/_figures/TransectPath_throughTime_flood.png" alt="Description of image">
+  <figcaption>Figure 2. Ship-mounted ADCP path from the major flood of the day in Penn Cove. Colors indicate time. The timestamps for hte colobar are in MATLAB datenum format. </figcaption>
+</figure>
+<br><br>
+
 Here is the breakdown of the line directions for the flood tide:
 
-
+- Line 1: East to west across Penn Cove (mouth of cove to back bay)
+- Line 2: North to south across LoveJoy line
+- Line 3: West to east across Penn Cove (back bay to mouth of cove)
+- Line 4: South to north across LoveJoy line
+- Line 5: East to west across Penn Cove (mouth of cove to back bay) -- this is the one that is particularly wavy
+- Line 6: North to south across LoveJoy line
+- Line 7: West to east across Penn Cove (back bay to mouth of cove)
+- Line 8: South to north across LoveJoy line
 
 
 ## Finding the course over ground (COG)
@@ -59,7 +76,7 @@ See how between these two plots, line 3 has a larger circular standard deviation
 <br><br>
 <figure>
   <img src="/_figures/Example_checkCOGplot_ebbLap3.png" alt="Description of image">
-  <figcaption>Figure 3. COG for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. </figcaption>
+  <figcaption>Figure 3. COG heading for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers.  </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -99,7 +116,55 @@ Reciprocal lines:
 Below are similar figures for the **FLOOD TIDE**.
 
 
-First we have an example of a could transect lines that have a large standard deviation
+First we have an example of a transect lines 2 and 5 that have a large circular standard deviations in COG. These are accompanied by somewhat wobbly transect lines or lines that gradually meander in one direction, which is what creates the large standard deviations here. 
+
+<br><br>
+
+
+<figure>
+  <img src="/_figures/Line2_flood_track.png" alt="Description of image">
+  <figcaption>Figure 4. COG heading for each data point in the 2nd line of the flood transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
+</figure>
+<br><br>
+<br><br>
+
+Looking at the boat's path and the corresponding COG.
+<br><br>
+
+<figure>
+  <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
+  <figcaption>Figure 4. Left panel shows the course of the boat across the LoveJoy line from north to south. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+</figure>
+<br><br>
+<br><br>
+
+This line wanders a bit, and the large arcs in one direction or another corresopnd with the large jumps in the heading in the right panel in the figure above. This accounts for the large standard deviation in the COG. 
+
+
+The same thing can be seen in Line 5, the transect line from east to west, below.
+
+<br><br>
+
+<figure>
+  <img src="/_figures/Line5_flood_path.png" alt="Description of image">
+  <figcaption>Figure 4. COG heading for each data point in the 5th line of the flood transect. This line went from east to west across the cove. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
+</figure>
+<br><br>
+<br><br>
+
+Looking at the boat's path and the corresponding COG.
+<br><br>
+
+<figure>
+  <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
+  <figcaption>Figure 4. Left panel shows the course of the boat across the cove from east (the mouth) to west (the end). The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+</figure>
+<br><br>
+<br><br>
+
+
+
+
 
 
 ## Comparing the COG to the ADCP headings
