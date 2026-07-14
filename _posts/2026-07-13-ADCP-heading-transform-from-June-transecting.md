@@ -66,7 +66,7 @@ Below are three figures from the **EBB TIDE** that show the an example of the de
 
 <figure>
   <img src="/_figures/Example_checkCOGplot_ebbLap8.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 2. COG for each data point in the 8th line of the ebb transect. This was the final line and went from east to west across the bay. </figcaption>
+  <figcaption class="fig-caption">Figure 3. COG for each data point in the 8th line of the ebb transect. This was the final line and went from east to west across the bay. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -76,7 +76,7 @@ See how between these two plots, line 3 has a larger circular standard deviation
 <br><br>
 <figure>
   <img src="/_figures/Example_checkCOGplot_ebbLap3.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 3. COG heading for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers.  </figcaption>
+  <figcaption class="fig-caption">Figure 4. COG heading for each data point in the 3rd line of the ebb transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers.  </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -86,7 +86,7 @@ Looking at the boat's path and the corresponding COG.
 
 <figure>
   <img src="/_figures/TransectLineWanderingExample_ebbLap5.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the LoveJoy line from south to north. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+  <figcaption class="fig-caption">Figure 5. Left panel shows the course of the boat across the LoveJoy line from south to north. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
 
@@ -123,7 +123,7 @@ First we have an example of a transect lines 2 and 5 that have a large circular 
 
 <figure>
   <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 4. COG heading for each data point in the 2nd line of the flood transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
+  <figcaption class="fig-caption">Figure 6. COG heading for each data point in the 2nd line of the flood transect. This line went from north to south across the LoveJoy line. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -132,8 +132,8 @@ Looking at the boat's path and the corresponding COG.
 <br><br>
 
 <figure>
-  <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the LoveJoy line from north to south. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+  <img src="/_figures/Line2_flood_path.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 7. Left panel shows the course of the boat across the LoveJoy line from north to south. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -146,8 +146,8 @@ The same thing can be seen in Line 5, the transect line from east to west, below
 <br><br>
 
 <figure>
-  <img src="/_figures/Line5_flood_path.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 4. COG heading for each data point in the 5th line of the flood transect. This line went from east to west across the cove. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
+  <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 8. COG heading for each data point in the 5th line of the flood transect. This line went from east to west across the cove. The dotted red line in the top panel shows the mean for the line and the blue lines shows the point-by-point fluctuations. The bottom panel shows the boat's speed. Drastic changes in boat speed could be indications of times when the boat's/ADCP's heading briefly changed or times of a small turn, so comparing this with the COG heading might help explain any large outliers. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -156,8 +156,8 @@ Looking at the boat's path and the corresponding COG.
 <br><br>
 
 <figure>
-  <img src="/_figures/Example_largeSTD_Flood_line2.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the cove from east (the mouth) to west (the end). The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+  <img src="/_figures/Line5_flood_path.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 9. Left panel shows the course of the boat across the cove from east (the mouth) to west (the end). The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -169,7 +169,7 @@ Finally, a really good example of how the wiggles affect the heading is in line 
 
 <figure>
   <img src="/_figures/Line8_flood_path.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 4. Left panel shows the course of the boat across the cove from south to north across the LoveJoy line. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
+  <figcaption class="fig-caption">Figure 10. Left panel shows the course of the boat across the cove from south to north across the LoveJoy line. The colors indicate the data point number through this section of the time series. The right panel shows the COG heading direction in degrees for each data point. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -250,7 +250,7 @@ First the **original, incorrect** time series:
 
 <figure>
   <img src="/_figures/Echo_ADCP_24Jun2026_ebb_ENUquicklook.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 5. Original, incorrect east/west and north/south velocity profiles for the major ebb tide. </figcaption>
+  <figcaption class="fig-caption">Figure 11. Original, incorrect east/west and north/south velocity profiles for the major ebb tide. </figcaption>
 </figure>
 <br><br>
 
@@ -262,7 +262,7 @@ Next the **corrected** time series:
 
 <figure>
   <img src="/_figures/Corrected_velocity_timeseries_ebb.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 6. Corrrected east/west and north/south velocity profiles for the major ebb tide. </figcaption>
+  <figcaption class="fig-caption">Figure 12. Corrrected east/west and north/south velocity profiles for the major ebb tide. </figcaption>
 </figure>
 <br><br>
 
@@ -277,7 +277,7 @@ First the **original, incorrect** time series:
 
 <figure>
   <img src="/_figures/Echo_ADCP_24Jun2026_flood_ENUquicklook.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 5. Original, incorrect east/west and north/south velocity profiles for the major flood tide. </figcaption>
+  <figcaption class="fig-caption">Figure 13. Original, incorrect east/west and north/south velocity profiles for the major flood tide. </figcaption>
 </figure>
 <br><br>
 
@@ -288,12 +288,12 @@ Next the **corrected** time series:
 
 <figure>
   <img src="/_figures/Corrected_eastNorth_timeseries.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 6. Corrrected east/west and north/south velocity profiles for the major flood tide. </figcaption>
+  <figcaption class="fig-caption">Figure 14. Corrrected east/west and north/south velocity profiles for the major flood tide. </figcaption>
 </figure>
 <br><br>
 
 
-There is not a hugh difference here, but the main thing I see is that the north/south velocity magnitudes are dimished which makes sense given that we think the tidal excursion is primarily east/west. 
+There is not a huge difference here, but the main thing I see is that the north/south velocity magnitudes are dimished which makes sense given that we think the tidal excursion is primarily east/west. 
 
 ## Comparing to a pcolor plot of velocity from the LoveJoy SWIFTs during the major ebb and flood tide to check the patterns in the corrected data are correct
 
