@@ -60,6 +60,41 @@ Once I determined the different lines and separated them out in the data, I used
 
 I pulled out the average COG for each transect line and looked at the *circular standard deviation* of each COG to detemine how much the data deviated from the average COG in the line. If the standard deviation was much more that about 6 degrees or so, I went back and looked at the transect line I defined and removed any loops from the physical turning of the boat when transitioning between transect lines. The north/south transect lines had higher standard deviations than the east/west lines because the boat was clearly fighting the current and possibly the wind so the boat's physical path was a little more wobbly than the east/west lines. 
 
+------
+**A quick math aside:** When I say cicular standard deviation I am referring to this equation:
+
+$$
+\sigma_{\text{circ}} = \sqrt{-2\ln(R)} \cdot \frac{180}{\pi}
+$$
+
+(the $\frac{180}{\pi}$ converts the values from radians to degrees)
+
+where **R** is the mean resultant vector length. When we impart the unit circle onto a plane, each heading observation becomes a point in space on that plane represented by a unit vector with components $\cos\theta_i$ and $\sin\theta_i$. The sum of those observations as unit vectors gives a resultant vector with length **R** = |r|. 
+
+
+Now comes the cool part: $\bar{R}$ is actually a representation of the concentration of the observations. If we imagine all the observations pointing out from the origin at their respective angles, to find the resultant we have to add up all the arrows head-to-tail then measure the length of the final arrow (simple vector addition). If the arrows all point in roughly the same direction they stack on top of each other in this head-to-tail addition and the resultant arrow ends up being long. If all the arrows point in many different directions, however, the resultant arrow will be short or even cancel out.
+
+Because I am averaging the vector components rather than summing them the quantity I get directly is the mean resultant length, $\bar{R} = R/n$, which is already bounded in [0,1]. So an $\bar{R}$ value at or close to 1 means that there is a tight cluster of angles represented in the observations (aka a *high concentration* of angles in a given direction), so the standard deviation will be low. An $\bar{R}$ value at or close to 0 means that there is a large spread in the observed angles (aka a *low concentration* of angles in a given direction), so the standard deviation will be high.
+
+
+It is calculated from the averaged sine and cosine components of the angles:
+
+$$
+\bar{R} = \sqrt{\left(\frac{1}{n}\sum_{i=1}^{n} \cos\theta_i\right)^2 + \left(\frac{1}{n}\sum_{i=1}^{n} \sin\theta_i\right)^2}
+$$
+
+
+*Also note* that when I refer to the mean COG I am referring to the circular mean calculated as the arctangent of the average sines and cosines of each degree:
+
+$$
+\bar{\theta} = \text{atan2}\left(\frac{1}{n}\sum_{i=1}^{n} \sin\theta_i, \; \frac{1}{n}\sum_{i=1}^{n} \cos\theta_i\right) \bmod 360°
+$$
+
+I use the atan2 function in matlab to include the full 360 degree range by using the individual signs of the sine and cosine components to determine the correct quadrant in the compass. Also the mod(360) ensures the result is expressed as a standard compass bearing between 0 and 360 degrees from north.  
+
+
+______
+
 Below are three figures from the **EBB TIDE** that show the an example of the deviation around the mean COG in line 8 (east/west), an example from line 3 (north/south), and a visualization the the slightly wobbly boat path for line 5 (north/south) and the COG heading direction that corresponds to each value of that transect.
 
 
