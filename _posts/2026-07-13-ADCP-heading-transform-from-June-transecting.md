@@ -69,7 +69,7 @@ $$
 
 (the $\frac{180}{\pi}$ converts the values from radians to degrees)
 
-where **R** is the mean resultant vector length. When we impart the unit circle onto a plane, each heading observation becomes a point in space on that plane represented by a unit vector with components $\cos\theta_i$ and $\sin\theta_i$. The sum of those observations as unit vectors gives a resultant vector with length **R** = |r|. 
+where **R** is the mean resultant vector length. When we impart the unit circle onto a plane, each heading observation becomes a point in space on that plane represented by a unit vector with components $\cos\theta_i$ and $\sin\theta_i$. The sum of those observations as unit vectors gives a resultant vector with length $R = |\mathbf{r}|$. 
 
 
 Now comes the cool part: $\overline{R}$ is actually a representation of the concentration of the observations. If we imagine all the observations pointing out from the origin at their respective angles, to find the resultant we have to add up all the arrows head-to-tail then measure the length of the final arrow (simple vector addition). If the arrows all point in roughly the same direction they stack on top of each other in this head-to-tail addition and the resultant arrow ends up being long. If all the arrows point in many different directions, however, the resultant arrow will be short or even cancel out.
