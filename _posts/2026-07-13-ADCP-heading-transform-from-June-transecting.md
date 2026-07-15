@@ -3,12 +3,12 @@
 The original data from the Teledyne RDI Workhorse Sentinel II 1200kHz ADCP we used for continual transecting during the flood and the ebb in June of 2026 has incorrect heading values. To fix this, I separated out the individual transect lines for both the flood and ebb surveys, used the lat/lon values to determine the course over ground (COG), found the heading of the ADCP and the difference between the COG and listed heading, and then corrected the velocities for each transect line using the average heading bias for each line. I will go into more detail about each step below.
 
 
-If you are curious about my code, you can find it here in the [PennCove_codes repo I have created for this project.](https://github.com/maiaheffernan/PennCove_codes/blob/main/Processing/transectADCP_headingCorrection.m) The script is a little messy and full of my comments, so strength to anyone who ventures in there.
+If you are curious about my code, you can find it here in the [PennCove_codes repo I have created for this project.](https://github.com/maiaheffernan/PennCove_codes/blob/main/Processing/transectADCP_headingCorrection.m) The script is a little messy and full of my comments, but hopefully it is follow-able!
 
 
 ## Separating out the transect lines
 
-I did this visually using the transect line plots below colored by time. I was able to follow the different colors and pick out the beginning and ending time stamp for each line. I made sure to be conservative in my choices for what constituted the beginning and end of a line and made sure not to include turns or the beginning/ending of any turn action.
+I did this visually using the transect line plots below colored by time. I was able to follow the different colors and pick out the beginning and ending time stamp for each line. I made sure to be conservative in my choices for what constituted the beginning and end of a line by excluding turns or the beginning/ending of any turn action and trying to get the straightest, most representative section for each line.
 
 ### First the ebb tide 
 
@@ -56,25 +56,28 @@ Here is the breakdown of the line directions for the flood tide:
 
 ## Finding the course over ground (COG)
 
-Once I determined the different lines and separated them out in the data, I used the lat and lon values from each line to determine the COG and the heading in degrees clockwise from North. **Note here that these are lat/lon values from the ADCP, not the boat. We don not actually know the boat's true heading because we do not have that data. When fighting the wind or current (such as a major flood or ebb of the day), the boat drives at a crab angle which affects the true heading. So the *true* heading of the boat is not reflected correctly here.**
+Once I determined the different lines and separated them out in the data, I used the lat and lon values from each line to determine the COG and the heading in degrees clockwise from North. **Note here that these are lat/lon values from the ADCP, not the boat. We do not actually know the boat's true heading because we do not have that data. When fighting the wind or current (such as a major flood or ebb of the day), the boat drives at a crab angle which affects the true heading. So the *true* heading of the boat is not reflected correctly here, which in turn means the true heading of the ADCP is also unknowable. This is just an inherent issue that we have to live with.**
 
-I pulled out the average COG for each transect line and looked at the *circular standard deviation* of each COG to detemine how much the data deviated from the average COG in the line. If the standard deviation was much more that about 6 degrees or so, I went back and looked at the transect line I defined and removed any loops from the physical turning of the boat when transitioning between transect lines. The north/south transect lines had higher standard deviations than the east/west lines because the boat was clearly fighting the current and possibly the wind so the boat's physical path was a little more wobbly than the east/west lines. 
+I pulled out the average COG for each transect line and looked at the *circular standard deviation* of each COG to detemine how much the data deviated from the *circular mean COG* in the line. If the standard deviation was much more that about 6 degrees or so, I went back and looked at the transect line I defined and removed any loops from the physical turning of the boat when transitioning between transect lines. The north/south transect lines had higher standard deviations than the east/west lines because the boat was clearly fighting the current and possibly the wind so the boat's physical path was a little more wobbly than the east/west lines. Some larger circular standard deviations were inevitable from a wandering and/or wobbly boat path, which is unavoidable when driving out there! No shade from me here. 
+
+
+I go into this more with some plots down below, but first a quick aside about the math for the circular standard deviation and circular mean. Calculating a straight-up mean and standard deviation when dealing with degrees in an issue because in the unit circle 0 degrees and 360 degrees mean the same thing but when averaged together they produce an entirely different result that points in an incorrect cardinal direction.
 
 ------
 **A quick math aside:** When I say cicular standard deviation I am referring to this equation:
 
 $$
-\sigma_{\text{circ}} = \sqrt{-2\ln(R)} \cdot \frac{180}{\pi}
+\sigma_{\text{circ}} = \sqrt{-2\ln(R)} \cdot 
 $$
 
-(the $\frac{180}{\pi}$ converts the values from radians to degrees)
 
-where **R** is the mean resultant vector length. When we impart the unit circle onto a plane, each heading observation becomes a point in space on that plane represented by a unit vector with components $\cos\theta_i$ and $\sin\theta_i$. The sum of those observations as unit vectors gives a resultant vector with length $R = |\mathbf{r}|$. 
+where **R** is the mean resultant vector length. When we impart the unit circle onto a plane, each heading observation becomes a point in space on that plane represented by a unit vector with components $\cos\theta_i$ and $\sin\theta_i$. Using vector addition, summing all those observations as unit vectors gives a resultant vector with length $R = |\mathbf{r}|$. More on this in a second.
 
 
-Now comes the cool part: $\overline{R}$ is actually a representation of the concentration of the observations. If we imagine all the observations pointing out from the origin at their respective angles, to find the resultant we have to add up all the arrows head-to-tail then measure the length of the final arrow (simple vector addition). If the arrows all point in roughly the same direction they stack on top of each other in this head-to-tail addition and the resultant arrow ends up being long. If all the arrows point in many different directions, however, the resultant arrow will be short or even cancel out.
+Now comes the cool part: $\overline{R}$ is actually a representation of the concentration of the observations. If we imagine all the observations pointing out from the origin at their respective angles, to find the resultant vector we have to add up all the arrows head-to-tail then measure the length of the final arrow (simple vector addition). If the arrows all point in roughly the same direction they stack on top of each other in this head-to-tail addition and the resultant arrow ends up being long. If all the arrows point in many different directions, however, the resultant arrow will be short or even cancel out.
 
-Because I am averaging the vector components rather than summing them the quantity I get directly is the mean resultant length, $\overline{R} = R/n$, which is already bounded in [0,1]. So an $\overline{R}$ value at or close to 1 means that there is a tight cluster of angles represented in the observations (aka a *high concentration* of angles in a given direction), so the standard deviation will be low. An $\overline{R}$ value at or close to 0 means that there is a large spread in the observed angles (aka a *low concentration* of angles in a given direction), so the standard deviation will be high.
+
+Because I am averaging the vector components rather than summing them the quantity I get directly is the mean resultant length, $\overline{R} = R/n$, which is already bounded in [0,1] within the unit circle. So an $\overline{R}$ value at or close to 1 means that there is a tight cluster of angles represented in the observations (aka a *high concentration* of angles in a given direction), so the standard deviation will be low. An $\overline{R}$ value at or close to 0 means that there is a large spread in the observed angles (aka a *low concentration* of angles in a given direction), so the standard deviation will be high.
 
 
 It is calculated from the averaged sine and cosine components of the angles:
@@ -93,7 +96,10 @@ $$
 I use the atan2 function in matlab to include the full 360 degree range by using the individual signs of the sine and cosine components to determine the correct quadrant in the compass. Also the mod(360) ensures the result is expressed as a standard compass bearing between 0 and 360 degrees from north.  
 
 
+**End of the math aside***
 ______
+
+<br><br>
 
 Below are three figures from the **EBB TIDE** that show the an example of the deviation around the mean COG in line 8 (east/west), an example from line 3 (north/south), and a visualization the the slightly wobbly boat path for line 5 (north/south) and the COG heading direction that corresponds to each value of that transect.
 
@@ -151,8 +157,10 @@ Reciprocal lines:
 Below are similar figures for the **FLOOD TIDE**.
 
 
-First we have an example of a transect lines 2 and 5 that have a large circular standard deviations in COG. These are accompanied by somewhat wobbly transect lines or lines that gradually meander in one direction, which is what creates the large standard deviations here. 
+First we have an example of a transect lines 2 (north to south) and 5 (east to west) that have a large circular standard deviations in COG. These are accompanied by somewhat wobbly transect lines or lines that gradually meander in one direction, which is what creates the large standard deviations here. 
 
+
+Line 2 below.
 <br><br>
 
 
@@ -235,7 +243,7 @@ Reciprocal lines:
 
 ## Comparing the COG to the ADCP headings
 
-I pulled out the average ADCP heading for each line and then calculated the bias between the COG and the ADCP heading for each transect line. I decided to use the average heading and COG for each transect line instead of for each data point because it reduces any noise that might be introduced from point-to-point due to jumps in the boat's velocity. Applying an average means that the resulting east and west velocities are not EXACT, but then again they were not going to be exact anyway because of unknown confounding variables from the boat's crab angle. Applying an average correction for each line also standardizes the data in each line so they points can be compared together in a line instead of having to account for the small differences in the headings adjustment from data point to data point in a line. 
+I pulled out the average ADCP heading for each line and then calculated the bias between the COG and the ADCP heading for each transect line. I decided to use the average heading and COG for each transect line instead of for each data point because it reduces any noise that might be introduced from point-to-point as discussed above. Applying an average means that the resulting east and west velocities are not EXACT, but then again they were not going to be exact anyway because of unknown confounding variables from the boat's crab angle. Applying an average correction for each line also standardizes the data in each line so they points can be compared together in a line instead of having to account for the small differences in the headings adjustment from data point to data point in a line. 
 
 
 ### Ebb tide COG and ADCP heading summary
@@ -254,8 +262,8 @@ I pulled out the average ADCP heading for each line and then calculated the bias
 | 8 | 262.89 | 258.47 |  4.42  |
 
 
-Here, a positive bias means the GPS COG is clockwise of the ADCP heading. In other words the ADCP is under-reading, so we need to rotate its data clockwise/add degrees to correct it.
-A negative bias means the GPS COG is counterclockwise of the ADCP heading. In other words the ADCP is over-reading, so we need to rotate the other way.
+Here, a positive bias means the COG is clockwise of the ADCP heading. In other words the ADCP data is under-reading, so we need to rotate its data clockwise/add degrees to correct it.
+A negative bias means the COG is counterclockwise of the ADCP heading. In other words the ADCP data is over-reading, so we need to rotate the other way.
 
 
 ### Flood tide COG and ADCP heading summary
@@ -330,14 +338,11 @@ Next the **corrected** time series:
 
 There is not a huge difference here, but the main thing I see is that the north/south velocity magnitudes are dimished which makes sense given that we think the tidal excursion is primarily east/west. 
 
-## Comparing to a pcolor plot of velocity from the LoveJoy SWIFTs during the major ebb and flood tide to check the patterns in the corrected data are correct
+## Next steps for this
 
-Ostensibly, if the tide propogates in and out of Penn Cove in a similar manner evert ti
+- Comparing to a pcolor plot of velocity from the LoveJoy SWIFTs during the major ebb and flood tide to check the patterns in the corrected data are similar to what the SWIFTs read for a similar tide stage.
+- Clean the data: remove bottom and surface interference and any outliers in the data. Then this should be good to go!
 
-### Ebb
-
-
-### Flood
 
 
 
