@@ -67,7 +67,7 @@ I go into this more with some plots down below, but first a quick aside about th
 **A quick math aside:** When I say cicular standard deviation I am referring to this equation:
 
 $$
-\sigma_{\text{circ}} = \sqrt{-2\ln(R)} \cdot 
+\sigma_{\text{circ}} = \sqrt{-2\ln(\overline{R})} \cdot 
 $$
 
 
@@ -87,7 +87,7 @@ $$
 $$
 
 
-*Also note* that when I refer to the mean COG I am referring to the circular mean calculated as the arctangent of the average sines and cosines of each degree:
+*Also note* that when I refer to the mean COG/heading I am referring to the circular mean calculated as the arctangent of the average sines and cosines of each degree:
 
 $$
 \overline{\theta} = \text{atan2}\left(\frac{1}{n}\sum_{i=1}^{n} \sin\theta_i, \; \frac{1}{n}\sum_{i=1}^{n} \cos\theta_i\right) \bmod 360°
