@@ -96,7 +96,9 @@ $$
 I use the atan2 function in matlab to include the full 360 degree range by using the individual signs of the sine and cosine components to determine the correct quadrant in the compass. Also the mod(360) ensures the result is expressed as a standard compass bearing between 0 and 360 degrees from north.  
 
 
-**End of the math aside***
+**End of the math aside**
+
+
 ______
 
 <br><br>
