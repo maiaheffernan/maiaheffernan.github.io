@@ -25,6 +25,7 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **Dissolved oxygen**
 
+<figure>
   <img src="/_figures/miniDOT_DO_timeseries_May2026_moorings.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 2. Timeseries of miniDOT DO data from the moorings. </figcaption>
 </figure>
@@ -33,6 +34,7 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **Temperature**
 
+<figure>
  <img src="/_figures/miniDOT_Temp_timeseries_May2026_moorings.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 3. Timeseries of miniDOT temperature data from the moorings. </figcaption>
 </figure>
@@ -43,6 +45,7 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **Dissolved oxygen**
 
+<figure>
  <img src="/_figures/miniDOT_DO_hist_May2026_moorings.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 4. Distribution of miniDOT DO data from the moorings. </figcaption>
 </figure>
@@ -50,6 +53,7 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **Temperature**
 
+<figure>
  <img src="/_figures/miniDOT_Temp_hist_May2026_moorings.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 5. Distribution of miniDOT temp data from the moorings. </figcaption>
 </figure>
@@ -61,7 +65,7 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **Dissolved oxygen**
 
-
+<figure>
 <img src="/_figures/miniDOT_DO_timeseries_May2026_rafts.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 6. Timeseries of miniDOT DO data from the shellfish rafts. </figcaption>
 </figure>
@@ -70,6 +74,7 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **Temperature**
 
+<figure>
 <img src="/_figures/miniDOT_Temp_timeseries_May2026_rafts.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 7. Timeseries of miniDOT temperature data from the shellfish rafts. </figcaption>
 </figure>
@@ -81,13 +86,14 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **DO**
 
+<figure>
  <img src="/_figures/miniDOT_1mDO_hist_May2026_rafts.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 8. Distribution of miniDOT DO data from the shellfish raft sensors 1m below the surface. </figcaption>
 </figure>
 <br><br>
 
 
-
+<figure>
 <img src="/_figures/miniDOT_7mDO_hist_May2026_rafts.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 9. Distribution of miniDOT DO data from the shellfish raft sensors 7m below the surface. </figcaption>
 </figure>
@@ -97,13 +103,14 @@ It looks like the miniDOT data from the moorings is a little bit better than tha
 
 **Temperature**
 
+<figure>
  <img src="/_figures/miniDOT_1mTemp_hist_May2026_rafts.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 10. Distribution of miniDOT temperature data from the shellfish raft sensors 1m below the surface. </figcaption>
 </figure>
 <br><br>
 
 
-
+<figure>
 <img src="/_figures/miniDOT_7mTemp_hist_May2026_rafts.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 11. Distribution of miniDOT temperature data from the shellfish raft sensors 7m below the surface. </figcaption>
 </figure>
