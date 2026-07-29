@@ -102,6 +102,3 @@ We then see all these same patterns the following tidal cycle.
 
 
 
-5. Major ebb
-
-
