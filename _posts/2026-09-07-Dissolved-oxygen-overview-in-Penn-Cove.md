@@ -49,5 +49,25 @@ Mainly, this plot shows that the oxygen levels near the rafts, the "Inner North"
 
 ### the CTD casts in the rafts from July and August show NO hypoxia in the rafts, except for very close to the bottom
 
+#### From July 21
+<figure>
+  <img src="/_figures/mussRaftCasts_21Jul2026.png" alt="Description of image">
+  </figure>
+<br><br>
+
+
+
+#### From August 27
+<figure>
+  <img src="/_figures/musselRaft_downcasts_27Aug2026.png" alt="Description of image">
+  </figure>
+<br><br>
+
+
+This is odd to me, especially since the miniDOT sensors are showing hypoxia. I don't trust the miniDOT sensors (especially after these plots), but I would also expect there to be more hypoxia in the rafts given that water moves so slowly and there are so many mussels so close together.
+
+
+### here are the miniDOT sensors time series if it is helpful 
+
 
 
