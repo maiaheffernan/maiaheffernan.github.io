@@ -10,7 +10,7 @@ We are looking for times when the oxygen levels drop to below 2 milligrams per l
 
 The term hypoxia means that there is so little oxygen in the water that organisms have a hard time breathing and carrying out their normal functions. This threshold of 2 milligrams per liter is just a definition that we give ourselves to definitively say that the waters are unhealthy, but in reality most marine organisms have a hard time breathing at oxygen levels as high as 6 milligrams per liter.
 
-Generally, we see hypoxia at the bottom of the water column. Hypoxia is a natural process, and it is formed when there is a huge bloom of phytoplankton at the surface that then eventually dies and begins to sink. As it sinks down to the bottom, many plankton and microbes come to eat the detritus. This creates a lot of respiration in one area which sucks oxygen out of the water. Also, as the phytoplankton dies, the process of decomposition in and of itself also sucks oxygen out of the water. So, by the time all that has happened and the remaining dead phytoplankton is now at the bottom of the water column there is very little oxygen left in the water.
+Generally, we see hypoxia at the bottom of the water column. Hypoxia is a natural process, and it is formed when there is a huge bloom of phytoplankton at the surface that then eventually dies and begins to sink. As it sinks down to the bottom, many plankton and microbes come to eat the detritus. This creates a lot of respiration in one area which sucks oxygen out of the water. So, by the time all that has happened and the remaining dead phytoplankton is now at the bottom of the water column there is very little oxygen left in the water.
 
 Because hypoxia is primarily caused by large phytoplankton blooms, we see it naturally occur in the late summer and early fall after all the phytoplankton blooms have occurred and they begin to die.
 
@@ -41,3 +41,13 @@ Over time we have seen that the oxygen levels in the west end of the bay have be
 <br><br>
 
 Mainly, this plot shows that the oxygen levels near the rafts, the "Inner North" and "Inner South" locations, are worse than other places in the bay. We think that this is probably due to slower-moving water in the inner bay, but do not have a concrete answer for this yet. We will share more findings as we discover things. 
+
+
+
+
+## ------- Some things I am on the fence about including so I would love some feedback -------
+
+### the CTD casts in the rafts from July and August show NO hypoxia in the rafts, except for very close to the bottom
+
+
+
