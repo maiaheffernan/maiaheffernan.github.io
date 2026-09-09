@@ -25,18 +25,20 @@ Here are our mooring locations, for reference:
 </figure>
 <br><br>
 
-The bigger moorings we have out in the cove have a lot of sensors on them. Generally, they look like this:
-
-~ insert drawing here of the rough mooring schematic that I drew ~
-
-
-The sensors in the rafts that we come to check on every month are slightly different. There are just two sensors on that line that measure dissolved oxygen and temperature.
 
 
 ## What does the oxygen data look like?
 
-In this post we are just going to be focusing on oxygen levels. We have been measuring the oxygen almost continually from May until now. We are planning to keep measuring oxygen levels through late October.
+In this post we are just going to be focusing on oxygen levels. We have been measuring the oxygen almost continually from May tho August. We are planning to keep measuring oxygen levels through late October.
+
+Over time we have seen that the oxygen levels in the west end of the bay have been consistently hypoxic since July and the east end of the bay experiences periodic hypoxic levels. In the plot below I have drawn a dashed line to show the hypoxic threshold.
 
 
+<figure>
+  <img src="/_figures/BottomDO_MaytoAug.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 2. Oxygen levels from May to August. The dashed line shows the hypoxic threshold. </figcaption>
+</figure>
+<br><br>
 
 
+Thinking about the health of the mussels, this plot shows that the oxygen levels near the rafts is worse than other places in the bay.  
