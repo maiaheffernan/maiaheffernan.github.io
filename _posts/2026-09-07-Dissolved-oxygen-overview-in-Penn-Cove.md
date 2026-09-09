@@ -47,17 +47,23 @@ Mainly, this plot shows that the oxygen levels near the rafts, the "Inner North"
 
 ## ------- Some things I am on the fence about including so I would love some feedback -------
 
-### the CTD casts in the rafts from July and August show NO hypoxia in the rafts, except for very close to the bottom
+### the CTD casts in the rafts from July and August show NO hypoxia in the rafts, except for very close to the bottom. 
 
-#### From July 21
+I am unsure whether to share the following plots. One the one hand I want to be totally transparent in our data and provide useful information about what is happening in the shellfish rafts because that is likely what the shellfish people care about most. On the other hand, I don't have an explanation for why it is not hypoxic in the rafts when I would it expect it to be. Also, I want to keep this post simple for sharing it out to folks who don't spend all their time looking at figures. Any thoughts?
+
+<br><br>
+<br><br>
+
+### From July 21
 <figure>
   <img src="/_figures/mussRaftCasts_21Jul2026.png" alt="Description of image">
   </figure>
 <br><br>
 
+<br><br>
+<br><br>
 
-
-#### From August 27
+### From August 27
 <figure>
   <img src="/_figures/musselRaft_downcasts_27Aug2026.png" alt="Description of image">
   </figure>
@@ -67,7 +73,40 @@ Mainly, this plot shows that the oxygen levels near the rafts, the "Inner North"
 This is odd to me, especially since the miniDOT sensors are showing hypoxia. I don't trust the miniDOT sensors (especially after these plots), but I would also expect there to be more hypoxia in the rafts given that water moves so slowly and there are so many mussels so close together.
 
 
+<br><br>
+<br><br>
+
+
 ### here are the miniDOT sensors time series if it is helpful 
+
+
+### From May to June
+<figure>
+  <img src="/_figures/miniDOT_DO_timeseries_May2026_rafts.png" alt="Description of image">
+  </figure>
+<br><br>
+
+
+### From June to July
+
+
+<figure>
+  <img src="/_figures/JunJul2026_RaftMiniDOTs_DO.png" alt="Description of image">
+  </figure>
+<br><br>
+
+
+
+
+### From July to August
+
+
+<figure>
+  <img src="/_figures/miniDOT_DO_timeseries_JulAug2026_rafts.png" alt="Description of image">
+  </figure>
+<br><br>
+
+
 
 
 
