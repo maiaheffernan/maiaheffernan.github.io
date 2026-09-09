@@ -40,5 +40,4 @@ Over time we have seen that the oxygen levels in the west end of the bay have be
 </figure>
 <br><br>
 
-
-Thinking about the health of the mussels, this plot shows that the oxygen levels near the rafts is worse than other places in the bay.  
+Mainly, this plot shows that the oxygen levels near the rafts, the "Inner North" and "Inner South" locations, are worse than other places in the bay. We think that this is probably due to slower-moving water in the inner bay, but do not have a concrete analysis for this yet. We will share more findings as we discover things. 
