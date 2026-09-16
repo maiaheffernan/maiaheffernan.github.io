@@ -44,12 +44,12 @@ I pulled out the months individually in order to see this pattern with the tidal
 </figure>
 <br><br>
 
-Frankly, I am not sure what mooring this is. This is something I need to go back and look at in my code. The pattern here with the SSH is interesting, though. The first dip in DO seems to be during what I assume to be the neap tide, then it jumps up with the onset of the spring tide, eventually dipping down again in the middle of the spring tide, rising again when the spring weakens, and then falling with the onset of what I assume to be the neap tide. What could this be?? Could it be that there is more estuarine exchange during the neap tide that then shows a lagged increase in DO levels? Then with more tidal exchange the low DO water gets spun around in Penn Cove with the weird two-circulation cell structure we think exists in the cove? Maybe increase estuarine exchange helps flush the entire cove and the weird tidal dynamics trap it? If this is the case, though, how is it that there is a second bump in oxygen levels during the largest tides of the time series? I honestly have so many questions and 0 answers.
+This is just the LoveJoy north mooring. The pattern here with the SSH is interesting. The first dip in DO seems to be during what I assume to be the neap tide, then it jumps up with the onset of the spring tide, eventually dipping down again in the middle of the spring tide, rising again when the spring weakens, and then falling with the onset of what I assume to be the neap tide. What could this be?? Could it be that there is more estuarine exchange during the neap tide that then shows a lagged increase in DO levels? Then with more tidal exchange the low DO water gets spun around in Penn Cove with the weird two-circulation cell structure we think exists in the cove? Maybe increase estuarine exchange helps flush the entire cove and the weird tidal dynamics trap it? If this is the case, though, how is it that there is a second bump in oxygen levels during the largest tides of the time series? I honestly have so many questions and 0 answers.
 
 Here is what would be helpful for the next installation of this plot: 
-1) Figure out which mooring this is
-2) Plot the velocity from this SWIFT mooring to help show how the velocity changes with the different tidal phases. Are they stronger or weaker at different times?
-3) This is more of a question: should I plot stratification? Would that help or be distracting?
+
+1) Plot the velocity from this SWIFT mooring to help show how the velocity changes with the different tidal phases. Are they stronger or weaker at different times?
+2) This is more of a question: should I plot stratification? Would that help or be distracting?
 
 
 <br><br>
@@ -69,8 +69,13 @@ Here is what would be helpful for the next installation of this plot:
 Okay it looks like similar overall timing with the previous month, which is cool. But now LJN seems to be on its own journey with no discernible trend. Could it be that it is just so affected by the tides there that there is no weakening of the tidal circulation at all? Honestly I am thinking stratification might be important for this because the river really stopped producing high discharge right around this time (**CHECK THIS**). Again, velocities would be helpful here. I should plot all of them in subplots along with the stratification at each mooring.
 
 Here is what else is missing:
-- I need a true tidal harmonic analysis. When are the true spring and neap times?
-- I need the rest of the mooring data from MAyJun and the data from JulAug
+- I need a true tidal harmonic analysis. When are the true spring and neap times? I am planning to use the Tidal Elevation Index and Lunar Index (calculations for both outlined in Deppe et al., 2018) to figure this out. Basically, I am going to try to recreate this figure for each mooring (Figure 5 from the Deppe paper):
+
+  <img width="1071" height="777" alt="Screenshot 2026-09-16 at 12 32 26 PM" src="https://github.com/user-attachments/assets/6f2c67b0-6561-499a-8ebc-f3ca0c96afcc" />
+
+<br><br>
+
+- I need the rest of the mooring data from MayJun and the data from JulAug
 
 
 
