@@ -35,12 +35,16 @@ Over time we have seen that the oxygen levels in the west end of the bay have be
 
 
 <figure>
-  <img src="/_figures/BottomDO_MaytoAug.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 2. Oxygen levels from May to August. The dashed line shows the hypoxic threshold. </figcaption>
+  <img src="/_figures/BottomDOandTemp_dailyAverage_MaytoAug2026.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 2. The top panel shows daily average oxygen levels from May to August. The dashed line shows the hypoxic threshold. The second panel shows average daily temperatures in Penn Cove at all the moorings. The saying around all the lines is the standard fluctuation around that average every day. </figcaption>
 </figure>
 <br><br>
 
-Mainly, this plot shows that the oxygen levels near the rafts, the "Inner North" and "Inner South" locations, are worse than other places in the bay. We think that this is probably due to slower-moving water in the inner bay, but do not have a concrete answer for this yet. We will share more findings as we discover things. 
+Mainly, this plot shows that the oxygen levels at the bottom of the water column near the rafts, the "Inner North" and "Inner South" locations, are worse than other places in the bay. You can see that those lines sink below the dashed line that shows the hypoxic threshold. We think that this is probably due to slower-moving water in the inner bay, but do not have a concrete answer for this yet. We will share more findings as we discover things. 
+
+Also the temperature is obviously rising at the bottom. This makes sense because that this plot shows the whole summer and we expect bottom temperature values to increase over the course of the summer. There is nothing to be alarmed about here.
+
+So far, it is not looking great for oxygen levels in Penn Cove. But, other data sources show these same trends for at least a few years so this low oxygen is not entirely new. We will send more updates as we get more data.
 
 <br><br>
 <br><br>
