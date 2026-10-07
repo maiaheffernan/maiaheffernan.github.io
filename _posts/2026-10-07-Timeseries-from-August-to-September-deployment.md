@@ -6,3 +6,9 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 
 
 
+## TODO temperature and salinity
+
+## miniDOTs
+
+
+## SeaBird moored CTD (LoveJoy south)
