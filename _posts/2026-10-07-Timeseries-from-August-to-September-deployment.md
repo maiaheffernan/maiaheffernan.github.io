@@ -56,7 +56,7 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 
 <br><br>
 <figure>
-  <img src="/_figures/soloT_Temp_cleaned_AugSep2026png.png" alt="Description of image">
+  <img src="/_figures/solotT_Temp_cleaned_AugSep2026.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 5. Median-filtered soloT temperature. </figcaption>
 </figure>
 <br><br>
@@ -94,10 +94,24 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 
 ## YSI CTD timeseries
 
+
+### Salinity
+
 <br><br>
 <figure>
   <img src="/_figures/YSI_Salinity_timeseries_cleaned_AugSep2026.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 7. Median-filtered RBR Duo temperature data. </figcaption>
+</figure>
+<br><br>
+<br><br>
+
+
+### Temperature
+
+<br><br>
+<figure>
+  <img src="/_figures/YSI_Temp_timeseries_cleaned_AugSep2026.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 8. Median-filtered RBR Duo temperature data. </figcaption>
 </figure>
 <br><br>
 
