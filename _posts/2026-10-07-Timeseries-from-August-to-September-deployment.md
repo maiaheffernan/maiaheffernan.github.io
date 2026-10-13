@@ -100,7 +100,7 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 <br><br>
 <figure>
   <img src="/_figures/YSI_Salinity_timeseries_cleaned_AugSep2026.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 7. Median-filtered RBR Duo temperature data. </figcaption>
+  <figcaption class="fig-caption">Figure 7. Median-filtered YSI 600LS Sonde CTD salinity data. </figcaption>
 </figure>
 <br><br>
 <br><br>
@@ -110,8 +110,8 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 
 <br><br>
 <figure>
-  <img src="/_figures/YSI_Temp_timeseries_cleaned_AugSep2026.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 8. Median-filtered RBR Duo temperature data. </figcaption>
+  <img src="/_figures/YSI_Temp_timeseries_AugSep2026.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 8. Median-filtered YSI 600LS Sonde CTD temperature data. </figcaption>
 </figure>
 <br><br>
 
