@@ -49,3 +49,57 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 <br><br>
 
 
+<br><br>
+<br><br>
+
+## The soloT sensors
+
+<br><br>
+<figure>
+  <img src="/_figures/soloT_Temp_cleaned_AugSep2026png.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 5. Median-filtered soloT temperature. </figcaption>
+</figure>
+<br><br>
+
+<br><br>
+<br><br>
+
+
+## RBR Duo temp/pres sensors
+
+
+### Temperature
+<br><br>
+<figure>
+  <img src="/_figures/Duo_temp_timeseries_cleaned_AugSep2026.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 5. Median-filtered RBR Duo temperature data. </figcaption>
+</figure>
+<br><br>
+
+<br><br>
+
+### Pressure
+
+
+<br><br>
+<figure>
+  <img src="/_figures/Duo_pre_timeseries_cleaned_AugSep2026.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 6. Median-filtered RBR Duo pressure data. </figcaption>
+</figure>
+<br><br>
+
+<br><br>
+<br><br>
+
+
+## YSI CTD timeseries
+
+<br><br>
+<figure>
+  <img src="/_figures/YSI_Salinity_timeseries_cleaned_AugSep2026.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 7. Median-filtered RBR Duo temperature data. </figcaption>
+</figure>
+<br><br>
+
+
+
