@@ -118,8 +118,12 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 
 ## Cleaned transect CTD data
 
-
-
+<br><br>
+<figure>
+  <img src="/_figures/pcolor_quicklook_SalTempDO_23Sep2026_ebb.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 8. Median-filtered YSI 600LS Sonde CTD temperature data. </figcaption>
+</figure>
+<br><br>
 
 
 
