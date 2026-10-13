@@ -118,12 +118,50 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 
 ## Cleaned transect CTD data
 
+
+### Ebb
 <br><br>
 <figure>
   <img src="/_figures/pcolor_quicklook_SalTempDO_23Sep2026_ebb.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 9. Cleaned tow-yo CTD data, reading at 32Hz. </figcaption>
+  <figcaption class="fig-caption">Figure 9. Cleaned tow-yo CTD data, reading at 32Hz. Ebb tide transect. </figcaption>
 </figure>
 <br><br>
 
+<br><br>
+
+### Flood
+<br><br>
+<figure>
+  <img src="/_figures/pcolor_quicklook_SalTempDO_23Sep2026_flood.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 9. Cleaned tow-yo CTD data, reading at 32Hz. Flood tide transect. </figcaption>
+</figure>
+<br><br>
+
+<br><br>
+<br><br>
+
+## Somewhat-cleaned transect ADCP data
+
+
+### Ebb
+<br><br>
+<figure>
+  <img src="/_figures/Echo_ADCP_23Sep2026_ebb_ENUquicklook.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 10. Cleaned transect ADCP data. Ebb tide transect. </figcaption>
+</figure>
+<br><br>
+
+<br><br>
+
+### Flood
+<br><br>
+<figure>
+  <img src="/_figures/Echo_ADCP_23Sep2026_flood_ENUquicklook.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 11. Cleaned transect ADCP data. Flood tide transect. </figcaption>
+</figure>
+<br><br>
+
+<br><br>
+<br><br>
 
 
