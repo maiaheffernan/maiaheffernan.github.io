@@ -121,7 +121,7 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 <br><br>
 <figure>
   <img src="/_figures/pcolor_quicklook_SalTempDO_23Sep2026_ebb.png" alt="Description of image">
-  <figcaption class="fig-caption">Figure 8. Median-filtered YSI 600LS Sonde CTD temperature data. </figcaption>
+  <figcaption class="fig-caption">Figure 9. Cleaned tow-yo CTD data, reading at 32Hz. </figcaption>
 </figure>
 <br><br>
 
