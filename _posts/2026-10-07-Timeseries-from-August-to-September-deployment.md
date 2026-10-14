@@ -165,3 +165,9 @@ Some of these time series are cleaned and some are raw data. I will specify whic
 <br><br>
 
 
+## Pole CT
+
+<img width="1660" height="992" alt="Sep232026_allpoleCT" src="https://github.com/user-attachments/assets/f461912f-52d6-4105-86af-3ee5455697f4" />
+
+
+
