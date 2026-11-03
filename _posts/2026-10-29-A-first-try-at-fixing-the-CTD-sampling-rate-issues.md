@@ -17,15 +17,14 @@ I tried doing this with the September ebb casting data.
 
 Here are the values that the function came up with :
 
-samples: 285366   nominal rate: 32.000 Hz   nominal duration: 8917.7 s
-  ADCP (raw WinADCP): bottom depth = mean of 4 beams + transducer depth; median beam spread 0.86 m
-  ADCP: 477 ensembles, 12:20:16 -> 16:18:16, 88% with valid bottom depth
-  true rate: 20.7657 Hz (from ADCP match)   x = fsNominal/fsTrue = 1.54100
-  ADCP match at this x: r = 0.862
-  x within 5% of best correlation: 1.5360 - 1.5455  (rate 20.71 - 20.83 Hz)
-
-Logging (corrected, UTC): 2026-09-23 12:27:15.375  ->  2026-09-23 16:16:17.482
-Logging (as recorded)   : 2026-09-23 12:27:15.375  ->  2026-09-23 14:55:53.031
+- samples: 285366   nominal rate: 32.000 Hz   nominal duration: 8917.7 s
+- ADCP (raw WinADCP): bottom depth = mean of 4 beams + transducer depth; median beam spread 0.86 m
+- ADCP: 477 ensembles, 12:20:16 -> 16:18:16, 88% with valid bottom depth
+- true rate: 20.7657 Hz (from ADCP match)   x = fsNominal/fsTrue = 1.54100
+- ADCP match at this x: r = 0.862
+- x within 5% of best correlation: 1.5360 - 1.5455  (rate 20.71 - 20.83 Hz)
+- Logging (corrected, UTC): 2026-09-23 12:27:15.375  ->  2026-09-23 16:16:17.482
+- Logging (as recorded)   : 2026-09-23 12:27:15.375  ->  2026-09-23 14:55:53.031
 
 
 The ending timestamp is certainly more correct here. Especially given that the CTD is offloaded about 2 minutes later according to the log. 
