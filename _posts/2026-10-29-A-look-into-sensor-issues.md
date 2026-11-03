@@ -1,11 +1,10 @@
-# Fantastic sensor issues and how (I am trying to) to fix them 
+# A first stab at fixing the CTD sampling rate
 
-For the most part the data collection for Penn Cove went swimmingly. With about 85 sensors, I am impressed by the amount of things that went right and I cannot wait to start digging into the data. 
+As we all know the casting CTD was not actually sampling at 32 Hz like we all thought it was. So the timestamps for the CTD casts are all incorrect. Below I detail my first stab at trying to fix this. I go into depth describing a function I wrote with Claude. This code can be found in my GitHub repo for this project: 
 
-There are, of course, a few issues that we have run into with the data. In this blog post I focus specifically on 1) the casting CTD sampling rate issue and an update on how fixing that issue is going, 2) assessing whether a scratched DO sensor on the Wire Walker south Concerto gave bad data. 
+I don't trust this reconstruction that I did (I go into why below), so any feedback is much appreciated!
 
-
-## Starting with the casting CTD progress
+## The details 
 
 Based on what Alex found and what RBR said it seems the CTD was actually logging somewhere around 20.7-20.8 Hz. In my own exploration with Claude I found from the raw data that the timestamps are not all individually sampled. Like Alex's Claude session indicated the sensor uses the start time and then the sampling rate to construct the more miniscule timestamps. It also records the offload timestamp, but this is not super helpful. Without knowing the actual timestamps it is hard to get at the actual sampling rate because as we have found the sensor is self-consistent, and therefore it is difficult to know the exact stretching value that should be applied to the timestamps.
 
@@ -33,6 +32,46 @@ The ending timestamp is certainly more correct here. Especially given that the C
 
 Here are some plots from this:
 
+<br><br>
+<figure>
+  <img src="/_figures/ebb_23Sep2026_ADCPvalidation.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 1. The top panel shows the correlation r values calculated for different scale factors that I tried to use when fitting the CTD and ADCP bottom depths (see the description above). As you can see there is a clear peak at x (stretch factor) = 1.54. The middle panel shows the "corrected" timestamps for the CTD by plotting the CTD depth measurement and the ADCP bottom track. The red circles show the bottom CTD depth measurements that were used to match to the ADCP bottom track measurements in accordance with the x = 1.54 time correction. The third panel shows the relationship between the ADCP bottom depth and the CTD bottom depth with a 1:1 line.</figcaption>
+</figure>
+<br><br>
+
+The top panel of this plot gives me some hope. There is a clear peak in the correlation value, which is what is reported above as x = fsNominal/fsTrue = 1.54100. This corresponds to a true sampling rate of 20.7657 Hz which falls between the values that Alex and RBR gave. This makes me a bit more confident. However, this correlation value is only r = 0.862, which I think is low. There is still 14% of the variance between these two samples that is unexplained. This also shows up in the third panel in this plot, which shows the scatter plot relationship between the ADCP depths and the CTD depths. The scatter shows that the ADCP values are often slightly larger than the CTD values. This makes sense given that we have been careful not to run the CTD into the ground while casting so we do not get super close to the bottom every time. 
+
+
+A couple more helpful plots:
+
+
+<br><br>
+<figure>
+  <img src="/_figures/ebb_23Sep23026_TimeCorrection.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 2. The top panel shows the "as recorded" time series of pressure and the corrected time series. The two panels below that show the corrected temperature and DO profiles. </figcaption>
+</figure>
+<br><br>
+
+We can see here that there is definitely an offset between the measured and corrected times. The corrected times extend well beyond the measured times and are consistent with the ADCP and our notes. 
+
+
+
+<br><br>
+<figure>
+  <img src="/_figures/ebb_23Sep2026_timecorrectedCasts.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 3. The corrected up and down casts. </figcaption>
+</figure>
+<br><br>
+
+Not much to see here except that the upcasts follow the downcasts which is good to see validated. Also we can see that the upcast starts slightly high than the downcast which would be consistent with the pressure change that the sensor uses to determine when it is ascending or descending. This is not super relevant here but is good to know the CTD is working correctly. 
+
+<br>
+
+Overall, this is a first stab at trying to fix this CTD data. I don't trust this yet.
+
+**Next steps:**
+- Try to see if our notes for the last cast (or casts depending on how granular I want to go) are at all helpful for backing out the actual sampling rate. I might try to compare this method I did above to that method and see if that gets me anywhere.
+- Use this method on other casting datasets to see if it is robust.
 
 
 
@@ -49,10 +88,3 @@ Here are some plots from this:
 
 
 
-
-
-## Now for the bad DO sensor 
-
-When we recovered Wire Walker south, we noticed that the optode on the Coda, the optical dissolved oxygen sensor, that was attached to the RBR Concerto was scratched. This is an issue because there is a really delicate foil on the top of the optode that quenches oxygen molecules from the water. When taking a measurement the sensor shines a light at the optode and foil. Depending on how many oxygen molecules are quenched by the foil, the frequency of the light that is returned to the sensor changes from the ping the sensor sent originally. The sensor then makes an internal calculation of the dissolved oxygen % saturation value based on the shift in light frequency. As you can imagine, if there is no/foil because it got scratched off the oxygen measurement is likely to be corrupted. 
-
-Below I take a closer look at the oxygen data from this sensor. 
