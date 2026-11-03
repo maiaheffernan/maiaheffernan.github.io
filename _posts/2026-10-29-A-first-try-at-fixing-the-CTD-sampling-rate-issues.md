@@ -1,6 +1,6 @@
 # A first stab at fixing the CTD sampling rate
 
-As we all know the casting CTD was not actually sampling at 32 Hz like we all thought it was. So the timestamps for the CTD casts are all incorrect. Below I detail my first stab at trying to fix this. I go into depth describing a function I wrote with Claude. This code can be found in my GitHub repo for this project: 
+As we all know the casting CTD was not actually sampling at 32 Hz like we all thought it was. So the timestamps for the CTD casts are all incorrect. The data is all there, however. I am 100% confident in this. Below I detail my first stab at trying to fix this. I go into depth describing a function I wrote with Claude. This code can be found in my GitHub repo for this project: https://github.com/maiaheffernan/PennCove_codes/blob/main/Processing/fix_rsk_timestamps.m
 
 I don't trust this reconstruction that I did (I go into why below), so any feedback is much appreciated!
 
