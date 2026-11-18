@@ -131,7 +131,7 @@ From May through July only LoveJoy north had a concerto CTD at the bottom. From 
 
 
 **Initial takeaways for this data**
-- You can really see the waviness I was talking about in the salinity values here, especially in July. Also, it almost looks like there are two different trend slopes in the rising salinity values. The first from June to July, when river discharge was high, shows a slow increase or maybe even none at all (Mann Kendall soon!), and then in late July and early August the salinity quickly increases at the bottom. Maybe this is not tidally-forced but is instead dependent on the Skagit! We see the "wavy" trend in the salinity, temperature, and DO data (see my Godin filtered DO blog post from a while ago)... maybe it is not the tides that are forcing these patterns but instead Skagit River discharge?
+- You can really see the waviness I was talking about in the salinity values here, especially in July. Also, it almost looks like there are two different trend slopes in the rising salinity values. The first from June to July, when river discharge was high, shows a slow increase or maybe even none at all (Mann Kendall soon!), and then in late July and early August the salinity quickly increases at the bottom. Maybe this is not tidally-forced but is instead dependent on the Skagit! We see the "wavy" trend in the salinity, temperature, and DO data (see my Godin filtered DO blog post from a while ago)... maybe it is not the tides that are forcing these patterns but instead Skagit River discharge? Or maybe it is a combo of both those things? 
 
 - 
 ## The Duo T.D. sensors
