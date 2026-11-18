@@ -2,6 +2,23 @@
 
 Since coming back from the field, my main goal has been concatenating, cleaning, and organizing all the data into a tidy structure. This is still in progress. But, I do have the fully concatenated, uncleaned time series for the mooring sensors. Exciting! These are below.
 
+
+## Overall takeaways from the plots below
+
+- Temperatures at the bottom of the water column and in the middle of the water column increased from around 9.5 degrees C to just over 12 degrees C throughout the course of the deployment. This is consistent at all moorings.
+
+- Bottom dissolved oxygen decreased throughout the deployment (as we already know), as did oxygen levels in the middle of the water column. Lots of hypoxia!
+
+- Visually, it looks like maximum salinity increased *slightly* from 29-30 PSU at all moorings and depths throughout the course of the deployment.
+
+- The variance in the temperature data decreases in September to October for all moorings and all sensors in the water column. There are some wind events that occur, but otherwise the data is steady. 
+
+
+<br>
+
+
+
+
 ## The bottom-DO data from the TODOs
 
 These sensors are located on the bottom of all the moorings. Those on the LoveJoy and Inner moorings sample every 1 minute and those on the bottom of the wire walkers sample once every 5 minutes. Note that the TODO on Wire Walker north instantly got submerged in the mud so the temperature reading is that of the bed, and the oxygen values are not useable and should not be interpreted.
@@ -94,6 +111,5 @@ The Duos were located on the Inner moorings. Inner north had a Duo on the anchor
   <figcaption class="fig-caption">Figure 7. The Duo temperature and depth sensors. These sensors measured at 1 Hz from May to June and then at 10 second intervals from June onward. </figcaption>
 </figure>
 <br><br>
-
 
 
