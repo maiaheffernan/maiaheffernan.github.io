@@ -11,7 +11,9 @@ Since coming back from the field, my main goal has been concatenating, cleaning,
 
 - Visually, it looks like maximum salinity increased *slightly* from 29-30 PSU at all moorings and depths throughout the course of the deployment.
 
-- The variance in the temperature data decreases in September to October for all moorings and all sensors in the water column. There are some wind events that occur, but otherwise the data is steady. 
+- The variance in the temperature data decreases in September to October for all moorings and all sensors in the water column. There are some wind events that occur, but otherwise the data is steady.
+
+- In July and August it looks like there is a kind of "waviness" to the temperature and salinity data? It is most noticeable in these months across the whole water column. In the bottom plot that shows the temperature and pressure data from the Duos, it looks like it might coincide with the Spring/Neap tidal variation. This is similar to the patterns we think we see in the Godin-filtered oxygen data. I think there is something to this! It is interesting it is most noticeable in these months, though. Maybe there is more Skagit discharge at this time?
 
 
 <br>
