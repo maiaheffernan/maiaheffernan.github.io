@@ -69,6 +69,19 @@ The SeaBird CTD was located on the bottom of the LoveJoy South mooring. It sampl
 
 ## The Bottom-mounted Concerto CTDs
 
+From May through July only LoveJoy north had a concerto CTD at the bottom. From the end of July through August we added another concerto to the bottom of Inner north (thanks, Sam!). The concerto on the bottom of LoveJoy north took a measurement at 1 Hz for two seconds every 2 minutes (so essentially an average of two readings every 2 minutes). The concerto on the bottom of Inner north read once every 5 minutes at a sampling rate of ________ (I need to go back and look).
+
+
+<br><br>
+<figure>
+  <img src="/_figures/mooredConcertoData_MayOct2026_concatenated_L1.png" alt="Description of image">
+  <figcaption class="fig-caption">Figure 6. The bottom-mounted Concerto CTDs were located on the bottom of LoveJoy north and Inner north. </figcaption>
+</figure>
+<br><br>
+
+
+
+
 
 ## The Duo T.D. sensors
 
