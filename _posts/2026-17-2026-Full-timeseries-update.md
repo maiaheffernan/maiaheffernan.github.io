@@ -34,6 +34,12 @@ These sensors are located on the bottom of all the moorings. Those on the LoveJo
 <br><br>
 
 
+**Initial takeaways for this data**
+- In the dissolved oxygen plot it is clear that LoveJoy north is consistently more oxygenated than the other moorings
+- At the end of August, inner north was more oxygenated than LoveJoy south and inner south for a few days. This is interesting given that my current hypothesis is that the inner bay is more hypoxic due to slow flow. Maybe there is an event that happened at this point in time that caused this deviation?
+- It looks like LoveJoy north might be warmer than the other locations beginning in late August. No idea why this is happening. 
+
+
 ## The miniDOT data
 
 These sensors were located mid-mooring on the LoveJoy line moorings. There were two miniDOTs per mooring. The other two miniDOTS were located in the Penn Cove Shellfish mussel rafts at 3m and 7m below the surface. They sample every 10 minutes.
@@ -45,6 +51,10 @@ These sensors were located mid-mooring on the LoveJoy line moorings. There were 
   <figcaption class="fig-caption">Figure 2. Dissolved oxygen and temperature data in the middle of the water column on the LoveJoy moorings and in the middle and on the bottom on the shellfish raft moorings. These sensors sample once every 10 minutes. </figcaption>
 </figure>
 <br><br>
+
+**Initial takeaways for this data**
+- Wow, there are some serious naming inconsistencies in the raft data here. Basically we thought the miniDOT near the surface was at 1m below the surface until we discovered in July or August that is was actually attached at 3m below the surface. I forgot to go back and re-name the old data so there are three raft sensor colors that change from month to month when there should be two. This is something to fix and go back through this concatenation plotting carefully. I am going to disregard the other miniDOT data for now until I fix this and feel confident in this pattern.
+
 
 
 
@@ -60,6 +70,10 @@ These sensors were located in the upper part of the water column on the LoveJoy 
 </figure>
 <br><br>
 
+**Initial takeaways for this data**
+- Lots of spiky salinity data here, especially in June and July. This tapers off in the later months, so it makes me think that this is from changes in river discharge. In the Skagit discharge plot we can see late July is where the decline in discharge accelerates and there are no more jumps in discharge.
+- I would say that these sensors have the most wobbliness in the whole dataset. Could this be from variation in depth?
+
 
 ## The soloT data
 
@@ -74,6 +88,13 @@ These sensors make up the bulk of the moorings line sensors on all found v4 SWIF
 <br><br>
 
 
+**Initial takeaways for this data**
+- There is so much here it is a bit overwhelming. I need to do a better job of putting the depths instead of the serial numbers as the labels to this plot. I will have this next time!
+- It is hard to compare between moorings here. Any thoughts for a better way to plot this once all is cleaned and assigned a depth will be helpful.
+
+
+
+
 ## The SeaBird data
 
 The SeaBird CTD was located on the bottom of the LoveJoy South mooring. It sampled every 10 minutes. For the first several months of deployment the tubing that led to the salinity sensor got filled with sediment, so the data quality is horrible. We ended up putting a float on the sensor in July, so the data quality got better beginning then.
@@ -85,6 +106,14 @@ The SeaBird CTD was located on the bottom of the LoveJoy South mooring. It sampl
   <figcaption class="fig-caption">Figure 5. The Seabird CTD was located on the bottom of LoveJoy south. It sampled every 10 minutes. </figcaption>
 </figure>
 <br><br>
+
+
+**Initial takeaways for this data**
+- As I said above, you can see where this data quality is bad and then improves. Once it improves, you can see that the salinity and temperature values are similar to the other moorings. 
+
+
+
+
 
 
 ## The Bottom-mounted Concerto CTDs
@@ -101,8 +130,10 @@ From May through July only LoveJoy north had a concerto CTD at the bottom. From 
 
 
 
+**Initial takeaways for this data**
+- You can really see the waviness I was talking about in the salinity values here, especially in July. Also, it almost looks like there are two different trend slopes in the rising salinity values. The first from June to July, when river discharge was high, shows a slow increase or maybe even none at all (Mann Kendall soon!), and then in late July and early August the salinity quickly increases at the bottom. Maybe this is not tidally-forced but is instead dependent on the Skagit! We see the "wavy" trend in the salinity, temperature, and DO data (see my Godin filtered DO blog post from a while ago)... maybe it is not the tides that are forcing these patterns but instead Skagit River discharge?
 
-
+- 
 ## The Duo T.D. sensors
 
 The Duos were located on the Inner moorings. Inner north had a Duo on the anchor, acting as a tide gage, and one on the line. Inner south only had one sensor on the line. From May-June these sensors measured at 1 Hz, but after that they measured at 10 seconds.
