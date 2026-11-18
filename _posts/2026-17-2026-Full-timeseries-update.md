@@ -121,3 +121,12 @@ The Duos were located on the Inner moorings. Inner north had a Duo on the anchor
 <img width="1006" height="622" alt="Screenshot 2026-11-18 at 10 05 38 AM" src="https://github.com/user-attachments/assets/b701a142-7887-4d03-9ef8-70f8612cf99f" />
 
 
+<br>
+
+
+## Next steps for this data (hopefully by Thanksgiving)
+
+1) De-spiking
+2) Figuring out the depths for all the sensors at a given time with the SWIFT watch circle
+3) Putting everything in data structures: right now there are 3 planned: one for the raw data and the different sampling intervals, one for de-spiked data at the different sampling intervals, one that is worked into the SWIFT structure that is on the same 30 minute timestamps as the SWIFT measurements. 
+
