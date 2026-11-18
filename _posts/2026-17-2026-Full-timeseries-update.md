@@ -13,7 +13,8 @@ Since coming back from the field, my main goal has been concatenating, cleaning,
 
 - The variance in the temperature data decreases in September to October for all moorings and all sensors in the water column. There are some wind events that occur, but otherwise the data is steady.
 
-- In July and August it looks like there is a kind of "waviness" to the temperature and salinity data? It is most noticeable in these months across the whole water column. In the bottom plot that shows the temperature and pressure data from the Duos, it looks like it might coincide with the Spring/Neap tidal variation. This is similar to the patterns we think we see in the Godin-filtered oxygen data. I think there is something to this! It is interesting it is most noticeable in these months, though. Maybe there is more Skagit discharge at this time?
+- In July and August it looks like there is a kind of "waviness" to the temperature and salinity data? It is most noticeable in these months across the whole water column. In the bottom plot that shows the temperature and pressure data from the Duos, it looks like it might coincide with the Spring/Neap tidal variation. This is similar to the patterns we think we see in the Godin-filtered oxygen data. I think there is something to this! It is interesting it is most noticeable in these months, though. Maybe there is more Skagit discharge at this time? Or maybe not... See graph of discharge at the end of this blog post.
+
 
 
 <br>
@@ -67,7 +68,7 @@ These sensors make up the bulk of the moorings line sensors on all found v4 SWIF
 
 <br><br>
 <figure>
-  <img src="/_figures/YSI600LSdata_MayOct2026_concatenated_L1.png" alt="Description of image">
+  <img src="/_figures/SoloTdata_MayOct2026_concatenated_L1.png" alt="Description of image">
   <figcaption class="fig-caption">Figure 4. Temperature measured at 1Hz at 7 discrete depths on each mooring. Exact depths have yet to be calculated </figcaption>
 </figure>
 <br><br>
@@ -113,5 +114,10 @@ The Duos were located on the Inner moorings. Inner north had a Duo on the anchor
   <figcaption class="fig-caption">Figure 7. The Duo temperature and depth sensors. These sensors measured at 1 Hz from May to June and then at 10 second intervals from June onward. </figcaption>
 </figure>
 <br><br>
+
+
+## Skagit River discharge from Mt. Vernon station from May 1 - Nov 1, 2026
+
+<img width="1006" height="622" alt="Screenshot 2026-11-18 at 10 05 38 AM" src="https://github.com/user-attachments/assets/b701a142-7887-4d03-9ef8-70f8612cf99f" />
 
 
