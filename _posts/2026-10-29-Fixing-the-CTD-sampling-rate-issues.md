@@ -2,15 +2,14 @@
 
 As we all know the casting CTD was not actually sampling at 32 Hz like we all thought it was. So the timestamps for the CTD casts are all incorrect. The data is all there, however. I am 100% confident in this. Below I detail my first stab at trying to fix this. I go into depth describing a function I wrote with Claude. This code can be found in my GitHub repo for this project: https://github.com/maiaheffernan/PennCove_codes/blob/main/Processing/fix_rsk_timestamps.m
 
-I don't trust this reconstruction that I did (I go into why below), so any feedback is much appreciated!
 
 ## The details 
 
-Based on what Alex found and what RBR said it seems the CTD was actually logging somewhere around 20.7-20.8 Hz. In my own exploration with Claude I found from the raw data that the timestamps are not all individually sampled. Like Alex's Claude session indicated the sensor uses the start time and then the sampling rate to construct the more miniscule timestamps. It also records the offload timestamp, but this is not super helpful. Without knowing the actual timestamps it is hard to get at the actual sampling rate because as we have found the sensor is self-consistent, and therefore it is difficult to know the exact stretching value that should be applied to the timestamps.
+Based on what Alex found and what RBR said it seems the CTD was actually logging somewhere around 20.7-20.8 Hz. In my own exploration with Claude I found from the raw data that the timestamps are not all individually sampled. Like Alex's Claude session indicated, the sensor uses the start time and then the sampling rate to construct the more miniscule timestamps. It also records the offload timestamp, but this is not super helpful. Without knowing the actual timestamps it is hard to get at the actual sampling rate because as we have found the sensor is self-consistent, and therefore it is difficult to know the exact stretching value that should be applied to the timestamps.
 
-So, without knowing the true timestamp the fix gets a little tricky. I used claude to help me create this function that relates the CTD to the ADCP data. Essentially the function finds how deep each CTD cast went, according to the incorrect clock. It then read in the raw ADCP data from WinADCP and computes the seafloor depth from the four beams and adds the transducer depth so that the ADCP depth is referenced from the surface like the CTD. 
+So, without knowing the true timestamp the fix gets a little tricky. I used claude to help me create this function that relates the CTD to the ADCP data. Essentially, the function finds how deep each CTD cast went, according to the incorrect clock. It then reads in the short-term-averaged ADCP data from WinADCP and computes the seafloor depth from the four beams and adds the transducer depth so that the ADCP depth is referenced from the surface like the CTD. 
 
-Assuming that the best way to determine the correct CTD time stamp. The corrected time should be t_corr = t0 + (t_i - t_0)*x where t_i is each time value from the CTD, so essentially t_i - t_0 is the duration from the start time. The x variable is the stretch factor needed to fix the time. Using the ADCP, the basic idea is that the deepest measurement of each CTD cast should track the bottom pretty well. So the function tries many stretch factors, x (from 1.3 to 1.8). For each of these points, the function moves every profile's deepest point to its "corrected time", looks up the ADCP bottom depth at that time, and then calculates the correlation between those two values. The x value with the highest correlation wins, and then the true rate is 32/x. It also reports how wide the correlation peak is which gives the uncertainty. 
+The corrected time should be t_corr = t0 + (t_i - t_0)*x where t_i is each time value from the CTD, so essentially t_i - t_0 is the duration from the start time. The x variable is the stretch factor needed to fix the time. Using the ADCP, the basic idea is that the deepest measurement of each CTD cast should track the bottom pretty well. So the function tries many stretch factors, x (from 1.3 to 1.8). For each of these points, the function moves every profile's deepest point to its "corrected time", looks up the ADCP bottom depth at that time, and then calculates the correlation between those two values. The x value with the highest correlation wins, and then the true rate is 32/x. It also reports how wide the correlation peak is which gives the uncertainty. 
 
 
 I tried doing this with the September ebb casting data.
@@ -18,7 +17,7 @@ I tried doing this with the September ebb casting data.
 Here are the values that the function came up with :
 
 - samples: 285366   nominal rate: 32.000 Hz   nominal duration: 8917.7 s
-- ADCP (raw WinADCP): bottom depth = mean of 4 beams + transducer depth; median beam spread 0.86 m
+- ADCP (STA from WinADCP): bottom depth = mean of 4 beams + transducer depth; median beam spread 0.86 m
 - ADCP: 477 ensembles, 12:20:16 -> 16:18:16, 88% with valid bottom depth
 - true rate: 20.7657 Hz (from ADCP match)   x = fsNominal/fsTrue = 1.54100
 - ADCP match at this x: r = 0.862
@@ -38,7 +37,7 @@ Here are some plots from this:
 </figure>
 <br><br>
 
-The top panel of this plot gives me some hope. There is a clear peak in the correlation value, which is what is reported above as x = fsNominal/fsTrue = 1.54100. This corresponds to a true sampling rate of 20.7657 Hz which falls between the values that Alex and RBR gave. This makes me a bit more confident. However, this correlation value is only r = 0.862, which I think is low. There is still 14% of the variance between these two samples that is unexplained. This also shows up in the third panel in this plot, which shows the scatter plot relationship between the ADCP depths and the CTD depths. The scatter shows that the ADCP values are often slightly larger than the CTD values. This makes sense given that we have been careful not to run the CTD into the ground while casting so we do not get super close to the bottom every time. 
+The top panel of this plot gives me some hope. There is a clear peak in the correlation value, which is what is reported above as x = fsNominal/fsTrue = 1.54100. This corresponds to a true sampling rate of 20.7657 Hz which falls between the values that Alex and RBR gave. This makes me a bit more confident. However, this correlation value is only r = 0.862, which I think is low. There is still 14% of the variance between these two samples that is unexplained. This also shows up in the third panel in this plot, which shows the scatter plot relationship between the ADCP depths and the CTD depths. The scatter shows that the ADCP values are often slightly larger than the CTD values. This makes sense given that we have been careful not to run the CTD into the ground while casting so we do not get super close to the bottom every time. My current thinking is that this is what accounts for this 14% unexplained variance.
 
 
 A couple more helpful plots:
@@ -71,6 +70,10 @@ Overall, this is a first stab at trying to fix this CTD data. I don't trust this
 **Next steps:**
 - Try to see if our notes for the last cast (or casts depending on how granular I want to go) are at all helpful for backing out the actual sampling rate. I might try to compare this method I did above to that method and see if that gets me anywhere.
 - Use this method on other casting datasets to see if it is robust.
+
+# Update as of 11/10
+
+I did this same method with the other sampling months and I got the same x = fsNominal/fsTrue = 1.54100. Yay! This tells me that the slower sampling rate is consistent across months. The fact that it comes out to the same value also makes me feel better in this method. So, even though there is about 14% of the variance that is unexplained, the hypothesis that this is because we are not casting super close to the bed each time seems more acceptable to me.
 
 
 
